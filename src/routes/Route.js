@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 
 import DefaultLayout from '../pages/_layouts/default';
 
-export default function RouterWrapper({ component: Component, ...rest }) {
+const RouterWrapper = ({ component: Component, ...rest }) => {
   return (
     <Route
       {...rest}
@@ -15,9 +15,11 @@ export default function RouterWrapper({ component: Component, ...rest }) {
       )}
     />
   );
-}
+};
 
 RouterWrapper.propTypes = {
   component: PropTypes.oneOfType([PropTypes.element, PropTypes.func])
     .isRequired,
 };
+
+export default RouterWrapper;
