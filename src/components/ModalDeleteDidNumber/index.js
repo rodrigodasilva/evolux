@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
 
-import { CustomBody } from './styles';
+import { CustomBody, CustomModalHeader } from './styles';
 
 const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
   return (
@@ -12,9 +12,9 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
         toggle={onClose}
         contentClassName="bg-dark text-white"
       >
-        <ModalHeader toggle={onClose} className="border-bottom-0">
+        <CustomModalHeader toggle={onClose} className="border-bottom-0">
           Deletar DID Number
-        </ModalHeader>
+        </CustomModalHeader>
         <ModalBody>
           <CustomBody>
             <div>
@@ -56,8 +56,10 @@ ModalDidNumber.propTypes = {
   initialData: PropTypes.shape({
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     value: PropTypes.string.isRequired,
-    monthyPrice: PropTypes.number.isRequired,
-    setupPrice: PropTypes.number.isRequired,
+    monthyPrice: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+      .isRequired,
+    setupPrice: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+      .isRequired,
     currency: PropTypes.string.isRequired,
   }),
   onSubmit: PropTypes.func.isRequired,

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Table, Button } from 'reactstrap';
 import { FaEdit, FaTrash } from 'react-icons/fa';
+import NumberFormat from 'react-number-format';
 
 import Pagination from '../../components/Pagination';
 import ModalNewDidNumber from '../../components/ModalNewDidNumber';
@@ -72,6 +73,8 @@ const Dashboard = () => {
     dispatch(deleteRequest(id));
   };
 
+  console.log('Teste dashboard');
+
   return (
     <Container>
       <Header>
@@ -101,12 +104,26 @@ const Dashboard = () => {
               <tr key={didNumber.id}>
                 <td>{didNumber.value}</td>
                 <td>
-                  {didNumber.currency}
-                  {didNumber.monthyPrice}
+                  <NumberFormat
+                    value={didNumber.monthyPrice}
+                    prefix={`${didNumber.currency} `}
+                    displayType="text"
+                    decimalSeparator=","
+                    thousandSeparator="."
+                    decimalScale={2}
+                    fixedDecimalScale
+                  />
                 </td>
                 <td>
-                  {didNumber.currency}
-                  {didNumber.setupPrice}
+                  <NumberFormat
+                    prefix={`${didNumber.currency} `}
+                    value={didNumber.setupPrice}
+                    displayType="text"
+                    decimalSeparator=","
+                    thousandSeparator="."
+                    decimalScale={2}
+                    fixedDecimalScale
+                  />
                 </td>
 
                 <td>

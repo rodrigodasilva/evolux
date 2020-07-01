@@ -1,14 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
 
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 
 import InputFormik from '../Input';
+import SelectFormik from '../Select';
+
+import { CustomModalHeader } from './styles';
 
 const validationSchema = Yup.object().shape({
-  value: Yup.string().required('Informe o numero'),
+  value: Yup.string()
+    .test('size-value', 'Numero incompleto', value => {
+      if (!value) return false;
+
+      const formattedValue = value.replace('_', '');
+      if (formattedValue.length === 17) {
+        return true;
+      }
+      return false;
+    })
+    .required('Informe o numero'),
   monthyPrice: Yup.string().required('Informe a mensalidade'),
   setupPrice: Yup.string().required('Informe o valor do setup'),
   currency: Yup.string().required('Informe a moeda utilizada'),
@@ -36,9 +49,9 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
         toggle={onClose}
         contentClassName="bg-dark text-white"
       >
-        <ModalHeader toggle={onClose} className="border-bottom-0">
+        <CustomModalHeader toggle={onClose} className="border-bottom-0">
           Editar DID Number
-        </ModalHeader>
+        </CustomModalHeader>
         <ModalBody>
           <Formik
             initialValues={initialFormData}
@@ -51,24 +64,27 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
                 name="value"
                 label="Numero"
                 placeholder="Ex: +55 7798838-6511"
+                mask="+55 99 99999 9999"
               />
               <InputFormik
                 name="monthyPrice"
-                type="number"
                 label="Valor mensal"
                 placeholder="Ex: 19,90"
+                currency
               />
               <InputFormik
                 name="setupPrice"
-                type="number"
                 label="Valor do setup"
                 placeholder="Ex: 120,00"
+                currency
               />
-              <InputFormik
-                name="currency"
-                label="Moeda utilizada"
-                placeholder="Ex: R$"
-              />
+
+              <SelectFormik name="currency" label="Moeda utilizada">
+                <option value="">Selecione</option>
+                <option value="R$">Real R$</option>
+                <option value="$">Dólar $</option>
+                <option value="U$">Euro U$</option>
+              </SelectFormik>
             </Form>
           </Formik>
         </ModalBody>
@@ -91,8 +107,10 @@ ModalDidNumber.propTypes = {
   initialData: PropTypes.shape({
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     value: PropTypes.string.isRequired,
-    monthyPrice: PropTypes.number.isRequired,
-    setupPrice: PropTypes.number.isRequired,
+    monthyPrice: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+      .isRequired,
+    setupPrice: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+      .isRequired,
     currency: PropTypes.string.isRequired,
   }),
   onSubmit: PropTypes.func.isRequired,
