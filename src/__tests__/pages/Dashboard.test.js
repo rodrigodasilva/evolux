@@ -16,14 +16,14 @@ describe('Dashboard', () => {
         didNumbers: {
           data: [
             {
-              id: 'dba7b07b-41df-456f-8e83-718c5b1159f7',
+              id: 1,
               value: '+385 250 356 6502',
               monthyPrice: 994.45,
               setupPrice: 249.56,
               currency: 'R$',
             },
             {
-              id: '3c9f71cd-18d6-4b08-9928-5fac4d91bf2a',
+              id: 2,
               value: '+351 468 193 7935',
               monthyPrice: 136.27,
               setupPrice: 711.12,

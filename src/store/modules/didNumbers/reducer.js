@@ -4,13 +4,11 @@ import types from './types';
 
 const INITIAL_STATE = {
   didNumbers: [],
-  // didNumber: {},
   loadingList: true,
-  // loadingShow: true,
   loadingCreate: false,
   responseFromCreation: false,
-
   loadingUpdate: false,
+  responseFromUpdate: false,
 };
 
 export default function user(state = INITIAL_STATE, action) {
@@ -31,20 +29,6 @@ export default function user(state = INITIAL_STATE, action) {
         break;
       }
 
-      // case types.SHOW_REQUEST: {
-      //   draft.loadingShow = true;
-      //   break;
-      // }
-      // case types.SHOW_SUCCESS: {
-      //   draft.didNumber = action.payload.didNumber;
-      //   draft.loadingShow = false;
-      //   break;
-      // }
-      // case types.SHOW_FAILURE: {
-      //   draft.loadingShow = false;
-      //   break;
-      // }
-
       case types.CREATE_REQUEST: {
         draft.loadingCreate = true;
         draft.responseFromCreation = false;
@@ -52,7 +36,6 @@ export default function user(state = INITIAL_STATE, action) {
       }
       case types.CREATE_SUCCESS: {
         draft.loadingCreate = false;
-        // draft.didNumber = action.payload.didNumber;
         draft.responseFromCreation = action.payload.success;
         break;
       }
@@ -64,15 +47,18 @@ export default function user(state = INITIAL_STATE, action) {
 
       case types.UPDATE_REQUEST: {
         draft.loadingUpdate = true;
+        draft.responseFromUpdate = false;
         break;
       }
       case types.UPDATE_SUCCESS: {
         draft.loadingUpdate = false;
+        draft.responseFromUpdate = action.payload.success;
         draft.didNumbers = action.payload.didNumbers;
         break;
       }
       case types.UPDATE_FAILURE: {
         draft.loadingUpdate = false;
+        draft.responseFromUpdate = action.payload.success;
         break;
       }
 

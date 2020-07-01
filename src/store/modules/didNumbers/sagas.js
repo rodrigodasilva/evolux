@@ -1,20 +1,17 @@
-import { all, takeLatest, call, put } from 'redux-saga/effects';
+import { all, takeLatest, call, put, select } from 'redux-saga/effects';
 import parse from 'parse-link-header';
 
 import types from './types';
 import {
   didNumbersSuccess,
   didNumbersFailure,
-  // fundoSuccess,
-  // fundoFailure,
   createSuccess,
   createFailure,
-  // updateSuccess,
-  // updateFailure,
+  updateSuccess,
+  updateFailure,
 } from './actions';
 
 import apiDidNumbers from '../../../services/core/http/didNumbers';
-// import history from '../../../services/history';
 
 export function* didNumbersRequest({ payload }) {
   try {
@@ -44,20 +41,35 @@ export function* createRequest({ payload }) {
   }
 }
 
-// export function* updateFundoWorker({ payload }) {
-//   try {
-//     yield call(apiDidNumbers.update, payload);
-//     yield put(updateSuccess());
+export function* updateRequest({ payload }) {
+  try {
+    const oldStateDidNumbers = yield select(
+      ({ didNumbers }) => didNumbers.didNumbers
+    );
 
-//     history.push('/fundos');
-//   } catch ({ response }) {
-//     yield put(updateFailure());
-//   }
-// }
+    const updatedDidNumber = yield call(apiDidNumbers.update, payload);
+
+    const { data, ...paginationInfo } = oldStateDidNumbers;
+
+    const updatedDataDidNumbers = data.map(didNumber =>
+      didNumber.id === updatedDidNumber.id ? updatedDidNumber : didNumber
+    );
+
+    const updatedStateDidNumbers = {
+      data: updatedDataDidNumbers,
+      ...paginationInfo,
+    };
+
+    yield put(
+      updateSuccess({ success: true, didNumbers: updatedStateDidNumbers })
+    );
+  } catch (e) {
+    yield put(updateFailure({ success: false }));
+  }
+}
 
 export default all([
   takeLatest(types.LIST_REQUEST, didNumbersRequest),
-  // takeLatest(types.SHOW_REQUEST, fundoWorker),
   takeLatest(types.CREATE_REQUEST, createRequest),
-  // takeLatest(types.UPDATE_REQUEST, updateFundoWorker),
+  takeLatest(types.UPDATE_REQUEST, updateRequest),
 ]);

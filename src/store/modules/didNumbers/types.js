@@ -3,10 +3,6 @@ const Types = {
   LIST_FAILURE: '@didNumbers/LIST_FAILURE',
   LIST_SUCCESS: '@didNumbers/LIST_SUCCESS',
 
-  // SHOW_REQUEST: '@didNumbers/SHOW_REQUEST',
-  // SHOW_FAILURE: '@didNumbers/SHOW_FAILURE',
-  // SHOW_SUCCESS: '@didNumbers/SHOW_SUCCESS',
-
   CREATE_REQUEST: '@didNumbers/CREATE_REQUEST',
   CREATE_FAILURE: '@didNumbers/CREATE_FAILURE',
   CREATE_SUCCESS: '@didNumbers/CREATE_SUCCESS',

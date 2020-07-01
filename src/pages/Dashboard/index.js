@@ -1,30 +1,34 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Table, Button } from 'reactstrap';
+import { FaEdit, FaTrash } from 'react-icons/fa';
 
 import Pagination from '../../components/Pagination';
-import ModalDidNumber from '../../components/ModalDidNumber';
+import ModalNewDidNumber from '../../components/ModalNewDidNumber';
+import ModalEditDidNumber from '../../components/ModalEditDidNumber';
 
 import {
   didNumbersRequest,
   createRequest,
+  updateRequest,
 } from '../../store/modules/didNumbers/actions';
 
-import { Header } from './styles';
+import { Header, Actions } from './styles';
 
 const Dashboard = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [modalOpened, setModalOpened] = useState();
   const [pagination, setPagination] = useState({
     page: 1,
-    limit: 6,
+    limit: 10,
   });
+  const [modalDataEditting, setModalDataEditting] = useState({});
 
-  const didNumbersData = useSelector(({ didNumbers }) => didNumbers.didNumbers);
-  const responseFromCreation = useSelector(
-    ({ didNumbers }) => didNumbers.responseFromCreation
-  );
+  const {
+    didNumbers: didNumbersData,
+    responseFromCreation,
+    responseFromUpdate,
+  } = useSelector(({ didNumbers }) => didNumbers);
 
-  // console.log(didNumbersData);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -35,13 +39,23 @@ const Dashboard = () => {
 
   useEffect(() => {
     if (responseFromCreation) {
-      setModalIsOpen(false);
+      setModalOpened('');
       setPagination(oldPagination => ({ ...oldPagination, page: 1 }));
     }
   }, [responseFromCreation]);
 
+  useEffect(() => {
+    if (responseFromUpdate) {
+      setModalOpened('');
+    }
+  }, [responseFromUpdate]);
+
   const handleAddDidNumber = didNumber => {
     dispatch(createRequest(didNumber));
+  };
+
+  const handleUpdateDidNumber = didNumber => {
+    dispatch(updateRequest(didNumber));
   };
 
   return (
@@ -51,20 +65,12 @@ const Dashboard = () => {
 
         <Button
           color="primary"
-          onClick={() => setModalIsOpen(true)}
+          onClick={() => setModalOpened('newDidNumber')}
           data-testid="button-add-did-number"
         >
           Adicionar
         </Button>
       </Header>
-
-      {modalIsOpen && (
-        <ModalDidNumber
-          isOpen={modalIsOpen}
-          onClose={() => setModalIsOpen(false)}
-          onSubmit={values => handleAddDidNumber(values)}
-        />
-      )}
 
       <Table>
         <thead>
@@ -72,6 +78,7 @@ const Dashboard = () => {
             <th>Value</th>
             <th>Valor Mensal</th>
             <th>Valor do setup</th>
+            <th className="d-flex justify-content-center">#</th>
           </tr>
         </thead>
         <tbody>
@@ -87,6 +94,21 @@ const Dashboard = () => {
                   {didNumber.currency}
                   {didNumber.setupPrice}
                 </td>
+
+                <td>
+                  <Actions>
+                    <FaTrash size={20} color="#424242" title="Deletar" />
+                    <FaEdit
+                      size={20}
+                      color="#424242"
+                      title="Editar"
+                      onClick={() => {
+                        setModalOpened('editDidNumber');
+                        setModalDataEditting(didNumber);
+                      }}
+                    />
+                  </Actions>
+                </td>
               </tr>
             ))}
         </tbody>
@@ -100,6 +122,23 @@ const Dashboard = () => {
           setPagination(oldPagination => ({ ...oldPagination, page }))
         }
       />
+
+      {modalOpened === 'newDidNumber' && (
+        <ModalNewDidNumber
+          isOpen={modalOpened === 'newDidNumber'}
+          onClose={() => setModalOpened('')}
+          onSubmit={values => handleAddDidNumber(values)}
+        />
+      )}
+
+      {modalOpened === 'editDidNumber' && (
+        <ModalEditDidNumber
+          isOpen={modalOpened === 'editDidNumber'}
+          onClose={() => setModalOpened('')}
+          onSubmit={values => handleUpdateDidNumber(values)}
+          initialData={modalDataEditting}
+        />
+      )}
     </div>
   );
 };

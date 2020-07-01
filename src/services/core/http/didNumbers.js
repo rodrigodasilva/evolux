@@ -16,19 +16,15 @@ export default {
     return response;
   },
 
-  // show: async payload => {
-  //   const { id } = payload;
-  //   const res = await api.get(`/fundos/${id}`);
-  //   return res.data;
-  // },
-
   store: async payload => {
     const response = await api.post('/did_numbers', payload.didNumber);
     return response.data;
   },
 
-  // update: async payload => {
-  //   const response = await api.put('/fundos', payload);
-  //   return response.data;
-  // },
+  update: async payload => {
+    const { id, ...restData } = payload.didNumber;
+
+    const response = await api.put(`/did_numbers/${id}`, { ...restData });
+    return response.data;
+  },
 };

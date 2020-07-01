@@ -12,18 +12,6 @@ export const didNumbersFailure = () => ({
   type: types.LIST_FAILURE,
 });
 
-// export const didNumberRequest = ({ id }) => ({
-//   type: types.SHOW_REQUEST,
-//   payload: { id },
-// });
-// export const didNumberSuccess = didNumber => ({
-//   type: types.SHOW_SUCCESS,
-//   payload: { didNumber },
-// });
-// export const didNumberFailure = () => ({
-//   type: types.SHOW_FAILURE,
-// });
-
 export const createRequest = didNumber => ({
   type: types.CREATE_REQUEST,
   payload: { didNumber },
@@ -41,9 +29,9 @@ export const updateRequest = didNumber => ({
   type: types.UPDATE_REQUEST,
   payload: { didNumber },
 });
-export const updateSuccess = ({ success, didNumber }) => ({
+export const updateSuccess = ({ success, didNumbers }) => ({
   type: types.UPDATE_SUCCESS,
-  payload: { success, didNumber },
+  payload: { success, didNumbers },
 });
 export const updateFailure = ({ success }) => ({
   type: types.UPDATE_FAILURE,
