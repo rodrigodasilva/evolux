@@ -19,7 +19,7 @@ const CustomBootstrapInput = ({
       {...props}
     />
     {touched[field.name] && errors[field.name] && (
-      <FormFeedback>{errors[field.name]}</FormFeedback>
+      <FormFeedback tooltip>{errors[field.name]}</FormFeedback>
     )}
   </Container>
 );

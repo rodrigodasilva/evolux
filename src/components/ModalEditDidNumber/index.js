@@ -8,7 +8,7 @@ import * as Yup from 'yup';
 import InputFormik from '../Input';
 
 const validationSchema = Yup.object().shape({
-  value: Yup.string().required('Informe o telefone'),
+  value: Yup.string().required('Informe o numero'),
   monthyPrice: Yup.string().required('Informe a mensalidade'),
   setupPrice: Yup.string().required('Informe o valor do setup'),
   currency: Yup.string().required('Informe a moeda utilizada'),
@@ -31,7 +31,11 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
 
   return (
     <div>
-      <Modal isOpen={isOpen} toggle={onClose}>
+      <Modal
+        isOpen={isOpen}
+        toggle={onClose}
+        contentClassName="bg-dark text-white"
+      >
         <ModalHeader toggle={onClose} className="border-bottom-0">
           Editar DID Number
         </ModalHeader>
@@ -45,16 +49,18 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
             <Form id="form-did-number">
               <InputFormik
                 name="value"
-                label="Valor"
+                label="Numero"
                 placeholder="Ex: +55 7798838-6511"
               />
               <InputFormik
                 name="monthyPrice"
+                type="number"
                 label="Valor mensal"
                 placeholder="Ex: 19,90"
               />
               <InputFormik
                 name="setupPrice"
+                type="number"
                 label="Valor do setup"
                 placeholder="Ex: 120,00"
               />
@@ -85,8 +91,8 @@ ModalDidNumber.propTypes = {
   initialData: PropTypes.shape({
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     value: PropTypes.string.isRequired,
-    monthyPrice: PropTypes.string.isRequired,
-    setupPrice: PropTypes.string.isRequired,
+    monthyPrice: PropTypes.number.isRequired,
+    setupPrice: PropTypes.number.isRequired,
     currency: PropTypes.string.isRequired,
   }),
   onSubmit: PropTypes.func.isRequired,

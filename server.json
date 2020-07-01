@@ -533,11 +533,11 @@
       "currency": "U$"
     },
     {
-      "id": "1589789126000",
       "value": "+62 674 649 4574",
       "monthyPrice": 497,
       "setupPrice": 61,
-      "currency": "U$"
+      "currency": "U$",
+      "id": "1589789126000"
     },
     {
       "id": "1572832879000",
@@ -1408,11 +1408,11 @@
       "currency": "$"
     },
     {
-      "id": "1589468097000",
       "value": "+82 229 362 9367",
       "monthyPrice": 178,
       "setupPrice": 53,
-      "currency": "$"
+      "currency": "$",
+      "id": "1589468097000"
     },
     {
       "id": "1573668518000",
@@ -4222,11 +4222,11 @@
       "currency": "$"
     },
     {
-      "id": "1590731399000",
       "value": "+62 564 951 7889",
       "monthyPrice": 723,
       "setupPrice": 15,
-      "currency": "$"
+      "currency": "$",
+      "id": "1590731399000"
     },
     {
       "id": "1568908441000",
@@ -5006,11 +5006,11 @@
       "currency": "R$"
     },
     {
-      "id": "1589796732000",
       "value": "+86 597 966 3003",
       "monthyPrice": 721,
-      "setupPrice": 77,
-      "currency": "R$"
+      "setupPrice": 79,
+      "currency": "R$",
+      "id": "1589796732000"
     },
     {
       "id": "1578732092000",
@@ -5522,20 +5522,6 @@
       "monthyPrice": 379,
       "setupPrice": 86,
       "currency": "$"
-    },
-    {
-      "id": 1593553225261,
-      "value": "Teste 5",
-      "monthyPrice": "123",
-      "setupPrice": "45",
-      "currency": "32"
-    },
-    {
-      "id": 1593553363396,
-      "value": "Teste 6",
-      "monthyPrice": "123",
-      "setupPrice": "456",
-      "currency": "78"
     }
   ]
 }

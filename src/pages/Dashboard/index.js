@@ -15,7 +15,7 @@ import {
   deleteRequest,
 } from '../../store/modules/didNumbers/actions';
 
-import { Header, Actions } from './styles';
+import { Container, Header, Actions } from './styles';
 
 const Dashboard = () => {
   const [modalOpened, setModalOpened] = useState();
@@ -73,7 +73,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
+    <Container>
       <Header>
         <h3>DID Numbers</h3>
 
@@ -86,13 +86,13 @@ const Dashboard = () => {
         </Button>
       </Header>
 
-      <Table>
+      <Table hover borderless responsive>
         <thead>
           <tr>
             <th>Numero</th>
             <th>Valor Mensal</th>
             <th>Valor do setup</th>
-            <th className="d-flex justify-content-center">#</th>
+            <th className="text-center">#</th>
           </tr>
         </thead>
         <tbody>
@@ -113,7 +113,7 @@ const Dashboard = () => {
                   <Actions>
                     <FaTrash
                       size={20}
-                      color="#424242"
+                      color="#ddd"
                       title="Deletar"
                       onClick={() => {
                         setModalOpened('deleteDidNumber');
@@ -122,7 +122,7 @@ const Dashboard = () => {
                     />
                     <FaEdit
                       size={20}
-                      color="#424242"
+                      color="#ddd"
                       title="Editar"
                       onClick={() => {
                         setModalOpened('editDidNumber');
@@ -170,7 +170,7 @@ const Dashboard = () => {
           initialData={modalDataEditting}
         />
       )}
-    </div>
+    </Container>
   );
 };
 

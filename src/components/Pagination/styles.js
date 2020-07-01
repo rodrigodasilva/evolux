@@ -4,7 +4,22 @@ export const Container = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 10px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+
+  .pagination {
+    margin-bottom: 0;
+    margin-left: 24px;
+  }
+
+  .page-link {
+    background: none !important;
+    border: none !important;
+  }
+
+  .page-item.active .page-link {
+    font-weight: bold;
+  }
 `;
 
 export const Info = styled.div`
@@ -14,10 +29,20 @@ export const Info = styled.div`
   align-items: center;
   font-size: 14px;
 
-  strong:first-child {
-    margin-left: 4px;
+  strong {
+    color: #007bff;
+
+    :first-child {
+      margin-left: 4px;
+    }
+
+    + strong {
+      margin-right: 4px;
+    }
   }
-  strong + strong {
-    margin-right: 4px;
+
+  span {
+    color: #007bff;
+    margin-left: 4px;
   }
 `;

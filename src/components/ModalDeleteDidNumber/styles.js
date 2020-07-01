@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CustomBody = styled.section`
-  p {
+  div {
     text-align: center;
   }
 `;

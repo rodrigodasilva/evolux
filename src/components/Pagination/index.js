@@ -20,7 +20,8 @@ const Paginate = ({ records, limit, current, delta, fixed, onChange }) => {
   return (
     <Container>
       <Info>
-        Mostrando <strong> {from}</strong>-<strong>{to} </strong> de {records}
+        Mostrando <strong> {from}</strong>-<strong>{to} </strong> de{' '}
+        <span>{records}</span>
       </Info>
 
       {records > limit && (
@@ -36,7 +37,10 @@ const Paginate = ({ records, limit, current, delta, fixed, onChange }) => {
 
             <PaginationItem
               disabled={current === 1}
-              onClick={() => onChange(current - 1)}
+              onClick={() => {
+                if (current === 1) return;
+                onChange(current - 1);
+              }}
               title="Prev"
             >
               <PaginationLink previous href="#" />
@@ -85,7 +89,10 @@ const Paginate = ({ records, limit, current, delta, fixed, onChange }) => {
             ))}
 
             <PaginationItem
-              onClick={() => onChange(current + 1)}
+              onClick={() => {
+                if (current === end[0]) return;
+                onChange(current + 1);
+              }}
               disabled={current === end[0]}
               title="Next"
             >

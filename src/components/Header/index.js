@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Logo } from './styles';
+
+import logoImage from '../../assets/images/logo.png';
 
 const Header = () => {
   return (
     <Container>
-      <h4>Evolux</h4>
+      <Logo src={logoImage} alt="Logo" />
     </Container>
   );
 };

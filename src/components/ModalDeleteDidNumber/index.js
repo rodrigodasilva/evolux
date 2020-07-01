@@ -7,30 +7,34 @@ import { CustomBody } from './styles';
 const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
   return (
     <div>
-      <Modal isOpen={isOpen} toggle={onClose}>
+      <Modal
+        isOpen={isOpen}
+        toggle={onClose}
+        contentClassName="bg-dark text-white"
+      >
         <ModalHeader toggle={onClose} className="border-bottom-0">
           Deletar DID Number
         </ModalHeader>
         <ModalBody>
           <CustomBody>
-            <p>
+            <div>
               Numero:
               <h4>{initialData.value}</h4>
-            </p>
+            </div>
 
-            <p>
+            <div>
               Valor mensal:
               <h4>
                 {initialData.currency} {initialData.monthyPrice}
               </h4>
-            </p>
+            </div>
 
-            <p>
+            <div>
               Valor do setup:
               <h4>
                 {initialData.currency} {initialData.setupPrice}
               </h4>
-            </p>
+            </div>
           </CustomBody>
         </ModalBody>
 
@@ -52,8 +56,8 @@ ModalDidNumber.propTypes = {
   initialData: PropTypes.shape({
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     value: PropTypes.string.isRequired,
-    monthyPrice: PropTypes.string.isRequired,
-    setupPrice: PropTypes.string.isRequired,
+    monthyPrice: PropTypes.number.isRequired,
+    setupPrice: PropTypes.number.isRequired,
     currency: PropTypes.string.isRequired,
   }),
   onSubmit: PropTypes.func.isRequired,
