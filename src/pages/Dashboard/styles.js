@@ -5,6 +5,8 @@ export const Container = styled.div`
   color: #fafafa;
   padding: 20px;
   border-radius: 4px;
+  width: 100%;
+  height: max-content;
 
   & table {
     thead th {
