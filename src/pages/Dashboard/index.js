@@ -6,11 +6,13 @@ import { FaEdit, FaTrash } from 'react-icons/fa';
 import Pagination from '../../components/Pagination';
 import ModalNewDidNumber from '../../components/ModalNewDidNumber';
 import ModalEditDidNumber from '../../components/ModalEditDidNumber';
+import ModalDeleteDidNumber from '../../components/ModalDeleteDidNumber';
 
 import {
   didNumbersRequest,
   createRequest,
   updateRequest,
+  deleteRequest,
 } from '../../store/modules/didNumbers/actions';
 
 import { Header, Actions } from './styles';
@@ -27,6 +29,7 @@ const Dashboard = () => {
     didNumbers: didNumbersData,
     responseFromCreation,
     responseFromUpdate,
+    responseFromDelete,
   } = useSelector(({ didNumbers }) => didNumbers);
 
   const dispatch = useDispatch();
@@ -50,12 +53,23 @@ const Dashboard = () => {
     }
   }, [responseFromUpdate]);
 
+  useEffect(() => {
+    if (responseFromDelete) {
+      setModalOpened('');
+      setPagination(oldPagination => ({ ...oldPagination, page: 1 }));
+    }
+  }, [responseFromDelete]);
+
   const handleAddDidNumber = didNumber => {
     dispatch(createRequest(didNumber));
   };
 
   const handleUpdateDidNumber = didNumber => {
     dispatch(updateRequest(didNumber));
+  };
+
+  const handleDeleteDidNumber = id => {
+    dispatch(deleteRequest(id));
   };
 
   return (
@@ -75,7 +89,7 @@ const Dashboard = () => {
       <Table>
         <thead>
           <tr>
-            <th>Value</th>
+            <th>Numero</th>
             <th>Valor Mensal</th>
             <th>Valor do setup</th>
             <th className="d-flex justify-content-center">#</th>
@@ -97,7 +111,15 @@ const Dashboard = () => {
 
                 <td>
                   <Actions>
-                    <FaTrash size={20} color="#424242" title="Deletar" />
+                    <FaTrash
+                      size={20}
+                      color="#424242"
+                      title="Deletar"
+                      onClick={() => {
+                        setModalOpened('deleteDidNumber');
+                        setModalDataEditting(didNumber);
+                      }}
+                    />
                     <FaEdit
                       size={20}
                       color="#424242"
@@ -136,6 +158,15 @@ const Dashboard = () => {
           isOpen={modalOpened === 'editDidNumber'}
           onClose={() => setModalOpened('')}
           onSubmit={values => handleUpdateDidNumber(values)}
+          initialData={modalDataEditting}
+        />
+      )}
+
+      {modalOpened === 'deleteDidNumber' && (
+        <ModalDeleteDidNumber
+          isOpen={modalOpened === 'deleteDidNumber'}
+          onClose={() => setModalOpened('')}
+          onSubmit={({ id }) => handleDeleteDidNumber(id)}
           initialData={modalDataEditting}
         />
       )}

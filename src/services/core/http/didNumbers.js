@@ -27,4 +27,11 @@ export default {
     const response = await api.put(`/did_numbers/${id}`, { ...restData });
     return response.data;
   },
+
+  delete: async payload => {
+    const { id } = payload;
+
+    const response = await api.delete(`/did_numbers/${id}`);
+    return response.data;
+  },
 };

@@ -9,6 +9,8 @@ const INITIAL_STATE = {
   responseFromCreation: false,
   loadingUpdate: false,
   responseFromUpdate: false,
+  loadingDelete: false,
+  responseFromDelete: false,
 };
 
 export default function user(state = INITIAL_STATE, action) {
@@ -59,6 +61,22 @@ export default function user(state = INITIAL_STATE, action) {
       case types.UPDATE_FAILURE: {
         draft.loadingUpdate = false;
         draft.responseFromUpdate = action.payload.success;
+        break;
+      }
+
+      case types.DELETE_REQUEST: {
+        draft.loadingDelete = true;
+        draft.responseFromDelete = false;
+        break;
+      }
+      case types.DELETE_SUCCESS: {
+        draft.loadingDelete = false;
+        draft.responseFromDelete = action.payload.success;
+        break;
+      }
+      case types.DELETE_FAILURE: {
+        draft.loadingDelete = false;
+        draft.responseFromDelete = action.payload.success;
         break;
       }
 

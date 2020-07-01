@@ -32,7 +32,9 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
   return (
     <div>
       <Modal isOpen={isOpen} toggle={onClose}>
-        <ModalHeader toggle={onClose}>DID Number</ModalHeader>
+        <ModalHeader toggle={onClose} className="border-bottom-0">
+          Editar DID Number
+        </ModalHeader>
         <ModalBody>
           <Formik
             initialValues={initialFormData}
@@ -65,9 +67,9 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
           </Formik>
         </ModalBody>
 
-        <ModalFooter>
-          <Button color="primary" type="submit" form="form-did-number">
-            Adicionar
+        <ModalFooter className="border-top-0">
+          <Button color="success" type="submit" form="form-did-number">
+            Atualizar
           </Button>{' '}
           <Button color="secondary" onClick={onClose}>
             Cancel

@@ -37,3 +37,16 @@ export const updateFailure = ({ success }) => ({
   type: types.UPDATE_FAILURE,
   payload: { success },
 });
+
+export const deleteRequest = id => ({
+  type: types.DELETE_REQUEST,
+  payload: { id },
+});
+export const deleteSuccess = ({ success }) => ({
+  type: types.DELETE_SUCCESS,
+  payload: { success },
+});
+export const deleteFailure = ({ success }) => ({
+  type: types.DELETE_FAILURE,
+  payload: { success },
+});

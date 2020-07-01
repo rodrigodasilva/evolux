@@ -10,6 +10,10 @@ const Types = {
   UPDATE_REQUEST: '@didNumbers/UPDATE_REQUEST',
   UPDATE_FAILURE: '@didNumbers/UPDATE_FAILURE',
   UPDATE_SUCCESS: '@didNumbers/UPDATE_SUCCESS',
+
+  DELETE_REQUEST: '@didNumbers/DELETE_REQUEST',
+  DELETE_FAILURE: '@didNumbers/DELETE_FAILURE',
+  DELETE_SUCCESS: '@didNumbers/DELETE_SUCCESS',
 };
 
 export default Types;

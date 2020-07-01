@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
@@ -14,28 +14,22 @@ const validationSchema = Yup.object().shape({
   currency: Yup.string().required('Informe a moeda utilizada'),
 });
 
-const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
-  const [initialFormData, setInitialFormData] = useState({
-    id: '',
-    value: '',
-    monthyPrice: '',
-    setupPrice: '',
-    currency: '',
-  });
-
-  useEffect(() => {
-    if (initialData) {
-      setInitialFormData(initialData);
-    }
-  }, [initialData, isOpen]);
-
+const ModalDidNumber = ({ isOpen, onSubmit, onClose }) => {
   return (
     <div>
       <Modal isOpen={isOpen} toggle={onClose}>
-        <ModalHeader toggle={onClose}>DID Number</ModalHeader>
+        <ModalHeader toggle={onClose} className="border-bottom-0">
+          Adicionar DID Number
+        </ModalHeader>
         <ModalBody>
           <Formik
-            initialValues={initialFormData}
+            initialValues={{
+              id: new Date().getTime(),
+              value: '',
+              monthyPrice: '',
+              setupPrice: '',
+              currency: '',
+            }}
             validationSchema={validationSchema}
             onSubmit={values => onSubmit(values)}
             enableReinitialize
@@ -65,9 +59,9 @@ const ModalDidNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
           </Formik>
         </ModalBody>
 
-        <ModalFooter>
-          <Button color="primary" type="submit" form="form-did-number">
-            Adicionar
+        <ModalFooter className="border-top-0">
+          <Button color="success" type="submit" form="form-did-number">
+            Salvar
           </Button>{' '}
           <Button color="secondary" onClick={onClose}>
             Cancel

@@ -9,6 +9,8 @@ import {
   createFailure,
   updateSuccess,
   updateFailure,
+  deleteSuccess,
+  deleteFailure,
 } from './actions';
 
 import apiDidNumbers from '../../../services/core/http/didNumbers';
@@ -68,8 +70,19 @@ export function* updateRequest({ payload }) {
   }
 }
 
+export function* deleteRequest({ payload }) {
+  try {
+    yield call(apiDidNumbers.delete, payload);
+
+    yield put(deleteSuccess({ success: true }));
+  } catch (e) {
+    yield put(deleteFailure({ success: false }));
+  }
+}
+
 export default all([
   takeLatest(types.LIST_REQUEST, didNumbersRequest),
   takeLatest(types.CREATE_REQUEST, createRequest),
   takeLatest(types.UPDATE_REQUEST, updateRequest),
+  takeLatest(types.DELETE_REQUEST, deleteRequest),
 ]);
