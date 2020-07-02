@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 import { Input } from 'reactstrap';
+import { debounce } from 'lodash';
 
 import CurrencyInput from '../CurrencyInput';
 
 import { Container } from './styles';
 
 const DidNumbersFilters = ({ onChange }) => {
+  const handleSearchWithDebounce = useRef(
+    debounce(filter => {
+      onChange(filter);
+    }, 500)
+  ).current;
+
   const handleChange = (key, value) => {
-    onChange({ [key]: value });
+    handleSearchWithDebounce({ [key]: value });
   };
 
   return (

@@ -10,6 +10,7 @@
     "bootstrap": "^4.5.0",
     "formik": "^2.1.4",
     "immer": "^7.0.5",
+    "lodash": "^4.17.15",
     "pagix": "^1.0.0",
     "parse-link-header": "^1.0.1",
     "prop-types": "^15.7.2",
