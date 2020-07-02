@@ -2,7 +2,15 @@ import api from '../../api';
 
 export default {
   index: async payload => {
-    const { limit, page } = payload;
+    const {
+      page,
+      limit,
+      value,
+      monthyPriceStart,
+      monthyPriceEnd,
+      setupPriceStart,
+      setupPriceEnd,
+    } = payload;
 
     const response = await api.get('/did_numbers', {
       params: {
@@ -10,6 +18,11 @@ export default {
         _limit: limit,
         _sort: 'id',
         _order: 'desc',
+        value_like: value,
+        ...(monthyPriceStart ? { monthyPrice_gte: monthyPriceStart } : {}),
+        ...(monthyPriceEnd ? { monthyPrice_lte: monthyPriceEnd } : {}),
+        ...(setupPriceStart ? { setupPrice_gte: setupPriceStart } : {}),
+        ...(setupPriceEnd ? { setupPrice_lte: setupPriceEnd } : {}),
       },
     });
 

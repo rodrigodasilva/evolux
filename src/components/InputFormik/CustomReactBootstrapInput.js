@@ -2,20 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Input, FormFeedback } from 'reactstrap';
 import InputMask from 'react-input-mask';
-import NumberFormat from 'react-number-format';
+
+import CurrencyInput from '../CurrencyInput';
 
 import { Container } from './styles';
-
-const CustomCurrencyInput = props => (
-  <NumberFormat
-    decimalSeparator=","
-    thousandSeparator="."
-    allowNegative={false}
-    decimalScale={2}
-    fixedDecimalScale
-    {...props}
-  />
-);
 
 const CustomBootstrapInput = ({
   label,
@@ -30,7 +20,7 @@ const CustomBootstrapInput = ({
       {label}
       <Input
         mask={mask || false}
-        tag={currency ? CustomCurrencyInput : InputMask}
+        tag={currency ? CurrencyInput : InputMask}
         invalid={!!(touched[field.name] && errors[field.name])}
         {...field}
         {...props}

@@ -1,8 +1,8 @@
 import types from './types';
 
-export const didNumbersRequest = ({ page, limit }) => ({
+export const didNumbersRequest = filters => ({
   type: types.LIST_REQUEST,
-  payload: { page, limit },
+  payload: filters,
 });
 export const didNumbersSuccess = didNumbers => ({
   type: types.LIST_SUCCESS,

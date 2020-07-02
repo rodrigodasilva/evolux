@@ -5,8 +5,8 @@ import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 
-import InputFormik from '../Input';
-import SelectFormik from '../Select';
+import InputFormik from '../InputFormik';
+import SelectFormik from '../SelectFormik';
 
 import { CustomModalHeader } from './styles';
 

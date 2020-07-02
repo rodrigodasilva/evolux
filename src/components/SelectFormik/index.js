@@ -1,8 +1,5 @@
 import React from 'react';
 import { Field as FormikField } from 'formik';
-
-// import CustomReactBootstrapInput from './CustomReactBootstrapInput';
-
 import PropTypes from 'prop-types';
 import { Input, FormFeedback } from 'reactstrap';
 
@@ -42,6 +39,7 @@ CustomBootstrapSelect.propTypes = {
     touched: PropTypes.object.isRequired,
     errors: PropTypes.object.isRequired,
   }).isRequired,
+  children: PropTypes.arrayOf(PropTypes.element).isRequired,
 };
 
 export default props => (

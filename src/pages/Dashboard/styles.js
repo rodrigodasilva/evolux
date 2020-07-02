@@ -1,12 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #343a40;
-  color: #fafafa;
-  padding: 20px;
-  border-radius: 4px;
-  width: 100%;
-  height: max-content;
+  display: flex;
+  flex: 1;
 
   & table {
     thead th {
@@ -18,6 +14,10 @@ export const Container = styled.div`
       color: #ddd;
       border-top: 0;
     }
+  }
+
+  @media only screen and (max-width: 900px) {
+    flex-wrap: wrap;
   }
 `;
 

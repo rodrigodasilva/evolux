@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Table, Button } from 'reactstrap';
 import { FaEdit, FaTrash } from 'react-icons/fa';
-import NumberFormat from 'react-number-format';
 
 import Pagination from '../../components/Pagination';
 import ModalNewDidNumber from '../../components/ModalNewDidNumber';
 import ModalEditDidNumber from '../../components/ModalEditDidNumber';
 import ModalDeleteDidNumber from '../../components/ModalDeleteDidNumber';
+import Card from '../../components/Card';
+import CurrencyInput from '../../components/CurrencyInput';
+import DidNumbersFilters from '../../components/DidNumbersFilters';
 
 import {
   didNumbersRequest,
@@ -19,11 +21,16 @@ import {
 import { Container, Header, Actions } from './styles';
 
 const Dashboard = () => {
-  const [modalOpened, setModalOpened] = useState();
-  const [pagination, setPagination] = useState({
+  const [filters, setFilters] = useState({
     page: 1,
     limit: 10,
+    value: '',
+    monthyPriceStart: '',
+    monthyPriceEnd: '',
+    setupPriceStart: '',
+    setupPriceEnd: '',
   });
+  const [modalOpened, setModalOpened] = useState();
   const [modalDataEditting, setModalDataEditting] = useState({});
 
   const {
@@ -36,15 +43,13 @@ const Dashboard = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(
-      didNumbersRequest({ page: pagination.page, limit: pagination.limit })
-    );
-  }, [dispatch, pagination]);
+    dispatch(didNumbersRequest(filters));
+  }, [dispatch, filters]);
 
   useEffect(() => {
     if (responseFromCreation) {
       setModalOpened('');
-      setPagination(oldPagination => ({ ...oldPagination, page: 1 }));
+      setFilters(oldFilters => ({ ...oldFilters, page: 1 }));
     }
   }, [responseFromCreation]);
 
@@ -57,7 +62,7 @@ const Dashboard = () => {
   useEffect(() => {
     if (responseFromDelete) {
       setModalOpened('');
-      setPagination(oldPagination => ({ ...oldPagination, page: 1 }));
+      setFilters(oldFilters => ({ ...oldFilters, page: 1 }));
     }
   }, [responseFromDelete]);
 
@@ -73,120 +78,126 @@ const Dashboard = () => {
     dispatch(deleteRequest(id));
   };
 
+  const handleFilter = filter => {
+    setFilters({
+      ...filters,
+      ...filter,
+      page: 1,
+    });
+  };
+
   console.log('Teste dashboard');
 
   return (
     <Container>
-      <Header>
-        <h3>DID Numbers</h3>
+      <DidNumbersFilters onChange={filter => handleFilter(filter)} />
 
-        <Button
-          color="primary"
-          onClick={() => setModalOpened('newDidNumber')}
-          data-testid="button-add-did-number"
-        >
-          Adicionar
-        </Button>
-      </Header>
+      <Card>
+        <>
+          <Header>
+            <h3>DID Numbers</h3>
 
-      <Table hover borderless responsive>
-        <thead>
-          <tr>
-            <th>Numero</th>
-            <th>Valor Mensal</th>
-            <th>Valor do setup</th>
-            <th className="text-center">#</th>
-          </tr>
-        </thead>
-        <tbody>
-          {didNumbersData.data &&
-            didNumbersData.data.map(didNumber => (
-              <tr key={didNumber.id}>
-                <td>{didNumber.value}</td>
-                <td>
-                  <NumberFormat
-                    value={didNumber.monthyPrice}
-                    prefix={`${didNumber.currency} `}
-                    displayType="text"
-                    decimalSeparator=","
-                    thousandSeparator="."
-                    decimalScale={2}
-                    fixedDecimalScale
-                  />
-                </td>
-                <td>
-                  <NumberFormat
-                    prefix={`${didNumber.currency} `}
-                    value={didNumber.setupPrice}
-                    displayType="text"
-                    decimalSeparator=","
-                    thousandSeparator="."
-                    decimalScale={2}
-                    fixedDecimalScale
-                  />
-                </td>
+            <Button
+              color="primary"
+              onClick={() => setModalOpened('newDidNumber')}
+              data-testid="button-add-did-number"
+            >
+              Adicionar
+            </Button>
+          </Header>
 
-                <td>
-                  <Actions>
-                    <FaTrash
-                      size={20}
-                      color="#ddd"
-                      title="Deletar"
-                      onClick={() => {
-                        setModalOpened('deleteDidNumber');
-                        setModalDataEditting(didNumber);
-                      }}
-                    />
-                    <FaEdit
-                      size={20}
-                      color="#ddd"
-                      title="Editar"
-                      onClick={() => {
-                        setModalOpened('editDidNumber');
-                        setModalDataEditting(didNumber);
-                      }}
-                    />
-                  </Actions>
-                </td>
+          <Table hover borderless responsive>
+            <thead>
+              <tr>
+                <th>Numero</th>
+                <th>Valor Mensal</th>
+                <th>Valor do setup</th>
+                <th className="text-center">#</th>
               </tr>
-            ))}
-        </tbody>
-      </Table>
+            </thead>
+            <tbody>
+              {didNumbersData.data &&
+                didNumbersData.data.map(didNumber => (
+                  <tr key={didNumber.id}>
+                    <td>{didNumber.value}</td>
+                    <td>
+                      <CurrencyInput
+                        value={didNumber.monthyPrice}
+                        prefix={`${didNumber.currency} `}
+                        displayType="text"
+                      />
+                    </td>
+                    <td>
+                      <CurrencyInput
+                        prefix={`${didNumber.currency} `}
+                        value={didNumber.setupPrice}
+                        displayType="text"
+                      />
+                    </td>
 
-      <Pagination
-        records={(didNumbersData && didNumbersData.total) || 0}
-        current={pagination.page}
-        limit={pagination.limit}
-        onChange={page =>
-          setPagination(oldPagination => ({ ...oldPagination, page }))
-        }
-      />
+                    <td>
+                      <Actions>
+                        <FaTrash
+                          size={18}
+                          color="#ddd"
+                          title="Deletar"
+                          onClick={() => {
+                            setModalOpened('deleteDidNumber');
+                            setModalDataEditting(didNumber);
+                          }}
+                        />
+                        <FaEdit
+                          size={18}
+                          color="#ddd"
+                          title="Editar"
+                          onClick={() => {
+                            setModalOpened('editDidNumber');
+                            setModalDataEditting(didNumber);
+                          }}
+                        />
+                      </Actions>
+                    </td>
+                  </tr>
+                ))}
+            </tbody>
+          </Table>
 
-      {modalOpened === 'newDidNumber' && (
-        <ModalNewDidNumber
-          isOpen={modalOpened === 'newDidNumber'}
-          onClose={() => setModalOpened('')}
-          onSubmit={values => handleAddDidNumber(values)}
-        />
-      )}
+          <Pagination
+            records={(didNumbersData && didNumbersData.total) || 0}
+            current={filters.page}
+            limit={filters.limit}
+            onChange={page =>
+              setFilters(oldFilters => ({ ...oldFilters, page }))
+            }
+          />
 
-      {modalOpened === 'editDidNumber' && (
-        <ModalEditDidNumber
-          isOpen={modalOpened === 'editDidNumber'}
-          onClose={() => setModalOpened('')}
-          onSubmit={values => handleUpdateDidNumber(values)}
-          initialData={modalDataEditting}
-        />
-      )}
+          {modalOpened === 'newDidNumber' && (
+            <ModalNewDidNumber
+              isOpen={modalOpened === 'newDidNumber'}
+              onClose={() => setModalOpened('')}
+              onSubmit={values => handleAddDidNumber(values)}
+            />
+          )}
 
-      {modalOpened === 'deleteDidNumber' && (
-        <ModalDeleteDidNumber
-          isOpen={modalOpened === 'deleteDidNumber'}
-          onClose={() => setModalOpened('')}
-          onSubmit={({ id }) => handleDeleteDidNumber(id)}
-          initialData={modalDataEditting}
-        />
-      )}
+          {modalOpened === 'editDidNumber' && (
+            <ModalEditDidNumber
+              isOpen={modalOpened === 'editDidNumber'}
+              onClose={() => setModalOpened('')}
+              onSubmit={values => handleUpdateDidNumber(values)}
+              initialData={modalDataEditting}
+            />
+          )}
+
+          {modalOpened === 'deleteDidNumber' && (
+            <ModalDeleteDidNumber
+              isOpen={modalOpened === 'deleteDidNumber'}
+              onClose={() => setModalOpened('')}
+              onSubmit={({ id }) => handleDeleteDidNumber(id)}
+              initialData={modalDataEditting}
+            />
+          )}
+        </>
+      </Card>
     </Container>
   );
 };
