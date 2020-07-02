@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Table, Button } from 'reactstrap';
+import { Table, Button, Spinner } from 'reactstrap';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
 import Pagination from '../../components/Pagination';
@@ -9,7 +9,8 @@ import ModalEditDidNumber from '../../components/ModalEditDidNumber';
 import ModalDeleteDidNumber from '../../components/ModalDeleteDidNumber';
 import Card from '../../components/Card';
 import CurrencyInput from '../../components/CurrencyInput';
-import DidNumbersFilters from '../../components/DidNumbersFilters';
+
+import Filters from './Filters';
 
 import {
   didNumbersRequest,
@@ -18,12 +19,12 @@ import {
   deleteRequest,
 } from '../../store/modules/didNumbers/actions';
 
-import { Container, Header, Actions } from './styles';
+import { Container, ContainerTable, Header, Actions } from './styles';
 
 const Dashboard = () => {
   const [filters, setFilters] = useState({
     page: 1,
-    limit: 10,
+    limit: 6,
     value: '',
     monthyPriceStart: '',
     monthyPriceEnd: '',
@@ -35,6 +36,7 @@ const Dashboard = () => {
 
   const {
     didNumbers: didNumbersData,
+    loadingList,
     responseFromCreation,
     responseFromUpdate,
     responseFromDelete,
@@ -86,11 +88,11 @@ const Dashboard = () => {
     });
   };
 
-  console.log('Teste dashboard');
+  console.log(loadingList);
 
   return (
     <Container>
-      <DidNumbersFilters onChange={filter => handleFilter(filter)} />
+      <Filters onChange={filter => handleFilter(filter)} />
 
       <Card>
         <>
@@ -106,61 +108,72 @@ const Dashboard = () => {
             </Button>
           </Header>
 
-          <Table hover borderless responsive>
-            <thead>
-              <tr>
-                <th>Numero</th>
-                <th>Valor Mensal</th>
-                <th>Valor do setup</th>
-                <th className="text-center">#</th>
-              </tr>
-            </thead>
-            <tbody>
-              {didNumbersData.data &&
-                didNumbersData.data.map(didNumber => (
-                  <tr key={didNumber.id}>
-                    <td>{didNumber.value}</td>
-                    <td>
-                      <CurrencyInput
-                        value={didNumber.monthyPrice}
-                        prefix={`${didNumber.currency} `}
-                        displayType="text"
-                      />
-                    </td>
-                    <td>
-                      <CurrencyInput
-                        prefix={`${didNumber.currency} `}
-                        value={didNumber.setupPrice}
-                        displayType="text"
-                      />
-                    </td>
+          <ContainerTable>
+            {loadingList && (
+              <div className="loading">
+                <Spinner size="sm" color="primary" />
+              </div>
+            )}
 
-                    <td>
-                      <Actions>
-                        <FaTrash
-                          size={18}
-                          color="#ddd"
-                          title="Deletar"
-                          onClick={() => {
-                            setModalOpened('deleteDidNumber');
-                            setModalDataEditting(didNumber);
-                          }}
+            <Table hover borderless responsive>
+              <thead>
+                <tr>
+                  <th>Numero</th>
+                  <th>Valor Mensal</th>
+                  <th>Valor do setup</th>
+                  <th className="text-center">#</th>
+                </tr>
+              </thead>
+              <tbody>
+                {didNumbersData.data &&
+                  didNumbersData.data.map(didNumber => (
+                    <tr key={didNumber.id}>
+                      <td>{didNumber.value}</td>
+                      <td>
+                        <CurrencyInput
+                          value={didNumber.monthyPrice}
+                          prefix={`${didNumber.currency} `}
+                          displayType="text"
                         />
-                        <FaEdit
-                          size={18}
-                          color="#ddd"
-                          title="Editar"
-                          onClick={() => {
-                            setModalOpened('editDidNumber');
-                            setModalDataEditting(didNumber);
-                          }}
+                      </td>
+                      <td>
+                        <CurrencyInput
+                          prefix={`${didNumber.currency} `}
+                          value={didNumber.setupPrice}
+                          displayType="text"
                         />
-                      </Actions>
-                    </td>
-                  </tr>
-                ))}
-            </tbody>
-          </Table>
+                      </td>
+
+                      <td>
+                        <Actions>
+                          <FaTrash
+                            size={20}
+                            color="#ddd"
+                            title="Deletar"
+                            onClick={() => {
+                              setModalOpened('deleteDidNumber');
+                              setModalDataEditting(didNumber);
+                            }}
+                          />
+                          <FaEdit
+                            size={20}
+                            color="#ddd"
+                            title="Editar"
+                            onClick={() => {
+                              setModalOpened('editDidNumber');
+                              setModalDataEditting(didNumber);
+                            }}
+                          />
+                        </Actions>
+                      </td>
+                    </tr>
+                  ))}
+              </tbody>
+            </Table>
+            {!didNumbersData.data.length && (
+              <p className="message">Nenhum registro encontrado</p>
+            )}
+          </ContainerTable>
 
           <Pagination
             records={(didNumbersData && didNumbersData.total) || 0}

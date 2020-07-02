@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalBody, ModalFooter, Button } from 'reactstrap';
 
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
@@ -81,11 +81,16 @@ const ModalDidNumber = ({ isOpen, onSubmit, onClose }) => {
       </ModalBody>
 
       <ModalFooter className="border-top-0">
-        <Button color="success" type="submit" form="form-did-number">
+        <Button
+          color="success"
+          type="submit"
+          form="form-did-number"
+          loading="true"
+        >
           Salvar
-        </Button>{' '}
+        </Button>
         <Button color="secondary" onClick={onClose}>
-          Cancel
+          Cancelar
         </Button>
       </ModalFooter>
     </Modal>

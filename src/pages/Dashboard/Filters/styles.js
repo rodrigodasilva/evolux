@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import Card from '../Card';
+import Card from '../../../components/Card';
 
 export const Container = styled(Card)`
   width: 300px;

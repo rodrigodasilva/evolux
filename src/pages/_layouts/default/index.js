@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 import Header from '../../../components/Header';
 
-import { Container } from './styles';
+import { MaxWidth, Container } from './styles';
 
 const DefaultLayout = ({ children }) => {
   return (
     <Container>
       <Header />
-      {children}
+      <MaxWidth>{children}</MaxWidth>
     </Container>
   );
 };

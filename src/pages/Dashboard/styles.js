@@ -4,6 +4,16 @@ export const Container = styled.div`
   display: flex;
   flex: 1;
 
+  @media only screen and (max-width: 900px) {
+    flex-wrap: wrap;
+  }
+`;
+
+export const ContainerTable = styled.div`
+  display: flex;
+  position: relative;
+  flex: 1;
+
   & table {
     thead th {
       color: #fafafa;
@@ -16,8 +26,21 @@ export const Container = styled.div`
     }
   }
 
-  @media only screen and (max-width: 900px) {
-    flex-wrap: wrap;
+  .loading {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .message {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    color: #adb5bd;
   }
 `;
 

@@ -12,21 +12,24 @@ export default {
       setupPriceEnd,
     } = payload;
 
-    const response = await api.get('/did_numbers', {
-      params: {
-        _page: page,
-        _limit: limit,
-        _sort: 'id',
-        _order: 'desc',
-        value_like: value,
-        ...(monthyPriceStart ? { monthyPrice_gte: monthyPriceStart } : {}),
-        ...(monthyPriceEnd ? { monthyPrice_lte: monthyPriceEnd } : {}),
-        ...(setupPriceStart ? { setupPrice_gte: setupPriceStart } : {}),
-        ...(setupPriceEnd ? { setupPrice_lte: setupPriceEnd } : {}),
-      },
-    });
-
-    return response;
+    return api
+      .get('/did_numbers', {
+        params: {
+          _page: page,
+          _limit: limit,
+          _sort: 'id',
+          _order: 'desc',
+          value_like: value,
+          ...(monthyPriceStart ? { monthyPrice_gte: monthyPriceStart } : {}),
+          ...(monthyPriceEnd ? { monthyPrice_lte: monthyPriceEnd } : {}),
+          ...(setupPriceStart ? { setupPrice_gte: setupPriceStart } : {}),
+          ...(setupPriceEnd ? { setupPrice_lte: setupPriceEnd } : {}),
+        },
+      })
+      .then(
+        response =>
+          new Promise(resolve => setTimeout(() => resolve(response), 1000)) // simulates api delay
+      );
   },
 
   store: async payload => {

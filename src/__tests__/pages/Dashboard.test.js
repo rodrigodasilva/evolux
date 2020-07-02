@@ -42,11 +42,11 @@ describe('Dashboard', () => {
     );
 
     expect(getByText('+385 250 356 6502')).toBeTruthy();
-    expect(getByText('R$994.45')).toBeTruthy();
-    expect(getByText('R$249.56')).toBeTruthy();
+    expect(getByText('R$ 994,45')).toBeTruthy();
+    expect(getByText('R$ 249,56')).toBeTruthy();
 
     expect(getByText('+351 468 193 7935')).toBeTruthy();
-    expect(getByText('U$136.27')).toBeTruthy();
-    expect(getByText('U$711.12')).toBeTruthy();
+    expect(getByText('U$ 136,27')).toBeTruthy();
+    expect(getByText('U$ 711,12')).toBeTruthy();
   });
 });

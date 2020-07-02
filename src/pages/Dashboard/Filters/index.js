@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Input } from 'reactstrap';
 import { debounce } from 'lodash';
 
-import CurrencyInput from '../CurrencyInput';
+import CurrencyInput from '../../../components/CurrencyInput';
 
 import { Container } from './styles';
 
