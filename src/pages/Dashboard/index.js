@@ -88,8 +88,6 @@ const Dashboard = () => {
     });
   };
 
-  console.log(loadingList);
-
   return (
     <Container>
       <Filters onChange={filter => handleFilter(filter)} />

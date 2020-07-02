@@ -1,5 +1,9 @@
 Como rodar
 
+- Instalamos as dependências
+
+  > yarn
+
 - Iniciamos o servidor fake
 
   > yarn json-server --watch server.json -p 3333
