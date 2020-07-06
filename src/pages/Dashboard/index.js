@@ -124,6 +124,7 @@ const Dashboard = () => {
               </thead>
               <tbody>
                 {didNumbersData.data &&
+                  didNumbersData.data.length &&
                   didNumbersData.data.map(didNumber => (
                     <tr key={didNumber.id}>
                       <td>{didNumber.value}</td>
@@ -168,8 +169,11 @@ const Dashboard = () => {
                   ))}
               </tbody>
             </Table>
-            {!didNumbersData.data.length && (
+            {didNumbersData.data && !didNumbersData.data.length && (
               <p className="message">Nenhum registro encontrado</p>
+            )}
+            {!Object.keys(didNumbersData).length && (
+              <p className="message">Falha na busca pelo registro</p>
             )}
           </ContainerTable>
 
