@@ -1,4 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+
+import { fetchDidNumbers, selectDidNumber } from '../../features/didNumber/didNumberSlice'
 
 import { Header} from '../../components/Header'
 import { Paper } from '../../components/Paper'
@@ -11,14 +14,20 @@ import { TableDIDNumbers } from './components/TableDIDNumbers'
 import * as S from './styles'
 
 export const DIDNumbers = () => {
-  const [openedModal, setOpenedModal] = useState('');
+  const [openedModal, setOpenedModal] = useState('')
+  const { items: didNumbers } = useSelector(selectDidNumber)
+
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(fetchDidNumbers())
+  }, [])
 
   return (
     <>
       <S.Wrapper>
         <Container>
           <Header />
-
           <Row>
             <Col md={3} className='mb-4'>
               <Paper>
@@ -39,13 +48,12 @@ export const DIDNumbers = () => {
                     Adicionar
                   </Button>
                 </div>
-                <TableDIDNumbers />
+                <TableDIDNumbers items={didNumbers} />
               </Paper>
             </Col>
           </Row>
         </Container>
       </S.Wrapper>
-
       {openedModal === 'create' && (
         <ModalFormDIDNumber 
           isOpen={openedModal === 'create'} 
