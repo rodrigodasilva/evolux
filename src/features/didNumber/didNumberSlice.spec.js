@@ -3,7 +3,7 @@ import didNumberReducer, { fetchDidNumbers } from './didNumberSlice'
 describe('didNumber reducer', () => {
   it('should handle initial state', () => {
     expect(didNumberReducer(undefined, { type: 'unknown' })).toEqual({
-      items: [],
+      items: { records: [], count: 0 },
       status: 'idle'
     })
   })

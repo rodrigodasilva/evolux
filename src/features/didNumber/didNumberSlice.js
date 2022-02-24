@@ -1,18 +1,18 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
-import { didNumberAPI } from './didNumberAPI'
+import didNumberAPI from './didNumberAPI'
 
 const initialState = {
-  items: [],
+  items: { data: [], count: 0 },
   status: 'idle'
 }
 
 export const fetchDidNumbers = createAsyncThunk(
   'didNumber/fetchDidNumber',
-  async () => {
-    const response = await didNumberAPI()
-    return response.data
+  async (params) => {
+    const response = await didNumberAPI.index(params)
+    return { data: response.data, count: Number(response.headers['x-total-count']) }
   }
-);
+)
 
 export const didNumberSlice = createSlice({
   name: 'didNumber',
@@ -34,5 +34,4 @@ export const didNumberSlice = createSlice({
 })
 
 export const selectDidNumber = (state) => state.didNumber
-
 export default didNumberSlice.reducer

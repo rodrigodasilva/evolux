@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
-import { currency } from './masks'
-
 import * as S from './styles'
 
 const Input = React.forwardRef(
@@ -13,37 +11,27 @@ const Input = React.forwardRef(
       error,
       placeholder,
       className,
-      mask,
       ...props
     },
     ref
-  ) => {    
-
-    const handleKeyUp = (e) => {
-      if (mask === 'currency') {
-        return currency(e)
-      }       
-    }
-
-    return (
-      <S.Container className={className} >
-        {label && (
-          <S.Label htmlFor={id}>
-            {label}
-          </S.Label>
-        )}
-        <S.Input
-          className={error ? 'error' : ''}
-          id={id}
-          placeholder={placeholder}
-          onKeyUp={handleKeyUp}
-          ref={ref}
-          {...props}
-        />          
-        {error && <S.Error>{error}</S.Error>}
-      </S.Container>
-    )
-  }
+  ) => 
+  (
+    <S.Container className={className} >
+      {label && (
+        <S.Label htmlFor={id}>
+          {label}
+        </S.Label>
+      )}
+      <S.Input
+        className={error ? 'error' : ''}
+        id={id}
+        placeholder={placeholder}
+        ref={ref}
+        {...props}
+      />          
+      {error && <S.Error>{error}</S.Error>}
+    </S.Container>
+  )
 )
 
 Input.propTypes = {
@@ -52,7 +40,6 @@ Input.propTypes = {
   placeholder: PropTypes.string,
   className: PropTypes.string,
   error: PropTypes.string,
-  mask: PropTypes.oneOf(['', 'currency']),
 }
 
 Input.defaultProps = {
@@ -61,7 +48,6 @@ Input.defaultProps = {
   placeholder: '',
   className: '',
   error: '',
-  mask: '',
 }
 
 export { Input }
