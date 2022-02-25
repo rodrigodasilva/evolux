@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import didNumberAPI from './didNumberAPI'
 
-const initialState = {
+export const initialState = {
   items: { data: [], count: 0 },
   fetchStatus: 'idle',
   modalCreateStatus: 'closed',
@@ -20,7 +20,6 @@ export const createDidNumber = createAsyncThunk(
   'didNumber/create',
   async (payload, { dispatch }) => {  
     const response = await didNumberAPI.create(payload)
-    dispatch(setModalCreateStatus('closed'))
     dispatch(fetchDidNumbers({ page: 1, limit: 6 }))
     return response.data
   }
@@ -51,6 +50,7 @@ export const didNumberSlice = createSlice({
       })
       .addCase(createDidNumber.fulfilled, (state) => {
         state.createStatus = 'idle'
+        state.modalCreateStatus = 'closed'
       })
       .addCase(createDidNumber.rejected, (state) => {
         state.createStatus = 'error'
