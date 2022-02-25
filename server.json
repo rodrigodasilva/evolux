@@ -1,0 +1,6997 @@
+{
+  "did_numbers": [
+    {
+      "id": "1574076904000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1978.48,
+      "setupPrice": 137.63,
+      "currency": "R$"
+    },
+    {
+      "id": "1568598563000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1309.08,
+      "setupPrice": 1977.9,
+      "currency": "R$"
+    },
+    {
+      "id": "1576014890000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 811.28,
+      "setupPrice": 1749.25,
+      "currency": "R$"
+    },
+    {
+      "id": "1582165006000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 147.54,
+      "setupPrice": 807.53,
+      "currency": "$"
+    },
+    {
+      "id": "1566889133000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1329.06,
+      "setupPrice": 1764.8,
+      "currency": "$"
+    },
+    {
+      "id": "1585961556000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 734.91,
+      "setupPrice": 666.36,
+      "currency": "U$"
+    },
+    {
+      "id": "1568334939000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 598.83,
+      "setupPrice": 182.78,
+      "currency": "R$"
+    },
+    {
+      "id": "1563159305000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 981.5,
+      "setupPrice": 946.57,
+      "currency": "U$"
+    },
+    {
+      "id": "1569646028000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 626.26,
+      "setupPrice": 1581.17,
+      "currency": "R$"
+    },
+    {
+      "id": "1570630434000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 51.71,
+      "setupPrice": 1910.8,
+      "currency": "R$"
+    },
+    {
+      "id": "1574960025000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1997.13,
+      "setupPrice": 939.19,
+      "currency": "R$"
+    },
+    {
+      "id": "1583077426000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 564.71,
+      "setupPrice": 671.88,
+      "currency": "U$"
+    },
+    {
+      "id": "1581925431000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 162.6,
+      "setupPrice": 1998.27,
+      "currency": "U$"
+    },
+    {
+      "id": "1582630775000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 942.84,
+      "setupPrice": 1953.92,
+      "currency": "R$"
+    },
+    {
+      "id": "1584671760000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1724.03,
+      "setupPrice": 1644.04,
+      "currency": "$"
+    },
+    {
+      "id": "1583662261000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1212.11,
+      "setupPrice": 7.02,
+      "currency": "$"
+    },
+    {
+      "id": "1578067335000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1620.85,
+      "setupPrice": 1043.77,
+      "currency": "$"
+    },
+    {
+      "id": "1581006892000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 815.03,
+      "setupPrice": 1857.15,
+      "currency": "$"
+    },
+    {
+      "id": "1575034569000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1268.72,
+      "setupPrice": 490.62,
+      "currency": "$"
+    },
+    {
+      "id": "1576589346000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 279.35,
+      "setupPrice": 414.22,
+      "currency": "$"
+    },
+    {
+      "id": "1589109846000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 415.47,
+      "setupPrice": 937.01,
+      "currency": "R$"
+    },
+    {
+      "id": "1575086720000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 872.73,
+      "setupPrice": 575.28,
+      "currency": "U$"
+    },
+    {
+      "id": "1570071091000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 123.25,
+      "setupPrice": 601.14,
+      "currency": "$"
+    },
+    {
+      "id": "1582504765000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1907.36,
+      "setupPrice": 1420.56,
+      "currency": "U$"
+    },
+    {
+      "id": "1582578241000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1730.46,
+      "setupPrice": 796.4,
+      "currency": "U$"
+    },
+    {
+      "id": "1588098206000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 378.94,
+      "setupPrice": 329.63,
+      "currency": "U$"
+    },
+    {
+      "id": "1565900527000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 611.08,
+      "setupPrice": 832.12,
+      "currency": "U$"
+    },
+    {
+      "id": "1572753779000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 857.12,
+      "setupPrice": 1257.97,
+      "currency": "R$"
+    },
+    {
+      "id": "1582764954000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 337.78,
+      "setupPrice": 474.22,
+      "currency": "R$"
+    },
+    {
+      "id": "1565303480000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1105.31,
+      "setupPrice": 1505.57,
+      "currency": "U$"
+    },
+    {
+      "id": "1587264549000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1782.51,
+      "setupPrice": 929.39,
+      "currency": "R$"
+    },
+    {
+      "id": "1585543901000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 951.28,
+      "setupPrice": 256.73,
+      "currency": "U$"
+    },
+    {
+      "id": "1585109401000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1709.36,
+      "setupPrice": 873.29,
+      "currency": "U$"
+    },
+    {
+      "id": "1571007458000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 710.5,
+      "setupPrice": 1121.35,
+      "currency": "U$"
+    },
+    {
+      "id": "1568593074000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 920.47,
+      "setupPrice": 1919,
+      "currency": "$"
+    },
+    {
+      "id": "1577695622000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 400.14,
+      "setupPrice": 103.8,
+      "currency": "$"
+    },
+    {
+      "id": "1562456399000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1567.77,
+      "setupPrice": 209.38,
+      "currency": "U$"
+    },
+    {
+      "id": "1564758547000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 424.67,
+      "setupPrice": 666.86,
+      "currency": "U$"
+    },
+    {
+      "id": "1589562441000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1341.08,
+      "setupPrice": 588.32,
+      "currency": "U$"
+    },
+    {
+      "id": "1566812244000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1329.73,
+      "setupPrice": 1221.35,
+      "currency": "U$"
+    },
+    {
+      "id": "1563198954000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1578.49,
+      "setupPrice": 639.15,
+      "currency": "U$"
+    },
+    {
+      "id": "1563992919000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 196.7,
+      "setupPrice": 1841.59,
+      "currency": "R$"
+    },
+    {
+      "id": "1571212901000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 879.9,
+      "setupPrice": 1987.1,
+      "currency": "$"
+    },
+    {
+      "id": "1588166909000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 230.39,
+      "setupPrice": 329.78,
+      "currency": "R$"
+    },
+    {
+      "id": "1563966640000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1024.76,
+      "setupPrice": 142.72,
+      "currency": "U$"
+    },
+    {
+      "id": "1570711903000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 331.39,
+      "setupPrice": 1992.5,
+      "currency": "U$"
+    },
+    {
+      "id": "1583716265000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1206.8,
+      "setupPrice": 884.73,
+      "currency": "R$"
+    },
+    {
+      "id": "1584617986000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1739.31,
+      "setupPrice": 1051.43,
+      "currency": "U$"
+    },
+    {
+      "id": "1571673635000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 90.74,
+      "setupPrice": 922.01,
+      "currency": "R$"
+    },
+    {
+      "id": "1587628572000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 269.14,
+      "setupPrice": 1702.4,
+      "currency": "R$"
+    },
+    {
+      "id": "1582317251000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 965.7,
+      "setupPrice": 1735.54,
+      "currency": "$"
+    },
+    {
+      "id": "1569118694000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1819.74,
+      "setupPrice": 1471.62,
+      "currency": "R$"
+    },
+    {
+      "id": "1578903565000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 789.92,
+      "setupPrice": 702.36,
+      "currency": "$"
+    },
+    {
+      "id": "1567803082000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 238.77,
+      "setupPrice": 183.03,
+      "currency": "$"
+    },
+    {
+      "id": "1565533910000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1366.56,
+      "setupPrice": 1280.14,
+      "currency": "U$"
+    },
+    {
+      "id": "1588044809000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1787.67,
+      "setupPrice": 56.03,
+      "currency": "R$"
+    },
+    {
+      "id": "1582266583000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 289.12,
+      "setupPrice": 825.25,
+      "currency": "R$"
+    },
+    {
+      "id": "1580431024000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 865.9,
+      "setupPrice": 241.92,
+      "currency": "U$"
+    },
+    {
+      "id": "1575783271000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 787.74,
+      "setupPrice": 509.17,
+      "currency": "U$"
+    },
+    {
+      "id": "1576114525000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1576.94,
+      "setupPrice": 1311.27,
+      "currency": "$"
+    },
+    {
+      "id": "1589082722000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1733.88,
+      "setupPrice": 1279.52,
+      "currency": "U$"
+    },
+    {
+      "id": "1575589479000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 54.38,
+      "setupPrice": 1376.07,
+      "currency": "R$"
+    },
+    {
+      "id": "1572110365000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 481.43,
+      "setupPrice": 640.16,
+      "currency": "U$"
+    },
+    {
+      "id": "1584323662000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 442.14,
+      "setupPrice": 1363.1,
+      "currency": "U$"
+    },
+    {
+      "id": "1566554103000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1218.93,
+      "setupPrice": 1652.62,
+      "currency": "R$"
+    },
+    {
+      "id": "1571291113000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1020.28,
+      "setupPrice": 1515.36,
+      "currency": "$"
+    },
+    {
+      "id": "1579625933000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1840.77,
+      "setupPrice": 760.13,
+      "currency": "R$"
+    },
+    {
+      "id": "1568583942000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1209.27,
+      "setupPrice": 869.82,
+      "currency": "U$"
+    },
+    {
+      "id": "1571360905000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1402.03,
+      "setupPrice": 1440.71,
+      "currency": "$"
+    },
+    {
+      "id": "1576891914000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1950.39,
+      "setupPrice": 741.24,
+      "currency": "U$"
+    },
+    {
+      "id": "1577743827000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 261.56,
+      "setupPrice": 1542.79,
+      "currency": "R$"
+    },
+    {
+      "id": "1574652660000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 132.4,
+      "setupPrice": 912.22,
+      "currency": "U$"
+    },
+    {
+      "id": "1572437312000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1600.98,
+      "setupPrice": 1203.19,
+      "currency": "$"
+    },
+    {
+      "id": "1572903885000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1826.69,
+      "setupPrice": 862.09,
+      "currency": "R$"
+    },
+    {
+      "id": "1585906122000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1742.33,
+      "setupPrice": 221.16,
+      "currency": "U$"
+    },
+    {
+      "id": "1566436107000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1746.52,
+      "setupPrice": 1759.64,
+      "currency": "$"
+    },
+    {
+      "id": "1572944698000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 952.24,
+      "setupPrice": 1059.16,
+      "currency": "U$"
+    },
+    {
+      "id": "1576913374000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 429.94,
+      "setupPrice": 406.32,
+      "currency": "U$"
+    },
+    {
+      "id": "1589809961000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1574.51,
+      "setupPrice": 1530.67,
+      "currency": "R$"
+    },
+    {
+      "id": "1586701662000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1042.84,
+      "setupPrice": 857.73,
+      "currency": "U$"
+    },
+    {
+      "id": "1564264060000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1720.13,
+      "setupPrice": 1638.68,
+      "currency": "U$"
+    },
+    {
+      "id": "1583899247000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1166.21,
+      "setupPrice": 1057.85,
+      "currency": "$"
+    },
+    {
+      "id": "1587085810000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1898.21,
+      "setupPrice": 1203.35,
+      "currency": "$"
+    },
+    {
+      "id": "1589563437000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 131.52,
+      "setupPrice": 1168.77,
+      "currency": "U$"
+    },
+    {
+      "id": "1576547669000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1323.76,
+      "setupPrice": 368.41,
+      "currency": "$"
+    },
+    {
+      "id": "1569842920000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 954.47,
+      "setupPrice": 1576,
+      "currency": "U$"
+    },
+    {
+      "id": "1571796472000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 485.57,
+      "setupPrice": 1353.53,
+      "currency": "R$"
+    },
+    {
+      "id": "1589426587000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 618.17,
+      "setupPrice": 1667.08,
+      "currency": "U$"
+    },
+    {
+      "id": "1575521806000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1992.74,
+      "setupPrice": 1727.72,
+      "currency": "R$"
+    },
+    {
+      "id": "1574965583000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1899.82,
+      "setupPrice": 271.01,
+      "currency": "$"
+    },
+    {
+      "id": "1585070734000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1844.43,
+      "setupPrice": 1017.2,
+      "currency": "$"
+    },
+    {
+      "id": "1585680741000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1949.41,
+      "setupPrice": 371.33,
+      "currency": "$"
+    },
+    {
+      "id": "1589513089000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 992.99,
+      "setupPrice": 1361.47,
+      "currency": "U$"
+    },
+    {
+      "id": "1563123282000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 294.84,
+      "setupPrice": 1278.63,
+      "currency": "$"
+    },
+    {
+      "id": "1568543353000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 320.44,
+      "setupPrice": 847.77,
+      "currency": "$"
+    },
+    {
+      "id": "1567563537000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 799.55,
+      "setupPrice": 517.25,
+      "currency": "R$"
+    },
+    {
+      "id": "1585460399000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 540.62,
+      "setupPrice": 1895.27,
+      "currency": "R$"
+    },
+    {
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 541.91,
+      "setupPrice": 940.42,
+      "currency": "$",
+      "id": "1562363025000"
+    },
+    {
+      "id": "1586842962000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1282.79,
+      "setupPrice": 859.63,
+      "currency": "U$"
+    },
+    {
+      "id": "1573857903000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 79.77,
+      "setupPrice": 1116.84,
+      "currency": "$"
+    },
+    {
+      "id": "1587496319000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1489.12,
+      "setupPrice": 1993,
+      "currency": "$"
+    },
+    {
+      "id": "1579345533000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 156.73,
+      "setupPrice": 1681.04,
+      "currency": "R$"
+    },
+    {
+      "id": "1566601024000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 128.57,
+      "setupPrice": 785.64,
+      "currency": "U$"
+    },
+    {
+      "id": "1569418936000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1687.01,
+      "setupPrice": 1347.23,
+      "currency": "$"
+    },
+    {
+      "id": "1566003152000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 730.02,
+      "setupPrice": 1781.76,
+      "currency": "R$"
+    },
+    {
+      "id": "1564187521000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1755.27,
+      "setupPrice": 572.23,
+      "currency": "$"
+    },
+    {
+      "id": "1576361744000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1091.45,
+      "setupPrice": 420.34,
+      "currency": "U$"
+    },
+    {
+      "id": "1574790135000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1308.99,
+      "setupPrice": 1738.95,
+      "currency": "R$"
+    },
+    {
+      "id": "1585393041000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 716.51,
+      "setupPrice": 178.24,
+      "currency": "$"
+    },
+    {
+      "id": "1580284330000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 159.24,
+      "setupPrice": 1564.61,
+      "currency": "R$"
+    },
+    {
+      "id": "1572216741000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1989.61,
+      "setupPrice": 783.11,
+      "currency": "$"
+    },
+    {
+      "id": "1563167397000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 56.92,
+      "setupPrice": 621.57,
+      "currency": "R$"
+    },
+    {
+      "id": "1573530609000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1974.61,
+      "setupPrice": 906.16,
+      "currency": "$"
+    },
+    {
+      "id": "1576177916000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 74.77,
+      "setupPrice": 1159,
+      "currency": "U$"
+    },
+    {
+      "id": "1580527454000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 562.83,
+      "setupPrice": 475.91,
+      "currency": "$"
+    },
+    {
+      "id": "1570149219000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 616.27,
+      "setupPrice": 1074.8,
+      "currency": "$"
+    },
+    {
+      "id": "1565387108000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1690.17,
+      "setupPrice": 1374.01,
+      "currency": "U$"
+    },
+    {
+      "id": "1568438103000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 490.26,
+      "setupPrice": 645.87,
+      "currency": "$"
+    },
+    {
+      "id": "1566495469000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 56.9,
+      "setupPrice": 1240.84,
+      "currency": "R$"
+    },
+    {
+      "id": "1568602846000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 870.28,
+      "setupPrice": 1225.09,
+      "currency": "U$"
+    },
+    {
+      "id": "1573819214000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 38.02,
+      "setupPrice": 156.92,
+      "currency": "U$"
+    },
+    {
+      "id": "1578683526000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1754.09,
+      "setupPrice": 1512.67,
+      "currency": "U$"
+    },
+    {
+      "id": "1570976023000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 185.26,
+      "setupPrice": 1711.36,
+      "currency": "R$"
+    },
+    {
+      "id": "1588927256000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 533.2,
+      "setupPrice": 642.43,
+      "currency": "R$"
+    },
+    {
+      "id": "1566111611000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 242.43,
+      "setupPrice": 1843.84,
+      "currency": "R$"
+    },
+    {
+      "id": "1578879813000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 158.74,
+      "setupPrice": 1854.29,
+      "currency": "U$"
+    },
+    {
+      "id": "1562896774000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 481.76,
+      "setupPrice": 711.29,
+      "currency": "U$"
+    },
+    {
+      "id": "1587853397000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 203.41,
+      "setupPrice": 27.9,
+      "currency": "U$"
+    },
+    {
+      "id": "1572630605000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1807.76,
+      "setupPrice": 989.23,
+      "currency": "U$"
+    },
+    {
+      "id": "1590044446000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1257.23,
+      "setupPrice": 1473.81,
+      "currency": "U$"
+    },
+    {
+      "id": "1580056637000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1781.52,
+      "setupPrice": 1017.48,
+      "currency": "U$"
+    },
+    {
+      "id": "1584977515000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 916.47,
+      "setupPrice": 1133.73,
+      "currency": "R$"
+    },
+    {
+      "id": "1578388727000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 409.62,
+      "setupPrice": 77.67,
+      "currency": "R$"
+    },
+    {
+      "id": "1565643764000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1756.24,
+      "setupPrice": 977.84,
+      "currency": "R$"
+    },
+    {
+      "id": "1568939897000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1675.3,
+      "setupPrice": 1167.61,
+      "currency": "$"
+    },
+    {
+      "id": "1580074619000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1935.19,
+      "setupPrice": 1767.63,
+      "currency": "U$"
+    },
+    {
+      "id": "1589525302000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 462.21,
+      "setupPrice": 584.29,
+      "currency": "U$"
+    },
+    {
+      "id": "1563494259000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 79.41,
+      "setupPrice": 610.99,
+      "currency": "$"
+    },
+    {
+      "id": "1563575301000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1565.61,
+      "setupPrice": 1678.22,
+      "currency": "$"
+    },
+    {
+      "id": "1579569312000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 108.99,
+      "setupPrice": 1034.25,
+      "currency": "R$"
+    },
+    {
+      "id": "1567107976000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1081.56,
+      "setupPrice": 809.94,
+      "currency": "R$"
+    },
+    {
+      "id": "1567262608000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 605.68,
+      "setupPrice": 1795.95,
+      "currency": "$"
+    },
+    {
+      "id": "1588471969000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1907.78,
+      "setupPrice": 1903.93,
+      "currency": "$"
+    },
+    {
+      "id": "1567622951000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1970.8,
+      "setupPrice": 273.41,
+      "currency": "$"
+    },
+    {
+      "id": "1576804717000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1212.46,
+      "setupPrice": 1756.97,
+      "currency": "$"
+    },
+    {
+      "id": "1578165177000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 310,
+      "setupPrice": 848.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1568554398000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 694.86,
+      "setupPrice": 1977.39,
+      "currency": "R$"
+    },
+    {
+      "id": "1583556350000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1485.7,
+      "setupPrice": 1727.3,
+      "currency": "U$"
+    },
+    {
+      "id": "1570934549000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1440.48,
+      "setupPrice": 1195,
+      "currency": "R$"
+    },
+    {
+      "id": "1576352488000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 954.4,
+      "setupPrice": 415.57,
+      "currency": "R$"
+    },
+    {
+      "id": "1569820525000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1451.58,
+      "setupPrice": 1955.27,
+      "currency": "$"
+    },
+    {
+      "id": "1588589334000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1309.2,
+      "setupPrice": 1395.99,
+      "currency": "U$"
+    },
+    {
+      "id": "1571972734000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1017.1,
+      "setupPrice": 1895.61,
+      "currency": "U$"
+    },
+    {
+      "id": "1580370351000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1025.11,
+      "setupPrice": 1635.1,
+      "currency": "U$"
+    },
+    {
+      "id": "1572247283000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1997.49,
+      "setupPrice": 859.83,
+      "currency": "$"
+    },
+    {
+      "id": "1562748448000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 93.81,
+      "setupPrice": 1025.75,
+      "currency": "U$"
+    },
+    {
+      "id": "1581614191000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1149.72,
+      "setupPrice": 756.27,
+      "currency": "U$"
+    },
+    {
+      "id": "1566184680000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 733.81,
+      "setupPrice": 925.05,
+      "currency": "$"
+    },
+    {
+      "id": "1580495557000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 690.63,
+      "setupPrice": 1667.85,
+      "currency": "$"
+    },
+    {
+      "id": "1567391158000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1447.45,
+      "setupPrice": 458.75,
+      "currency": "R$"
+    },
+    {
+      "id": "1569603202000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1260.9,
+      "setupPrice": 90.33,
+      "currency": "$"
+    },
+    {
+      "id": "1580170851000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 609.39,
+      "setupPrice": 1709.19,
+      "currency": "U$"
+    },
+    {
+      "id": "1583375860000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1381.94,
+      "setupPrice": 498.32,
+      "currency": "U$"
+    },
+    {
+      "id": "1574562297000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 866.34,
+      "setupPrice": 991.17,
+      "currency": "R$"
+    },
+    {
+      "id": "1574311537000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1367.85,
+      "setupPrice": 1991.02,
+      "currency": "R$"
+    },
+    {
+      "id": "1579620740000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1327.3,
+      "setupPrice": 1108.34,
+      "currency": "U$"
+    },
+    {
+      "id": "1573671226000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 473.81,
+      "setupPrice": 179.05,
+      "currency": "$"
+    },
+    {
+      "id": "1573930389000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1262.69,
+      "setupPrice": 1366.63,
+      "currency": "R$"
+    },
+    {
+      "id": "1586446208000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1989.43,
+      "setupPrice": 1684.39,
+      "currency": "R$"
+    },
+    {
+      "id": "1565061542000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1837.19,
+      "setupPrice": 293.9,
+      "currency": "$"
+    },
+    {
+      "id": "1563594356000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1451.72,
+      "setupPrice": 13.64,
+      "currency": "U$"
+    },
+    {
+      "id": "1562559909000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1097.46,
+      "setupPrice": 1899.24,
+      "currency": "$"
+    },
+    {
+      "id": "1586429760000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 446.56,
+      "setupPrice": 1022.33,
+      "currency": "U$"
+    },
+    {
+      "id": "1562977833000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1649.74,
+      "setupPrice": 1054.8,
+      "currency": "$"
+    },
+    {
+      "id": "1590826270000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 361.25,
+      "setupPrice": 913.14,
+      "currency": "R$"
+    },
+    {
+      "id": "1570103126000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 342.11,
+      "setupPrice": 1130.75,
+      "currency": "U$"
+    },
+    {
+      "id": "1587390933000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 567.9,
+      "setupPrice": 1935.83,
+      "currency": "U$"
+    },
+    {
+      "id": "1577472600000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1912.24,
+      "setupPrice": 179.13,
+      "currency": "R$"
+    },
+    {
+      "id": "1584124703000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1232.13,
+      "setupPrice": 1003.83,
+      "currency": "U$"
+    },
+    {
+      "id": "1585914257000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1682.66,
+      "setupPrice": 330.01,
+      "currency": "$"
+    },
+    {
+      "id": "1573369794000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1855.56,
+      "setupPrice": 1920.12,
+      "currency": "U$"
+    },
+    {
+      "id": "1568497239000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1992.13,
+      "setupPrice": 1949.94,
+      "currency": "R$"
+    },
+    {
+      "id": "1565536030000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1626.42,
+      "setupPrice": 1526.2,
+      "currency": "R$"
+    },
+    {
+      "id": "1578434305000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 416.02,
+      "setupPrice": 485.85,
+      "currency": "R$"
+    },
+    {
+      "id": "1587516908000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1331.56,
+      "setupPrice": 786.99,
+      "currency": "U$"
+    },
+    {
+      "id": "1570571691000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1504.75,
+      "setupPrice": 1406.01,
+      "currency": "R$"
+    },
+    {
+      "id": "1586508409000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1401.38,
+      "setupPrice": 913.43,
+      "currency": "U$"
+    },
+    {
+      "id": "1583671074000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1790.98,
+      "setupPrice": 208.67,
+      "currency": "R$"
+    },
+    {
+      "id": "1565336790000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 422.41,
+      "setupPrice": 1599.8,
+      "currency": "$"
+    },
+    {
+      "id": "1580116215000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1730.18,
+      "setupPrice": 712.01,
+      "currency": "$"
+    },
+    {
+      "id": "1567981204000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1316.7,
+      "setupPrice": 1848.53,
+      "currency": "$"
+    },
+    {
+      "id": "1573624661000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 435.06,
+      "setupPrice": 1383.13,
+      "currency": "$"
+    },
+    {
+      "id": "1568515950000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1165.39,
+      "setupPrice": 1519.73,
+      "currency": "U$"
+    },
+    {
+      "id": "1574970975000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1232.05,
+      "setupPrice": 237.83,
+      "currency": "R$"
+    },
+    {
+      "id": "1590208973000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 238.23,
+      "setupPrice": 225.88,
+      "currency": "R$"
+    },
+    {
+      "id": "1569928316000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 367.59,
+      "setupPrice": 806.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1589020952000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 781.04,
+      "setupPrice": 1706.47,
+      "currency": "$"
+    },
+    {
+      "id": "1578713695000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 823.74,
+      "setupPrice": 1131.51,
+      "currency": "U$"
+    },
+    {
+      "id": "1566987185000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1747.65,
+      "setupPrice": 1156.76,
+      "currency": "R$"
+    },
+    {
+      "id": "1587997470000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1822.39,
+      "setupPrice": 330.96,
+      "currency": "U$"
+    },
+    {
+      "id": "1564202570000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1632.73,
+      "setupPrice": 1498.95,
+      "currency": "$"
+    },
+    {
+      "id": "1578413921000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1988.17,
+      "setupPrice": 1815.69,
+      "currency": "R$"
+    },
+    {
+      "id": "1586647803000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 625.76,
+      "setupPrice": 246.19,
+      "currency": "U$"
+    },
+    {
+      "id": "1583290117000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 549.02,
+      "setupPrice": 774.49,
+      "currency": "R$"
+    },
+    {
+      "id": "1572919013000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1894.87,
+      "setupPrice": 276.82,
+      "currency": "$"
+    },
+    {
+      "id": "1567855272000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 876.72,
+      "setupPrice": 587.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1571662746000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 74.04,
+      "setupPrice": 1869.78,
+      "currency": "R$"
+    },
+    {
+      "id": "1572108588000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1980.11,
+      "setupPrice": 317.18,
+      "currency": "U$"
+    },
+    {
+      "id": "1565356642000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 314.92,
+      "setupPrice": 62.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1567035070000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 434.28,
+      "setupPrice": 1231.2,
+      "currency": "U$"
+    },
+    {
+      "id": "1578489768000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 983.7,
+      "setupPrice": 1802.75,
+      "currency": "$"
+    },
+    {
+      "id": "1586241349000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 538.23,
+      "setupPrice": 1911.63,
+      "currency": "U$"
+    },
+    {
+      "id": "1573283762000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 601.34,
+      "setupPrice": 1243.35,
+      "currency": "R$"
+    },
+    {
+      "id": "1566339427000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1120.7,
+      "setupPrice": 991.86,
+      "currency": "R$"
+    },
+    {
+      "id": "1588512250000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1073.42,
+      "setupPrice": 120.79,
+      "currency": "$"
+    },
+    {
+      "id": "1589355784000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1323.84,
+      "setupPrice": 61.87,
+      "currency": "U$"
+    },
+    {
+      "id": "1568692217000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 621.08,
+      "setupPrice": 1444.71,
+      "currency": "U$"
+    },
+    {
+      "id": "1585192218000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 729.58,
+      "setupPrice": 1942.78,
+      "currency": "$"
+    },
+    {
+      "id": "1589417795000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1292.99,
+      "setupPrice": 1447.11,
+      "currency": "$"
+    },
+    {
+      "id": "1570775212000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 81.84,
+      "setupPrice": 967.54,
+      "currency": "R$"
+    },
+    {
+      "id": "1583117806000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 816.46,
+      "setupPrice": 669.09,
+      "currency": "U$"
+    },
+    {
+      "id": "1562460316000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1735.95,
+      "setupPrice": 1093.38,
+      "currency": "$"
+    },
+    {
+      "id": "1563408336000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 98.15,
+      "setupPrice": 1638.36,
+      "currency": "U$"
+    },
+    {
+      "id": "1574216561000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 92.85,
+      "setupPrice": 1472.15,
+      "currency": "U$"
+    },
+    {
+      "id": "1573306234000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1104.46,
+      "setupPrice": 1890.13,
+      "currency": "R$"
+    },
+    {
+      "id": "1589364391000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 559.68,
+      "setupPrice": 1621.34,
+      "currency": "R$"
+    },
+    {
+      "id": "1582171283000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 505.74,
+      "setupPrice": 663.26,
+      "currency": "R$"
+    },
+    {
+      "id": "1578161061000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 241.32,
+      "setupPrice": 1012.32,
+      "currency": "U$"
+    },
+    {
+      "id": "1587100091000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1231.61,
+      "setupPrice": 1843.51,
+      "currency": "$"
+    },
+    {
+      "id": "1563771903000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1410.57,
+      "setupPrice": 701.63,
+      "currency": "$"
+    },
+    {
+      "id": "1587224662000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1187.47,
+      "setupPrice": 1305.1,
+      "currency": "R$"
+    },
+    {
+      "id": "1573409472000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 935.64,
+      "setupPrice": 804.95,
+      "currency": "$"
+    },
+    {
+      "id": "1589770594000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 312.8,
+      "setupPrice": 1099.45,
+      "currency": "$"
+    },
+    {
+      "id": "1580221972000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 542.41,
+      "setupPrice": 335.68,
+      "currency": "R$"
+    },
+    {
+      "id": "1569229629000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 39.26,
+      "setupPrice": 1935.32,
+      "currency": "R$"
+    },
+    {
+      "id": "1583010447000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 418.18,
+      "setupPrice": 488.09,
+      "currency": "R$"
+    },
+    {
+      "id": "1578679870000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1894.05,
+      "setupPrice": 1921.32,
+      "currency": "$"
+    },
+    {
+      "id": "1563942511000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1517.73,
+      "setupPrice": 485.52,
+      "currency": "$"
+    },
+    {
+      "id": "1588961948000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 215.72,
+      "setupPrice": 1871.14,
+      "currency": "R$"
+    },
+    {
+      "id": "1572130453000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1567.92,
+      "setupPrice": 957.87,
+      "currency": "R$"
+    },
+    {
+      "id": "1579202620000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1365.6,
+      "setupPrice": 656.23,
+      "currency": "R$"
+    },
+    {
+      "id": "1580614927000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1711.78,
+      "setupPrice": 1489.16,
+      "currency": "R$"
+    },
+    {
+      "id": "1586162520000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1528.89,
+      "setupPrice": 376.52,
+      "currency": "R$"
+    },
+    {
+      "id": "1568303906000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 795.85,
+      "setupPrice": 1522.26,
+      "currency": "$"
+    },
+    {
+      "id": "1570785831000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1493.82,
+      "setupPrice": 1964.79,
+      "currency": "U$"
+    },
+    {
+      "id": "1588127285000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1862.05,
+      "setupPrice": 837.04,
+      "currency": "U$"
+    },
+    {
+      "id": "1567264578000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1351.26,
+      "setupPrice": 61.11,
+      "currency": "R$"
+    },
+    {
+      "id": "1574145190000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1037.47,
+      "setupPrice": 1154.05,
+      "currency": "$"
+    },
+    {
+      "id": "1565529962000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 26.84,
+      "setupPrice": 1803.59,
+      "currency": "U$"
+    },
+    {
+      "id": "1578479192000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 389.33,
+      "setupPrice": 1524.71,
+      "currency": "R$"
+    },
+    {
+      "id": "1570598118000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1429.55,
+      "setupPrice": 465.41,
+      "currency": "R$"
+    },
+    {
+      "id": "1562095486000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 905.59,
+      "setupPrice": 1600.5,
+      "currency": "U$"
+    },
+    {
+      "id": "1569286836000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1462.88,
+      "setupPrice": 520.43,
+      "currency": "R$"
+    },
+    {
+      "id": "1564942705000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 386.56,
+      "setupPrice": 158.94,
+      "currency": "U$"
+    },
+    {
+      "id": "1574072415000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1631.78,
+      "setupPrice": 722.32,
+      "currency": "U$"
+    },
+    {
+      "id": "1590801273000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 595.2,
+      "setupPrice": 1418.04,
+      "currency": "U$"
+    },
+    {
+      "id": "1563466641000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 123.18,
+      "setupPrice": 1003.73,
+      "currency": "U$"
+    },
+    {
+      "id": "1587551243000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 933.88,
+      "setupPrice": 1143.46,
+      "currency": "U$"
+    },
+    {
+      "id": "1562640128000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 129.68,
+      "setupPrice": 931.74,
+      "currency": "U$"
+    },
+    {
+      "id": "1584331470000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1149.79,
+      "setupPrice": 377.77,
+      "currency": "R$"
+    },
+    {
+      "id": "1562629274000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1225.16,
+      "setupPrice": 636.41,
+      "currency": "U$"
+    },
+    {
+      "id": "1576793653000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 685.18,
+      "setupPrice": 808.33,
+      "currency": "U$"
+    },
+    {
+      "id": "1563121219000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 610.02,
+      "setupPrice": 144.24,
+      "currency": "U$"
+    },
+    {
+      "id": "1571570284000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 960.21,
+      "setupPrice": 1344.66,
+      "currency": "R$"
+    },
+    {
+      "id": "1587540734000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1631.88,
+      "setupPrice": 1379.26,
+      "currency": "$"
+    },
+    {
+      "id": "1571891981000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1148.33,
+      "setupPrice": 880.2,
+      "currency": "U$"
+    },
+    {
+      "id": "1577915841000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1746.52,
+      "setupPrice": 1683.82,
+      "currency": "R$"
+    },
+    {
+      "id": "1589855866000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1573.24,
+      "setupPrice": 124.13,
+      "currency": "R$"
+    },
+    {
+      "id": "1573581681000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1506.68,
+      "setupPrice": 701.24,
+      "currency": "$"
+    },
+    {
+      "id": "1578341127000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 665.94,
+      "setupPrice": 134.21,
+      "currency": "R$"
+    },
+    {
+      "id": "1588642113000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 638.95,
+      "setupPrice": 1930.06,
+      "currency": "$"
+    },
+    {
+      "id": "1576855649000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1792.87,
+      "setupPrice": 976.72,
+      "currency": "U$"
+    },
+    {
+      "id": "1585677506000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1393.39,
+      "setupPrice": 1594.02,
+      "currency": "R$"
+    },
+    {
+      "id": "1579684023000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1392.92,
+      "setupPrice": 1719.57,
+      "currency": "U$"
+    },
+    {
+      "id": "1582780640000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 552.09,
+      "setupPrice": 913.14,
+      "currency": "U$"
+    },
+    {
+      "id": "1583753151000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 73.04,
+      "setupPrice": 769.75,
+      "currency": "R$"
+    },
+    {
+      "id": "1579214655000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 223.87,
+      "setupPrice": 1754.05,
+      "currency": "R$"
+    },
+    {
+      "id": "1588161655000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1448.93,
+      "setupPrice": 214.8,
+      "currency": "$"
+    },
+    {
+      "id": "1567176255000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1517.51,
+      "setupPrice": 429.2,
+      "currency": "R$"
+    },
+    {
+      "id": "1574390541000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1817.74,
+      "setupPrice": 793.55,
+      "currency": "R$"
+    },
+    {
+      "id": "1573565338000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1777.03,
+      "setupPrice": 1781.53,
+      "currency": "$"
+    },
+    {
+      "id": "1581030520000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1229.18,
+      "setupPrice": 1283.28,
+      "currency": "R$"
+    },
+    {
+      "id": "1566016126000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 454.34,
+      "setupPrice": 612.35,
+      "currency": "U$"
+    },
+    {
+      "id": "1574424256000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1610.05,
+      "setupPrice": 729.08,
+      "currency": "$"
+    },
+    {
+      "id": "1588651626000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1429.61,
+      "setupPrice": 927.07,
+      "currency": "U$"
+    },
+    {
+      "id": "1575896080000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1950.5,
+      "setupPrice": 842.22,
+      "currency": "$"
+    },
+    {
+      "id": "1576247489000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1060.71,
+      "setupPrice": 1320.39,
+      "currency": "R$"
+    },
+    {
+      "id": "1577319025000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 11.79,
+      "setupPrice": 762.24,
+      "currency": "$"
+    },
+    {
+      "id": "1574644176000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1405.24,
+      "setupPrice": 26.61,
+      "currency": "R$"
+    },
+    {
+      "id": "1588825354000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 126.76,
+      "setupPrice": 736.6,
+      "currency": "$"
+    },
+    {
+      "id": "1562701120000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1022.8,
+      "setupPrice": 1044.85,
+      "currency": "U$"
+    },
+    {
+      "id": "1573833012000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1246.95,
+      "setupPrice": 202.6,
+      "currency": "R$"
+    },
+    {
+      "id": "1567104051000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1060.76,
+      "setupPrice": 1566.8,
+      "currency": "R$"
+    },
+    {
+      "id": "1587691551000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1745.54,
+      "setupPrice": 445.92,
+      "currency": "R$"
+    },
+    {
+      "id": "1588393765000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 444.22,
+      "setupPrice": 1833.81,
+      "currency": "$"
+    },
+    {
+      "id": "1580615802000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 687.26,
+      "setupPrice": 824.08,
+      "currency": "$"
+    },
+    {
+      "id": "1583157067000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 351.43,
+      "setupPrice": 150.54,
+      "currency": "U$"
+    },
+    {
+      "id": "1567772363000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1215.77,
+      "setupPrice": 51.4,
+      "currency": "$"
+    },
+    {
+      "id": "1582891192000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1661.18,
+      "setupPrice": 1850.49,
+      "currency": "U$"
+    },
+    {
+      "id": "1582890338000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 454.73,
+      "setupPrice": 224.95,
+      "currency": "$"
+    },
+    {
+      "id": "1576224750000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1777.86,
+      "setupPrice": 1348.68,
+      "currency": "$"
+    },
+    {
+      "id": "1578907567000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 225.26,
+      "setupPrice": 810.71,
+      "currency": "R$"
+    },
+    {
+      "id": "1583952385000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 620.72,
+      "setupPrice": 1779.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1572203798000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 207.4,
+      "setupPrice": 810.25,
+      "currency": "U$"
+    },
+    {
+      "id": "1573959963000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1463.98,
+      "setupPrice": 1304.49,
+      "currency": "R$"
+    },
+    {
+      "id": "1580409135000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 448.76,
+      "setupPrice": 1461.31,
+      "currency": "U$"
+    },
+    {
+      "id": "1563882026000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 707.76,
+      "setupPrice": 1091.65,
+      "currency": "U$"
+    },
+    {
+      "id": "1572528540000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 771.75,
+      "setupPrice": 769.92,
+      "currency": "$"
+    },
+    {
+      "id": "1576272422000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 769.84,
+      "setupPrice": 538.14,
+      "currency": "U$"
+    },
+    {
+      "id": "1586015647000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1001.17,
+      "setupPrice": 168.29,
+      "currency": "U$"
+    },
+    {
+      "id": "1578549765000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 807.46,
+      "setupPrice": 988.62,
+      "currency": "$"
+    },
+    {
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 22222,
+      "setupPrice": 1897.7,
+      "currency": "$",
+      "id": "1590926223000"
+    },
+    {
+      "id": "1589330398000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 204.83,
+      "setupPrice": 1289.72,
+      "currency": "R$"
+    },
+    {
+      "id": "1587334297000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 869.57,
+      "setupPrice": 191.08,
+      "currency": "$"
+    },
+    {
+      "id": "1585785365000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 190.86,
+      "setupPrice": 1523.04,
+      "currency": "$"
+    },
+    {
+      "id": "1582114064000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1262.56,
+      "setupPrice": 533.08,
+      "currency": "U$"
+    },
+    {
+      "id": "1579747164000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 294.26,
+      "setupPrice": 508.5,
+      "currency": "R$"
+    },
+    {
+      "id": "1575752164000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1284.65,
+      "setupPrice": 833.11,
+      "currency": "R$"
+    },
+    {
+      "id": "1589559294000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1718.79,
+      "setupPrice": 1386.87,
+      "currency": "U$"
+    },
+    {
+      "id": "1586180197000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1760.02,
+      "setupPrice": 1011.91,
+      "currency": "U$"
+    },
+    {
+      "id": "1577764180000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 54.34,
+      "setupPrice": 1930.1,
+      "currency": "$"
+    },
+    {
+      "id": "1586711178000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1625.09,
+      "setupPrice": 816.43,
+      "currency": "$"
+    },
+    {
+      "id": "1569633144000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1667.42,
+      "setupPrice": 1437.35,
+      "currency": "$"
+    },
+    {
+      "id": "1572921992000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 448.8,
+      "setupPrice": 788.04,
+      "currency": "$"
+    },
+    {
+      "id": "1577127622000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1327.31,
+      "setupPrice": 1220.9,
+      "currency": "U$"
+    },
+    {
+      "id": "1562189184000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 404,
+      "setupPrice": 1732.02,
+      "currency": "$"
+    },
+    {
+      "id": "1567225994000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1546.58,
+      "setupPrice": 392.5,
+      "currency": "R$"
+    },
+    {
+      "id": "1575635917000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 722.23,
+      "setupPrice": 1979.33,
+      "currency": "U$"
+    },
+    {
+      "id": "1587241310000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 47.36,
+      "setupPrice": 530.61,
+      "currency": "R$"
+    },
+    {
+      "id": "1588178077000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 443.48,
+      "setupPrice": 1912.95,
+      "currency": "U$"
+    },
+    {
+      "id": "1563225306000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1933.75,
+      "setupPrice": 1577.62,
+      "currency": "U$"
+    },
+    {
+      "id": "1580411695000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 943.66,
+      "setupPrice": 256.82,
+      "currency": "U$"
+    },
+    {
+      "id": "1562766474000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 225.16,
+      "setupPrice": 527.02,
+      "currency": "R$"
+    },
+    {
+      "id": "1571918361000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1085.93,
+      "setupPrice": 1942.51,
+      "currency": "U$"
+    },
+    {
+      "id": "1577337622000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1343.84,
+      "setupPrice": 290.51,
+      "currency": "$"
+    },
+    {
+      "id": "1575251483000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1101.45,
+      "setupPrice": 818.81,
+      "currency": "U$"
+    },
+    {
+      "id": "1586695728000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 15.59,
+      "setupPrice": 219.28,
+      "currency": "$"
+    },
+    {
+      "id": "1581552164000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 674.6,
+      "setupPrice": 1043.88,
+      "currency": "R$"
+    },
+    {
+      "id": "1574314775000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 466.15,
+      "setupPrice": 151.41,
+      "currency": "$"
+    },
+    {
+      "id": "1562719942000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 930.38,
+      "setupPrice": 244.18,
+      "currency": "U$"
+    },
+    {
+      "id": "1569560845000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1304.93,
+      "setupPrice": 1484.93,
+      "currency": "U$"
+    },
+    {
+      "id": "1574612216000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1355.26,
+      "setupPrice": 1039.04,
+      "currency": "R$"
+    },
+    {
+      "id": "1588235674000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1905.34,
+      "setupPrice": 1419.07,
+      "currency": "U$"
+    },
+    {
+      "id": "1578945922000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1230.22,
+      "setupPrice": 797.07,
+      "currency": "R$"
+    },
+    {
+      "id": "1576054625000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1009.97,
+      "setupPrice": 1369.16,
+      "currency": "R$"
+    },
+    {
+      "id": "1589097718000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1768.26,
+      "setupPrice": 521,
+      "currency": "R$"
+    },
+    {
+      "id": "1586056039000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1011.86,
+      "setupPrice": 1923.19,
+      "currency": "$"
+    },
+    {
+      "id": "1578193754000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 907.6,
+      "setupPrice": 1262.51,
+      "currency": "U$"
+    },
+    {
+      "id": "1581617015000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1215.8,
+      "setupPrice": 1323.85,
+      "currency": "U$"
+    },
+    {
+      "id": "1586488676000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 904.54,
+      "setupPrice": 1363.99,
+      "currency": "U$"
+    },
+    {
+      "id": "1566808398000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 972.69,
+      "setupPrice": 1369.4,
+      "currency": "$"
+    },
+    {
+      "id": "1579823098000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 153.09,
+      "setupPrice": 1926.55,
+      "currency": "R$"
+    },
+    {
+      "id": "1590620895000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 978.41,
+      "setupPrice": 799.14,
+      "currency": "R$"
+    },
+    {
+      "id": "1590802570000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 123.3,
+      "setupPrice": 1369.22,
+      "currency": "$"
+    },
+    {
+      "id": "1571203734000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 365.45,
+      "setupPrice": 353.17,
+      "currency": "$"
+    },
+    {
+      "id": "1581979736000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1092.21,
+      "setupPrice": 1841.26,
+      "currency": "$"
+    },
+    {
+      "id": "1573892559000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1023.2,
+      "setupPrice": 1676.54,
+      "currency": "R$"
+    },
+    {
+      "id": "1577486755000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1447.23,
+      "setupPrice": 55.05,
+      "currency": "$"
+    },
+    {
+      "id": "1575258157000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 247.65,
+      "setupPrice": 921.01,
+      "currency": "R$"
+    },
+    {
+      "id": "1581370459000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1063.71,
+      "setupPrice": 137.59,
+      "currency": "R$"
+    },
+    {
+      "id": "1567932706000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 275.66,
+      "setupPrice": 1996.36,
+      "currency": "R$"
+    },
+    {
+      "id": "1582525529000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1809.56,
+      "setupPrice": 425.28,
+      "currency": "$"
+    },
+    {
+      "id": "1585217351000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 666.22,
+      "setupPrice": 1364.79,
+      "currency": "R$"
+    },
+    {
+      "id": "1565292886000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1787.22,
+      "setupPrice": 295,
+      "currency": "U$"
+    },
+    {
+      "id": "1569073496000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1486.43,
+      "setupPrice": 1126.35,
+      "currency": "U$"
+    },
+    {
+      "id": "1590317768000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1433.64,
+      "setupPrice": 1076.31,
+      "currency": "U$"
+    },
+    {
+      "id": "1589100212000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 135.09,
+      "setupPrice": 422.37,
+      "currency": "$"
+    },
+    {
+      "id": "1575989082000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1224.6,
+      "setupPrice": 1302.61,
+      "currency": "$"
+    },
+    {
+      "id": "1580036819000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1934.86,
+      "setupPrice": 571.9,
+      "currency": "$"
+    },
+    {
+      "id": "1579485279000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1293.38,
+      "setupPrice": 1725.18,
+      "currency": "U$"
+    },
+    {
+      "id": "1583250794000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 735.67,
+      "setupPrice": 1212.09,
+      "currency": "$"
+    },
+    {
+      "id": "1583928802000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 841.86,
+      "setupPrice": 1569.01,
+      "currency": "$"
+    },
+    {
+      "id": "1571790250000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1593.1,
+      "setupPrice": 714.43,
+      "currency": "U$"
+    },
+    {
+      "id": "1582727747000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 136.98,
+      "setupPrice": 1173.69,
+      "currency": "R$"
+    },
+    {
+      "id": "1588903918000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 719.36,
+      "setupPrice": 1029.9,
+      "currency": "U$"
+    },
+    {
+      "id": "1576790750000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1753.47,
+      "setupPrice": 1074.79,
+      "currency": "$"
+    },
+    {
+      "id": "1577210816000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 737.3,
+      "setupPrice": 362.93,
+      "currency": "$"
+    },
+    {
+      "id": "1576993944000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1724.49,
+      "setupPrice": 1019.45,
+      "currency": "U$"
+    },
+    {
+      "id": "1565052068000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1171.44,
+      "setupPrice": 1909.23,
+      "currency": "R$"
+    },
+    {
+      "id": "1564762368000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 815.42,
+      "setupPrice": 1424.55,
+      "currency": "R$"
+    },
+    {
+      "id": "1563681504000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 507.35,
+      "setupPrice": 1686.14,
+      "currency": "R$"
+    },
+    {
+      "id": "1588790952000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1412.38,
+      "setupPrice": 1371.01,
+      "currency": "R$"
+    },
+    {
+      "id": "1580503175000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1582.56,
+      "setupPrice": 1401.72,
+      "currency": "U$"
+    },
+    {
+      "id": "1582179617000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 334.03,
+      "setupPrice": 118.78,
+      "currency": "U$"
+    },
+    {
+      "id": "1564883011000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1143.51,
+      "setupPrice": 75.3,
+      "currency": "$"
+    },
+    {
+      "id": "1569000203000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1746.41,
+      "setupPrice": 1351.81,
+      "currency": "$"
+    },
+    {
+      "id": "1562283580000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 561.2,
+      "setupPrice": 1180.8,
+      "currency": "R$"
+    },
+    {
+      "id": "1568770203000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1411.77,
+      "setupPrice": 991.06,
+      "currency": "U$"
+    },
+    {
+      "id": "1563581955000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1179.54,
+      "setupPrice": 866.04,
+      "currency": "U$"
+    },
+    {
+      "id": "1571537042000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1776.37,
+      "setupPrice": 1152.63,
+      "currency": "$"
+    },
+    {
+      "id": "1567261249000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1546.27,
+      "setupPrice": 820.89,
+      "currency": "R$"
+    },
+    {
+      "id": "1586233410000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1944.38,
+      "setupPrice": 1817.61,
+      "currency": "R$"
+    },
+    {
+      "id": "1570723999000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1484.18,
+      "setupPrice": 886.71,
+      "currency": "U$"
+    },
+    {
+      "id": "1579999561000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 956.52,
+      "setupPrice": 285.27,
+      "currency": "$"
+    },
+    {
+      "id": "1566812143000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 429.9,
+      "setupPrice": 1091.34,
+      "currency": "R$"
+    },
+    {
+      "id": "1564940920000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1299.31,
+      "setupPrice": 5.39,
+      "currency": "R$"
+    },
+    {
+      "id": "1588739233000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1282.07,
+      "setupPrice": 1871.94,
+      "currency": "R$"
+    },
+    {
+      "id": "1569435236000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 404.75,
+      "setupPrice": 1616.13,
+      "currency": "R$"
+    },
+    {
+      "id": "1580793632000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1401.49,
+      "setupPrice": 5.61,
+      "currency": "U$"
+    },
+    {
+      "id": "1566467148000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1518.58,
+      "setupPrice": 34.36,
+      "currency": "R$"
+    },
+    {
+      "id": "1573048888000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1727.83,
+      "setupPrice": 517.86,
+      "currency": "$"
+    },
+    {
+      "id": "1577811349000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1811.44,
+      "setupPrice": 735.41,
+      "currency": "$"
+    },
+    {
+      "id": "1565467455000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 962.35,
+      "setupPrice": 1269.65,
+      "currency": "R$"
+    },
+    {
+      "id": "1584973741000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 904.44,
+      "setupPrice": 1268.47,
+      "currency": "R$"
+    },
+    {
+      "id": "1575309379000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1028.71,
+      "setupPrice": 876.41,
+      "currency": "R$"
+    },
+    {
+      "id": "1581609242000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 966.35,
+      "setupPrice": 1811.28,
+      "currency": "$"
+    },
+    {
+      "id": "1582550963000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 914.79,
+      "setupPrice": 1749.48,
+      "currency": "R$"
+    },
+    {
+      "id": "1583105240000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1495.12,
+      "setupPrice": 1965.09,
+      "currency": "$"
+    },
+    {
+      "id": "1570585683000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 763.8,
+      "setupPrice": 941.52,
+      "currency": "U$"
+    },
+    {
+      "id": "1586058874000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1468.26,
+      "setupPrice": 1261.55,
+      "currency": "U$"
+    },
+    {
+      "id": "1589779178000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 274.59,
+      "setupPrice": 441.05,
+      "currency": "$"
+    },
+    {
+      "id": "1566062156000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 506.36,
+      "setupPrice": 118.42,
+      "currency": "$"
+    },
+    {
+      "id": "1573842373000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 516.09,
+      "setupPrice": 1622.05,
+      "currency": "$"
+    },
+    {
+      "id": "1581850239000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 460.98,
+      "setupPrice": 761.22,
+      "currency": "U$"
+    },
+    {
+      "id": "1577346259000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1598.23,
+      "setupPrice": 384.37,
+      "currency": "U$"
+    },
+    {
+      "id": "1589256254000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1189.49,
+      "setupPrice": 1737.98,
+      "currency": "U$"
+    },
+    {
+      "id": "1575119680000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 738.64,
+      "setupPrice": 1058.42,
+      "currency": "R$"
+    },
+    {
+      "id": "1566396630000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 335.57,
+      "setupPrice": 1983,
+      "currency": "$"
+    },
+    {
+      "id": "1583482726000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 149.28,
+      "setupPrice": 1124.6,
+      "currency": "$"
+    },
+    {
+      "id": "1585414349000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1664.85,
+      "setupPrice": 1853.53,
+      "currency": "R$"
+    },
+    {
+      "id": "1578855111000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 555.1,
+      "setupPrice": 1583.67,
+      "currency": "R$"
+    },
+    {
+      "id": "1566540888000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1768.64,
+      "setupPrice": 1415.65,
+      "currency": "$"
+    },
+    {
+      "id": "1589767376000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1422.39,
+      "setupPrice": 791.45,
+      "currency": "$"
+    },
+    {
+      "id": "1575371442000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 921.41,
+      "setupPrice": 1780.83,
+      "currency": "$"
+    },
+    {
+      "id": "1574862771000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 29.07,
+      "setupPrice": 128.55,
+      "currency": "R$"
+    },
+    {
+      "id": "1576326598000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1964.95,
+      "setupPrice": 1149.11,
+      "currency": "U$"
+    },
+    {
+      "id": "1576954241000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 343.56,
+      "setupPrice": 1003.2,
+      "currency": "$"
+    },
+    {
+      "id": "1587185418000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 497.17,
+      "setupPrice": 1862.33,
+      "currency": "R$"
+    },
+    {
+      "id": "1589315317000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 457.92,
+      "setupPrice": 1001.01,
+      "currency": "$"
+    },
+    {
+      "id": "1581306237000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1148.89,
+      "setupPrice": 1993.89,
+      "currency": "R$"
+    },
+    {
+      "id": "1577905332000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1773.31,
+      "setupPrice": 1952.64,
+      "currency": "U$"
+    },
+    {
+      "id": "1570262405000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 681.2,
+      "setupPrice": 224.06,
+      "currency": "$"
+    },
+    {
+      "id": "1564926071000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 309.05,
+      "setupPrice": 1767.88,
+      "currency": "U$"
+    },
+    {
+      "id": "1574622474000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1857.21,
+      "setupPrice": 1236.17,
+      "currency": "R$"
+    },
+    {
+      "id": "1590137596000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1620.03,
+      "setupPrice": 1723,
+      "currency": "R$"
+    },
+    {
+      "id": "1573070996000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1348.97,
+      "setupPrice": 547.7,
+      "currency": "R$"
+    },
+    {
+      "id": "1575828536000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1769.12,
+      "setupPrice": 1150.17,
+      "currency": "R$"
+    },
+    {
+      "id": "1585322576000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 635.47,
+      "setupPrice": 1062.87,
+      "currency": "R$"
+    },
+    {
+      "id": "1566505556000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1698.94,
+      "setupPrice": 1484.82,
+      "currency": "R$"
+    },
+    {
+      "id": "1570848067000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 36.78,
+      "setupPrice": 1814.72,
+      "currency": "U$"
+    },
+    {
+      "id": "1588656656000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 165.05,
+      "setupPrice": 1944.99,
+      "currency": "R$"
+    },
+    {
+      "id": "1582025876000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 777.76,
+      "setupPrice": 571.2,
+      "currency": "$"
+    },
+    {
+      "id": "1577640942000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 587.96,
+      "setupPrice": 1744.03,
+      "currency": "R$"
+    },
+    {
+      "id": "1575870462000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 136.51,
+      "setupPrice": 1961.3,
+      "currency": "R$"
+    },
+    {
+      "id": "1573524937000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1307.25,
+      "setupPrice": 949.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1573082741000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 480.2,
+      "setupPrice": 1287.97,
+      "currency": "$"
+    },
+    {
+      "id": "1574259479000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1107.52,
+      "setupPrice": 548.79,
+      "currency": "$"
+    },
+    {
+      "id": "1562208653000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 367.2,
+      "setupPrice": 319.61,
+      "currency": "U$"
+    },
+    {
+      "id": "1574690327000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1841.46,
+      "setupPrice": 933.94,
+      "currency": "R$"
+    },
+    {
+      "id": "1578516400000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 178.11,
+      "setupPrice": 1541.46,
+      "currency": "U$"
+    },
+    {
+      "id": "1562482363000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1180.42,
+      "setupPrice": 692.77,
+      "currency": "U$"
+    },
+    {
+      "id": "1571368707000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1245.04,
+      "setupPrice": 108.5,
+      "currency": "U$"
+    },
+    {
+      "id": "1586598996000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1594.51,
+      "setupPrice": 1507.91,
+      "currency": "R$"
+    },
+    {
+      "id": "1580082850000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 192.34,
+      "setupPrice": 1406.67,
+      "currency": "R$"
+    },
+    {
+      "id": "1585424293000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1735.65,
+      "setupPrice": 525.3,
+      "currency": "R$"
+    },
+    {
+      "id": "1586592742000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 910.39,
+      "setupPrice": 98.92,
+      "currency": "$"
+    },
+    {
+      "id": "1582440768000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1907.54,
+      "setupPrice": 606.18,
+      "currency": "U$"
+    },
+    {
+      "id": "1567750483000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 326.89,
+      "setupPrice": 434.38,
+      "currency": "U$"
+    },
+    {
+      "id": "1583245631000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1907.36,
+      "setupPrice": 1482.62,
+      "currency": "R$"
+    },
+    {
+      "id": "1567427920000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 441.38,
+      "setupPrice": 1045.97,
+      "currency": "R$"
+    },
+    {
+      "id": "1562999260000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 104.24,
+      "setupPrice": 464.37,
+      "currency": "U$"
+    },
+    {
+      "id": "1567551508000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 312.1,
+      "setupPrice": 631.55,
+      "currency": "$"
+    },
+    {
+      "id": "1587728806000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 84.95,
+      "setupPrice": 411.67,
+      "currency": "U$"
+    },
+    {
+      "id": "1575503539000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1872.57,
+      "setupPrice": 78.03,
+      "currency": "U$"
+    },
+    {
+      "id": "1562622145000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1704.22,
+      "setupPrice": 1725.54,
+      "currency": "U$"
+    },
+    {
+      "id": "1565428660000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1307.25,
+      "setupPrice": 1225.14,
+      "currency": "R$"
+    },
+    {
+      "id": "1562316810000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 903.05,
+      "setupPrice": 101.93,
+      "currency": "$"
+    },
+    {
+      "id": "1580985197000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1815.66,
+      "setupPrice": 1321.16,
+      "currency": "U$"
+    },
+    {
+      "id": "1568041595000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 525.04,
+      "setupPrice": 1462.39,
+      "currency": "$"
+    },
+    {
+      "id": "1565980808000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 598.9,
+      "setupPrice": 650.14,
+      "currency": "U$"
+    },
+    {
+      "id": "1577032825000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1948.03,
+      "setupPrice": 775.28,
+      "currency": "$"
+    },
+    {
+      "id": "1580288507000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1530.44,
+      "setupPrice": 816.33,
+      "currency": "$"
+    },
+    {
+      "id": "1563489820000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1620.28,
+      "setupPrice": 1679.26,
+      "currency": "R$"
+    },
+    {
+      "id": "1588391755000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1897.84,
+      "setupPrice": 1561.75,
+      "currency": "$"
+    },
+    {
+      "id": "1578955010000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 954.87,
+      "setupPrice": 1128.74,
+      "currency": "U$"
+    },
+    {
+      "id": "1571064022000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 591.07,
+      "setupPrice": 625.31,
+      "currency": "U$"
+    },
+    {
+      "id": "1563785910000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1900.46,
+      "setupPrice": 469.13,
+      "currency": "R$"
+    },
+    {
+      "id": "1588828452000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1935.22,
+      "setupPrice": 1446.2,
+      "currency": "U$"
+    },
+    {
+      "id": "1582657014000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 601.69,
+      "setupPrice": 489.43,
+      "currency": "$"
+    },
+    {
+      "id": "1586828650000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1975.35,
+      "setupPrice": 1425.98,
+      "currency": "U$"
+    },
+    {
+      "id": "1579322055000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1638.86,
+      "setupPrice": 589.09,
+      "currency": "R$"
+    },
+    {
+      "id": "1567686927000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1355.69,
+      "setupPrice": 1607.63,
+      "currency": "R$"
+    },
+    {
+      "id": "1568505721000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 511.08,
+      "setupPrice": 1399.67,
+      "currency": "$"
+    },
+    {
+      "id": "1565524580000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1477.58,
+      "setupPrice": 207.55,
+      "currency": "$"
+    },
+    {
+      "id": "1588133245000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1099.76,
+      "setupPrice": 583.33,
+      "currency": "$"
+    },
+    {
+      "id": "1570383881000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1476.89,
+      "setupPrice": 1522.49,
+      "currency": "U$"
+    },
+    {
+      "id": "1582940292000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 33.97,
+      "setupPrice": 1548.81,
+      "currency": "R$"
+    },
+    {
+      "id": "1563234181000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 955.34,
+      "setupPrice": 1282.62,
+      "currency": "$"
+    },
+    {
+      "id": "1584303517000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1682.66,
+      "setupPrice": 972.24,
+      "currency": "$"
+    },
+    {
+      "id": "1573147956000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1538.86,
+      "setupPrice": 1920.75,
+      "currency": "U$"
+    },
+    {
+      "id": "1586518592000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1922.84,
+      "setupPrice": 1170.5,
+      "currency": "$"
+    },
+    {
+      "id": "1586965581000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1779.48,
+      "setupPrice": 954.24,
+      "currency": "U$"
+    },
+    {
+      "id": "1587476103000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1208.92,
+      "setupPrice": 1326.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1588639668000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 785.69,
+      "setupPrice": 1324.62,
+      "currency": "U$"
+    },
+    {
+      "id": "1571482487000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 741.65,
+      "setupPrice": 631.53,
+      "currency": "$"
+    },
+    {
+      "id": "1568523612000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1328.73,
+      "setupPrice": 275.99,
+      "currency": "R$"
+    },
+    {
+      "id": "1575511067000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 424.44,
+      "setupPrice": 831.55,
+      "currency": "U$"
+    },
+    {
+      "id": "1576787560000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1010.58,
+      "setupPrice": 507.72,
+      "currency": "R$"
+    },
+    {
+      "id": "1562827054000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1075.45,
+      "setupPrice": 1337.23,
+      "currency": "U$"
+    },
+    {
+      "id": "1562549690000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 330.76,
+      "setupPrice": 1813.3,
+      "currency": "R$"
+    },
+    {
+      "id": "1573903473000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1007.97,
+      "setupPrice": 1492.27,
+      "currency": "$"
+    },
+    {
+      "id": "1575668117000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 669.77,
+      "setupPrice": 720.76,
+      "currency": "U$"
+    },
+    {
+      "id": "1581705747000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1546.55,
+      "setupPrice": 1838.79,
+      "currency": "U$"
+    },
+    {
+      "id": "1569428682000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1040.54,
+      "setupPrice": 1979.73,
+      "currency": "U$"
+    },
+    {
+      "id": "1571967383000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 757.21,
+      "setupPrice": 1034.66,
+      "currency": "$"
+    },
+    {
+      "id": "1584732342000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 971.38,
+      "setupPrice": 1446.26,
+      "currency": "R$"
+    },
+    {
+      "id": "1577366305000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1462.49,
+      "setupPrice": 1709.24,
+      "currency": "U$"
+    },
+    {
+      "id": "1573665701000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 576.43,
+      "setupPrice": 782.99,
+      "currency": "U$"
+    },
+    {
+      "id": "1575324936000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 202.39,
+      "setupPrice": 334.91,
+      "currency": "$"
+    },
+    {
+      "id": "1571003065000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 985.84,
+      "setupPrice": 1795.9,
+      "currency": "U$"
+    },
+    {
+      "id": "1575832297000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 694.75,
+      "setupPrice": 547.46,
+      "currency": "$"
+    },
+    {
+      "id": "1567481408000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1203.69,
+      "setupPrice": 159.22,
+      "currency": "$"
+    },
+    {
+      "id": "1577760435000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 620.11,
+      "setupPrice": 1564.75,
+      "currency": "U$"
+    },
+    {
+      "id": "1584623388000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1103.06,
+      "setupPrice": 1878.31,
+      "currency": "U$"
+    },
+    {
+      "id": "1565847096000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 798.39,
+      "setupPrice": 917.89,
+      "currency": "U$"
+    },
+    {
+      "id": "1569388494000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1182.53,
+      "setupPrice": 267.8,
+      "currency": "$"
+    },
+    {
+      "id": "1573233216000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 937.15,
+      "setupPrice": 468.14,
+      "currency": "U$"
+    },
+    {
+      "id": "1575963837000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1627.69,
+      "setupPrice": 56.18,
+      "currency": "U$"
+    },
+    {
+      "id": "1583674741000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1388.33,
+      "setupPrice": 1230.28,
+      "currency": "$"
+    },
+    {
+      "id": "1566280385000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1069.2,
+      "setupPrice": 621.83,
+      "currency": "U$"
+    },
+    {
+      "id": "1569321643000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1647.5,
+      "setupPrice": 1064.72,
+      "currency": "U$"
+    },
+    {
+      "id": "1586310218000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 503.52,
+      "setupPrice": 1089.87,
+      "currency": "R$"
+    },
+    {
+      "id": "1568699264000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1249.36,
+      "setupPrice": 1453.57,
+      "currency": "$"
+    },
+    {
+      "id": "1569495876000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1779.53,
+      "setupPrice": 1089.95,
+      "currency": "$"
+    },
+    {
+      "id": "1581439918000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1311.39,
+      "setupPrice": 371.4,
+      "currency": "$"
+    },
+    {
+      "id": "1569632212000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1157.34,
+      "setupPrice": 1908.11,
+      "currency": "$"
+    },
+    {
+      "id": "1569055655000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 147.76,
+      "setupPrice": 146.89,
+      "currency": "R$"
+    },
+    {
+      "id": "1575211472000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1886.83,
+      "setupPrice": 312.3,
+      "currency": "U$"
+    },
+    {
+      "id": "1578640144000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 458.55,
+      "setupPrice": 1998.51,
+      "currency": "R$"
+    },
+    {
+      "id": "1585795191000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1165.41,
+      "setupPrice": 586.58,
+      "currency": "R$"
+    },
+    {
+      "id": "1586653096000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 187.99,
+      "setupPrice": 1853.54,
+      "currency": "U$"
+    },
+    {
+      "id": "1568029863000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 770.72,
+      "setupPrice": 1918.17,
+      "currency": "$"
+    },
+    {
+      "id": "1573859107000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 97.3,
+      "setupPrice": 1599.81,
+      "currency": "R$"
+    },
+    {
+      "id": "1565034420000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 576.92,
+      "setupPrice": 1524.81,
+      "currency": "U$"
+    },
+    {
+      "id": "1584098560000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1007.01,
+      "setupPrice": 1089.18,
+      "currency": "$"
+    },
+    {
+      "id": "1581958646000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 471.27,
+      "setupPrice": 42.63,
+      "currency": "R$"
+    },
+    {
+      "id": "1579628290000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 262.37,
+      "setupPrice": 1463.35,
+      "currency": "U$"
+    },
+    {
+      "id": "1586858526000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 27.51,
+      "setupPrice": 1254.04,
+      "currency": "$"
+    },
+    {
+      "id": "1570825956000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1542.15,
+      "setupPrice": 615.53,
+      "currency": "U$"
+    },
+    {
+      "id": "1572118675000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 91.29,
+      "setupPrice": 1748.73,
+      "currency": "$"
+    },
+    {
+      "id": "1568576765000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 641.52,
+      "setupPrice": 950.7,
+      "currency": "$"
+    },
+    {
+      "id": "1578449421000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 221.28,
+      "setupPrice": 1626.05,
+      "currency": "$"
+    },
+    {
+      "id": "1586345416000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 214.75,
+      "setupPrice": 1975.55,
+      "currency": "$"
+    },
+    {
+      "id": "1569054880000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 828.55,
+      "setupPrice": 1947.72,
+      "currency": "U$"
+    },
+    {
+      "id": "1567971455000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 742.07,
+      "setupPrice": 1581.71,
+      "currency": "R$"
+    },
+    {
+      "id": "1585381539000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 495.87,
+      "setupPrice": 1673.61,
+      "currency": "U$"
+    },
+    {
+      "id": "1581412735000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1845.2,
+      "setupPrice": 557.58,
+      "currency": "$"
+    },
+    {
+      "id": "1564003588000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 646.7,
+      "setupPrice": 739.24,
+      "currency": "$"
+    },
+    {
+      "id": "1573325380000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 439.07,
+      "setupPrice": 189.05,
+      "currency": "R$"
+    },
+    {
+      "id": "1589263622000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 195.26,
+      "setupPrice": 1521.81,
+      "currency": "$"
+    },
+    {
+      "id": "1569353614000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 602.75,
+      "setupPrice": 1126.68,
+      "currency": "R$"
+    },
+    {
+      "id": "1580281271000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 876.43,
+      "setupPrice": 430.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1586354068000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 518.95,
+      "setupPrice": 710.31,
+      "currency": "$"
+    },
+    {
+      "id": "1581671877000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 763.99,
+      "setupPrice": 1274.3,
+      "currency": "$"
+    },
+    {
+      "id": "1586348959000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1503.1,
+      "setupPrice": 1227.59,
+      "currency": "U$"
+    },
+    {
+      "id": "1564921197000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1598.4,
+      "setupPrice": 274.93,
+      "currency": "R$"
+    },
+    {
+      "id": "1576664643000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 19.1,
+      "setupPrice": 994.83,
+      "currency": "U$"
+    },
+    {
+      "id": "1580923794000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1424.13,
+      "setupPrice": 495.32,
+      "currency": "R$"
+    },
+    {
+      "id": "1576038517000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 934.95,
+      "setupPrice": 708.69,
+      "currency": "R$"
+    },
+    {
+      "id": "1587773072000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1466.64,
+      "setupPrice": 368.62,
+      "currency": "R$"
+    },
+    {
+      "id": "1563123407000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 509.57,
+      "setupPrice": 684.88,
+      "currency": "R$"
+    },
+    {
+      "id": "1588084115000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1611.54,
+      "setupPrice": 1921.08,
+      "currency": "$"
+    },
+    {
+      "id": "1571444125000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 428.39,
+      "setupPrice": 693.59,
+      "currency": "R$"
+    },
+    {
+      "id": "1588069258000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1347.95,
+      "setupPrice": 1164.49,
+      "currency": "R$"
+    },
+    {
+      "id": "1588176857000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1643.93,
+      "setupPrice": 306.63,
+      "currency": "R$"
+    },
+    {
+      "id": "1585731414000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 131.42,
+      "setupPrice": 114.49,
+      "currency": "R$"
+    },
+    {
+      "id": "1577130838000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1320.77,
+      "setupPrice": 517.91,
+      "currency": "U$"
+    },
+    {
+      "id": "1584839027000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 746.59,
+      "setupPrice": 902.14,
+      "currency": "U$"
+    },
+    {
+      "id": "1563406015000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1978.98,
+      "setupPrice": 737.95,
+      "currency": "R$"
+    },
+    {
+      "id": "1578073095000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1529.65,
+      "setupPrice": 1032.18,
+      "currency": "$"
+    },
+    {
+      "id": "1573573664000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1711.82,
+      "setupPrice": 425.03,
+      "currency": "U$"
+    },
+    {
+      "id": "1569722952000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1511.13,
+      "setupPrice": 150.81,
+      "currency": "$"
+    },
+    {
+      "id": "1565323643000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 299.07,
+      "setupPrice": 1919.8,
+      "currency": "R$"
+    },
+    {
+      "id": "1581642930000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1566.26,
+      "setupPrice": 1193.97,
+      "currency": "$"
+    },
+    {
+      "id": "1582615069000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 358.71,
+      "setupPrice": 877.05,
+      "currency": "R$"
+    },
+    {
+      "id": "1574736224000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 346.09,
+      "setupPrice": 1038.97,
+      "currency": "$"
+    },
+    {
+      "id": "1578234904000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1448.38,
+      "setupPrice": 535.92,
+      "currency": "R$"
+    },
+    {
+      "id": "1576642428000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 359.56,
+      "setupPrice": 1850.27,
+      "currency": "U$"
+    },
+    {
+      "id": "1570809741000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 336.7,
+      "setupPrice": 1426.85,
+      "currency": "$"
+    },
+    {
+      "id": "1586144613000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1598.57,
+      "setupPrice": 767.68,
+      "currency": "U$"
+    },
+    {
+      "id": "1571441538000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 125.23,
+      "setupPrice": 1657.14,
+      "currency": "$"
+    },
+    {
+      "id": "1565423190000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1637.71,
+      "setupPrice": 1001.8,
+      "currency": "$"
+    },
+    {
+      "id": "1575783775000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 132.02,
+      "setupPrice": 1054.31,
+      "currency": "R$"
+    },
+    {
+      "id": "1563072253000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 491.13,
+      "setupPrice": 444.06,
+      "currency": "$"
+    },
+    {
+      "id": "1569053007000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1607.21,
+      "setupPrice": 1720.97,
+      "currency": "$"
+    },
+    {
+      "id": "1564244541000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1178.34,
+      "setupPrice": 745.59,
+      "currency": "R$"
+    },
+    {
+      "id": "1587569044000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 607.9,
+      "setupPrice": 890.07,
+      "currency": "$"
+    },
+    {
+      "id": "1572935662000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 136.71,
+      "setupPrice": 662.38,
+      "currency": "U$"
+    },
+    {
+      "id": "1589028269000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 166.51,
+      "setupPrice": 368.96,
+      "currency": "U$"
+    },
+    {
+      "id": "1580949930000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 289.05,
+      "setupPrice": 1670.02,
+      "currency": "R$"
+    },
+    {
+      "id": "1588920867000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 680.01,
+      "setupPrice": 906.53,
+      "currency": "U$"
+    },
+    {
+      "id": "1586095001000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1198.73,
+      "setupPrice": 1784.12,
+      "currency": "$"
+    },
+    {
+      "id": "1578764532000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 736,
+      "setupPrice": 1263.81,
+      "currency": "R$"
+    },
+    {
+      "id": "1581939985000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 505.92,
+      "setupPrice": 1387.48,
+      "currency": "U$"
+    },
+    {
+      "id": "1573586224000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1130.87,
+      "setupPrice": 1333.48,
+      "currency": "R$"
+    },
+    {
+      "id": "1572597142000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1079.46,
+      "setupPrice": 971.04,
+      "currency": "$"
+    },
+    {
+      "id": "1582744360000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1886.92,
+      "setupPrice": 1168.59,
+      "currency": "R$"
+    },
+    {
+      "id": "1586210925000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 673.32,
+      "setupPrice": 114.16,
+      "currency": "$"
+    },
+    {
+      "id": "1563642186000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1784.34,
+      "setupPrice": 1989.9,
+      "currency": "R$"
+    },
+    {
+      "id": "1565430583000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 573.09,
+      "setupPrice": 744.95,
+      "currency": "U$"
+    },
+    {
+      "id": "1585688489000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 535.77,
+      "setupPrice": 1222.01,
+      "currency": "U$"
+    },
+    {
+      "id": "1586494684000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 180.02,
+      "setupPrice": 1244.08,
+      "currency": "U$"
+    },
+    {
+      "id": "1590387406000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1576.97,
+      "setupPrice": 716.21,
+      "currency": "R$"
+    },
+    {
+      "id": "1564179236000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1028.52,
+      "setupPrice": 395.87,
+      "currency": "$"
+    },
+    {
+      "id": "1562816836000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1323.24,
+      "setupPrice": 1700.06,
+      "currency": "$"
+    },
+    {
+      "id": "1572401298000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1145.35,
+      "setupPrice": 729.07,
+      "currency": "$"
+    },
+    {
+      "id": "1567232798000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1900.25,
+      "setupPrice": 641.34,
+      "currency": "U$"
+    },
+    {
+      "id": "1568001370000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 399.62,
+      "setupPrice": 1961.04,
+      "currency": "$"
+    },
+    {
+      "id": "1568982141000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 566.26,
+      "setupPrice": 1318.25,
+      "currency": "U$"
+    },
+    {
+      "id": "1588560185000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 125.5,
+      "setupPrice": 544.71,
+      "currency": "R$"
+    },
+    {
+      "id": "1585445494000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1089.18,
+      "setupPrice": 539.56,
+      "currency": "$"
+    },
+    {
+      "id": "1567150420000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 203.37,
+      "setupPrice": 584.82,
+      "currency": "$"
+    },
+    {
+      "id": "1582481959000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 94.77,
+      "setupPrice": 311.08,
+      "currency": "R$"
+    },
+    {
+      "id": "1580658431000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1135.12,
+      "setupPrice": 1251,
+      "currency": "R$"
+    },
+    {
+      "id": "1581237505000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1522.77,
+      "setupPrice": 1866.45,
+      "currency": "$"
+    },
+    {
+      "id": "1564188426000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 855.6,
+      "setupPrice": 1072.02,
+      "currency": "U$"
+    },
+    {
+      "id": "1565681250000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 849.88,
+      "setupPrice": 906.27,
+      "currency": "R$"
+    },
+    {
+      "id": "1566958171000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1081,
+      "setupPrice": 1060.97,
+      "currency": "U$"
+    },
+    {
+      "id": "1564006807000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 53.83,
+      "setupPrice": 525.1,
+      "currency": "U$"
+    },
+    {
+      "id": "1583553371000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 432.99,
+      "setupPrice": 1428.55,
+      "currency": "U$"
+    },
+    {
+      "id": "1590794944000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 326.85,
+      "setupPrice": 708.5,
+      "currency": "$"
+    },
+    {
+      "id": "1575813128000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 442.95,
+      "setupPrice": 474.32,
+      "currency": "R$"
+    },
+    {
+      "id": "1587380305000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 812.12,
+      "setupPrice": 1090.01,
+      "currency": "$"
+    },
+    {
+      "id": "1569602131000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 779.33,
+      "setupPrice": 972.24,
+      "currency": "$"
+    },
+    {
+      "id": "1585093288000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 850.93,
+      "setupPrice": 1111.66,
+      "currency": "R$"
+    },
+    {
+      "id": "1586464123000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1256.81,
+      "setupPrice": 253.49,
+      "currency": "U$"
+    },
+    {
+      "id": "1569503121000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1798.04,
+      "setupPrice": 1083.7,
+      "currency": "U$"
+    },
+    {
+      "id": "1568883779000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 189.79,
+      "setupPrice": 1379.61,
+      "currency": "$"
+    },
+    {
+      "id": "1587290759000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 529.49,
+      "setupPrice": 609.68,
+      "currency": "$"
+    },
+    {
+      "id": "1568316700000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 690.88,
+      "setupPrice": 991.27,
+      "currency": "$"
+    },
+    {
+      "id": "1580503498000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1447.06,
+      "setupPrice": 1348.53,
+      "currency": "R$"
+    },
+    {
+      "id": "1588681150000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1818.83,
+      "setupPrice": 1393.51,
+      "currency": "U$"
+    },
+    {
+      "id": "1584721633000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1302.39,
+      "setupPrice": 653.2,
+      "currency": "R$"
+    },
+    {
+      "id": "1570610708000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 613.5,
+      "setupPrice": 1330.95,
+      "currency": "$"
+    },
+    {
+      "id": "1584083580000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1287.09,
+      "setupPrice": 1175.8,
+      "currency": "U$"
+    },
+    {
+      "id": "1572532772000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1279.34,
+      "setupPrice": 1997.44,
+      "currency": "R$"
+    },
+    {
+      "id": "1569329742000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1214.02,
+      "setupPrice": 986.8,
+      "currency": "R$"
+    },
+    {
+      "id": "1580470316000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1279.97,
+      "setupPrice": 1908.14,
+      "currency": "$"
+    },
+    {
+      "id": "1584139292000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 630.88,
+      "setupPrice": 1449.94,
+      "currency": "$"
+    },
+    {
+      "id": "1573647471000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1383.23,
+      "setupPrice": 1296.02,
+      "currency": "$"
+    },
+    {
+      "id": "1584215253000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 555.3,
+      "setupPrice": 1542.92,
+      "currency": "R$"
+    },
+    {
+      "id": "1581441133000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1789.72,
+      "setupPrice": 1756.35,
+      "currency": "$"
+    },
+    {
+      "id": "1572796632000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1382.94,
+      "setupPrice": 474.81,
+      "currency": "R$"
+    },
+    {
+      "id": "1589221739000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1963.99,
+      "setupPrice": 1550.49,
+      "currency": "$"
+    },
+    {
+      "id": "1571430050000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 693.37,
+      "setupPrice": 1556.35,
+      "currency": "$"
+    },
+    {
+      "id": "1566300952000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1251.32,
+      "setupPrice": 1298.33,
+      "currency": "U$"
+    },
+    {
+      "id": "1574000914000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1810.29,
+      "setupPrice": 1761.2,
+      "currency": "U$"
+    },
+    {
+      "id": "1580685966000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 786.21,
+      "setupPrice": 1947.62,
+      "currency": "U$"
+    },
+    {
+      "id": "1586748021000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1294.8,
+      "setupPrice": 1876.36,
+      "currency": "$"
+    },
+    {
+      "id": "1586555076000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 528.27,
+      "setupPrice": 1784,
+      "currency": "$"
+    },
+    {
+      "id": "1585336318000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1184.58,
+      "setupPrice": 405.05,
+      "currency": "R$"
+    },
+    {
+      "id": "1571270675000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1140.54,
+      "setupPrice": 1397.21,
+      "currency": "U$"
+    },
+    {
+      "id": "1568800000000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1117.78,
+      "setupPrice": 323.8,
+      "currency": "$"
+    },
+    {
+      "id": "1579352082000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1813.29,
+      "setupPrice": 509.39,
+      "currency": "$"
+    },
+    {
+      "id": "1568695211000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 613.81,
+      "setupPrice": 1589.7,
+      "currency": "$"
+    },
+    {
+      "id": "1570034145000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 386.21,
+      "setupPrice": 1650.98,
+      "currency": "U$"
+    },
+    {
+      "id": "1571403037000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1805.17,
+      "setupPrice": 866.22,
+      "currency": "U$"
+    },
+    {
+      "id": "1566963251000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 383.29,
+      "setupPrice": 193.19,
+      "currency": "U$"
+    },
+    {
+      "id": "1582742670000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 836.6,
+      "setupPrice": 1069.13,
+      "currency": "R$"
+    },
+    {
+      "id": "1574078276000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 390.18,
+      "setupPrice": 1280.22,
+      "currency": "R$"
+    },
+    {
+      "id": "1580539264000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1861.49,
+      "setupPrice": 1633.64,
+      "currency": "R$"
+    },
+    {
+      "id": "1569877490000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1919.43,
+      "setupPrice": 474.06,
+      "currency": "R$"
+    },
+    {
+      "id": "1572300510000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 597.78,
+      "setupPrice": 193.01,
+      "currency": "U$"
+    },
+    {
+      "id": "1575189106000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 620.33,
+      "setupPrice": 1107.08,
+      "currency": "$"
+    },
+    {
+      "id": "1563093507000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1602.86,
+      "setupPrice": 1163.89,
+      "currency": "R$"
+    },
+    {
+      "id": "1572945825000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 952.29,
+      "setupPrice": 674.53,
+      "currency": "R$"
+    },
+    {
+      "id": "1589343322000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 29.94,
+      "setupPrice": 1700.67,
+      "currency": "$"
+    },
+    {
+      "id": "1564726674000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1514.96,
+      "setupPrice": 1914.33,
+      "currency": "R$"
+    },
+    {
+      "id": "1569533912000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 445.96,
+      "setupPrice": 1947.06,
+      "currency": "U$"
+    },
+    {
+      "id": "1573454836000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1980.56,
+      "setupPrice": 104.1,
+      "currency": "R$"
+    },
+    {
+      "id": "1583247337000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1684.41,
+      "setupPrice": 172.05,
+      "currency": "U$"
+    },
+    {
+      "id": "1563201122000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1834.84,
+      "setupPrice": 332.36,
+      "currency": "$"
+    },
+    {
+      "id": "1573164930000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 48.45,
+      "setupPrice": 1547.66,
+      "currency": "U$"
+    },
+    {
+      "id": "1585687537000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 869.2,
+      "setupPrice": 1376.84,
+      "currency": "$"
+    },
+    {
+      "id": "1571900825000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1187.77,
+      "setupPrice": 422.42,
+      "currency": "$"
+    },
+    {
+      "id": "1571173353000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 342.22,
+      "setupPrice": 914.81,
+      "currency": "R$"
+    },
+    {
+      "id": "1585123511000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1936.19,
+      "setupPrice": 30.14,
+      "currency": "$"
+    },
+    {
+      "id": "1568611784000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1635.3,
+      "setupPrice": 694.31,
+      "currency": "$"
+    },
+    {
+      "id": "1564458504000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1284.72,
+      "setupPrice": 415.86,
+      "currency": "U$"
+    },
+    {
+      "id": "1575234734000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1451.47,
+      "setupPrice": 1747.22,
+      "currency": "$"
+    },
+    {
+      "id": "1571484435000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1641.05,
+      "setupPrice": 547.15,
+      "currency": "$"
+    },
+    {
+      "id": "1575631639000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1443.46,
+      "setupPrice": 209.81,
+      "currency": "U$"
+    },
+    {
+      "id": "1580663713000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1213.73,
+      "setupPrice": 1879.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1585823224000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 556.66,
+      "setupPrice": 331.96,
+      "currency": "R$"
+    },
+    {
+      "id": "1562206372000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 272.45,
+      "setupPrice": 1217.5,
+      "currency": "U$"
+    },
+    {
+      "id": "1579581051000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1703.56,
+      "setupPrice": 867.73,
+      "currency": "$"
+    },
+    {
+      "id": "1564707908000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1821.4,
+      "setupPrice": 99.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1586539615000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1728.24,
+      "setupPrice": 507.11,
+      "currency": "R$"
+    },
+    {
+      "id": "1569968353000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 816.75,
+      "setupPrice": 954.06,
+      "currency": "R$"
+    },
+    {
+      "id": "1566085187000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1462.83,
+      "setupPrice": 18.71,
+      "currency": "U$"
+    },
+    {
+      "id": "1584916509000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1274.07,
+      "setupPrice": 1522.89,
+      "currency": "U$"
+    },
+    {
+      "id": "1571536198000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 181.3,
+      "setupPrice": 1647.26,
+      "currency": "$"
+    },
+    {
+      "id": "1567090880000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1334.05,
+      "setupPrice": 1929.56,
+      "currency": "$"
+    },
+    {
+      "id": "1581412874000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 160.8,
+      "setupPrice": 1403.93,
+      "currency": "U$"
+    },
+    {
+      "id": "1582900835000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 201.04,
+      "setupPrice": 980.6,
+      "currency": "R$"
+    },
+    {
+      "id": "1587096399000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1747.19,
+      "setupPrice": 461.99,
+      "currency": "$"
+    },
+    {
+      "id": "1586557168000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 410.19,
+      "setupPrice": 1228.46,
+      "currency": "R$"
+    },
+    {
+      "id": "1566012758000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 28.92,
+      "setupPrice": 748.3,
+      "currency": "$"
+    },
+    {
+      "id": "1572422432000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1099.13,
+      "setupPrice": 383.82,
+      "currency": "R$"
+    },
+    {
+      "id": "1577166103000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 915.01,
+      "setupPrice": 453.25,
+      "currency": "U$"
+    },
+    {
+      "id": "1576733384000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 878.12,
+      "setupPrice": 985.43,
+      "currency": "R$"
+    },
+    {
+      "id": "1590886638000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1169.75,
+      "setupPrice": 432.75,
+      "currency": "R$"
+    },
+    {
+      "id": "1565871321000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1428.75,
+      "setupPrice": 1826.01,
+      "currency": "$"
+    },
+    {
+      "id": "1580984446000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1756.4,
+      "setupPrice": 454.46,
+      "currency": "$"
+    },
+    {
+      "id": "1589712452000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1431.83,
+      "setupPrice": 392.68,
+      "currency": "R$"
+    },
+    {
+      "id": "1567329118000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 344.6,
+      "setupPrice": 762.66,
+      "currency": "$"
+    },
+    {
+      "id": "1570754418000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 88.6,
+      "setupPrice": 84.09,
+      "currency": "$"
+    },
+    {
+      "id": "1587931675000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 518.99,
+      "setupPrice": 1883.44,
+      "currency": "R$"
+    },
+    {
+      "id": "1579520100000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1565.35,
+      "setupPrice": 1888.96,
+      "currency": "U$"
+    },
+    {
+      "id": "1584190795000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1791.66,
+      "setupPrice": 735.79,
+      "currency": "R$"
+    },
+    {
+      "id": "1583723122000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1215.96,
+      "setupPrice": 814.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1563629713000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1187.06,
+      "setupPrice": 1507.5,
+      "currency": "R$"
+    },
+    {
+      "id": "1590657156000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 666.07,
+      "setupPrice": 938.41,
+      "currency": "$"
+    },
+    {
+      "id": "1567796962000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1532.93,
+      "setupPrice": 828.22,
+      "currency": "U$"
+    },
+    {
+      "id": "1587490410000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1730.79,
+      "setupPrice": 720.9,
+      "currency": "U$"
+    },
+    {
+      "id": "1565256450000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1963.91,
+      "setupPrice": 1112.22,
+      "currency": "U$"
+    },
+    {
+      "id": "1567529771000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1652.94,
+      "setupPrice": 1942.45,
+      "currency": "U$"
+    },
+    {
+      "id": "1583902691000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 968.72,
+      "setupPrice": 1880.88,
+      "currency": "R$"
+    },
+    {
+      "id": "1580072084000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 582.41,
+      "setupPrice": 1790.4,
+      "currency": "R$"
+    },
+    {
+      "id": "1577151848000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 388.34,
+      "setupPrice": 1575.88,
+      "currency": "$"
+    },
+    {
+      "id": "1564213034000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 274.13,
+      "setupPrice": 1108.44,
+      "currency": "U$"
+    },
+    {
+      "id": "1588339822000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1977.88,
+      "setupPrice": 31.42,
+      "currency": "$"
+    },
+    {
+      "id": "1574362239000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1936.71,
+      "setupPrice": 1498.94,
+      "currency": "$"
+    },
+    {
+      "id": "1565332670000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1182.2,
+      "setupPrice": 185.76,
+      "currency": "U$"
+    },
+    {
+      "id": "1575561337000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1936.17,
+      "setupPrice": 1847.48,
+      "currency": "R$"
+    },
+    {
+      "id": "1579880878000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 234.84,
+      "setupPrice": 959.21,
+      "currency": "$"
+    },
+    {
+      "id": "1587168065000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1801.09,
+      "setupPrice": 296.77,
+      "currency": "$"
+    },
+    {
+      "id": "1585827582000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1622.47,
+      "setupPrice": 448.67,
+      "currency": "R$"
+    },
+    {
+      "id": "1565850900000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 67.55,
+      "setupPrice": 970.79,
+      "currency": "R$"
+    },
+    {
+      "id": "1583460834000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1233.45,
+      "setupPrice": 839.84,
+      "currency": "$"
+    },
+    {
+      "id": "1590556699000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 903.82,
+      "setupPrice": 1493.47,
+      "currency": "R$"
+    },
+    {
+      "id": "1572629621000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 132.92,
+      "setupPrice": 1162.78,
+      "currency": "$"
+    },
+    {
+      "id": "1582761591000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1317.17,
+      "setupPrice": 664.05,
+      "currency": "R$"
+    },
+    {
+      "id": "1581304963000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1410.04,
+      "setupPrice": 811.24,
+      "currency": "U$"
+    },
+    {
+      "id": "1580087547000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 568.18,
+      "setupPrice": 1034.42,
+      "currency": "U$"
+    },
+    {
+      "id": "1588832795000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 100.83,
+      "setupPrice": 1811.51,
+      "currency": "U$"
+    },
+    {
+      "id": "1570497430000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 88.3,
+      "setupPrice": 1157.09,
+      "currency": "R$"
+    },
+    {
+      "id": "1570054890000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1997.45,
+      "setupPrice": 133.23,
+      "currency": "U$"
+    },
+    {
+      "id": "1566794834000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 800.1,
+      "setupPrice": 126.72,
+      "currency": "R$"
+    },
+    {
+      "id": "1579569637000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1384.46,
+      "setupPrice": 1152.98,
+      "currency": "U$"
+    },
+    {
+      "id": "1564701765000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1089.26,
+      "setupPrice": 1299.03,
+      "currency": "$"
+    },
+    {
+      "id": "1577130803000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 778.88,
+      "setupPrice": 598.44,
+      "currency": "$"
+    },
+    {
+      "id": "1589462156000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 250.6,
+      "setupPrice": 1453.6,
+      "currency": "R$"
+    },
+    {
+      "id": "1578158256000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 108.89,
+      "setupPrice": 1946.29,
+      "currency": "R$"
+    },
+    {
+      "id": "1564057905000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 871.94,
+      "setupPrice": 1345.89,
+      "currency": "U$"
+    },
+    {
+      "id": "1589103387000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 757.65,
+      "setupPrice": 299.07,
+      "currency": "$"
+    },
+    {
+      "id": "1574241773000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1473.45,
+      "setupPrice": 920.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1567176550000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 452.99,
+      "setupPrice": 1980.19,
+      "currency": "R$"
+    },
+    {
+      "id": "1563468040000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 118.06,
+      "setupPrice": 1366.17,
+      "currency": "R$"
+    },
+    {
+      "id": "1574271385000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 538.73,
+      "setupPrice": 200.94,
+      "currency": "R$"
+    },
+    {
+      "id": "1582366799000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 157.27,
+      "setupPrice": 660.3,
+      "currency": "R$"
+    },
+    {
+      "id": "1564450424000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1144.23,
+      "setupPrice": 1542.54,
+      "currency": "$"
+    },
+    {
+      "id": "1580126841000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1203.41,
+      "setupPrice": 688.22,
+      "currency": "$"
+    },
+    {
+      "id": "1588615818000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 737.65,
+      "setupPrice": 1329.63,
+      "currency": "U$"
+    },
+    {
+      "id": "1573115984000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1742.82,
+      "setupPrice": 240.84,
+      "currency": "$"
+    },
+    {
+      "id": "1590091736000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1793.9,
+      "setupPrice": 622.13,
+      "currency": "U$"
+    },
+    {
+      "id": "1565486385000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1954.5,
+      "setupPrice": 1591.69,
+      "currency": "U$"
+    },
+    {
+      "id": "1576810743000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 298.37,
+      "setupPrice": 803.5,
+      "currency": "R$"
+    },
+    {
+      "id": "1574235200000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1378.17,
+      "setupPrice": 1483.95,
+      "currency": "R$"
+    },
+    {
+      "id": "1585982347000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1551.81,
+      "setupPrice": 1597.02,
+      "currency": "U$"
+    },
+    {
+      "id": "1562667471000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1128.55,
+      "setupPrice": 646.62,
+      "currency": "$"
+    },
+    {
+      "id": "1580744418000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 117.8,
+      "setupPrice": 1568.91,
+      "currency": "R$"
+    },
+    {
+      "id": "1580966646000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1098.22,
+      "setupPrice": 1656.43,
+      "currency": "U$"
+    },
+    {
+      "id": "1589684794000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 918.23,
+      "setupPrice": 187.47,
+      "currency": "$"
+    },
+    {
+      "id": "1588722934000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1060.36,
+      "setupPrice": 1586.09,
+      "currency": "$"
+    },
+    {
+      "id": "1564944771000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 505.62,
+      "setupPrice": 669.62,
+      "currency": "R$"
+    },
+    {
+      "id": "1570085902000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 351.97,
+      "setupPrice": 280.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1572861498000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1533.42,
+      "setupPrice": 731.91,
+      "currency": "R$"
+    },
+    {
+      "id": "1581856411000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 783.93,
+      "setupPrice": 285.72,
+      "currency": "R$"
+    },
+    {
+      "id": "1585755829000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1628.1,
+      "setupPrice": 187.3,
+      "currency": "$"
+    },
+    {
+      "id": "1584577437000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1619.33,
+      "setupPrice": 224.31,
+      "currency": "R$"
+    },
+    {
+      "id": "1563668777000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 425.84,
+      "setupPrice": 113.29,
+      "currency": "R$"
+    },
+    {
+      "id": "1574725411000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 196.33,
+      "setupPrice": 696,
+      "currency": "U$"
+    },
+    {
+      "id": "1565945856000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 159.92,
+      "setupPrice": 32.21,
+      "currency": "R$"
+    },
+    {
+      "id": "1584046032000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1410.55,
+      "setupPrice": 1416.83,
+      "currency": "R$"
+    },
+    {
+      "id": "1569071598000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 956.6,
+      "setupPrice": 176.97,
+      "currency": "R$"
+    },
+    {
+      "id": "1587631923000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 857.42,
+      "setupPrice": 970.12,
+      "currency": "U$"
+    },
+    {
+      "id": "1573024570000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1489.97,
+      "setupPrice": 10.98,
+      "currency": "R$"
+    },
+    {
+      "id": "1578533375000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 946.64,
+      "setupPrice": 1352.81,
+      "currency": "R$"
+    },
+    {
+      "id": "1571623411000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1242.33,
+      "setupPrice": 944.74,
+      "currency": "R$"
+    },
+    {
+      "id": "1572230986000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 610.72,
+      "setupPrice": 1503.83,
+      "currency": "R$"
+    },
+    {
+      "id": "1585567366000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 814.86,
+      "setupPrice": 549.26,
+      "currency": "R$"
+    },
+    {
+      "id": "1571447559000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 157.07,
+      "setupPrice": 1776.56,
+      "currency": "$"
+    },
+    {
+      "id": "1574376490000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1451.38,
+      "setupPrice": 65.36,
+      "currency": "R$"
+    },
+    {
+      "id": "1562710703000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 101.42,
+      "setupPrice": 96.48,
+      "currency": "R$"
+    },
+    {
+      "id": "1579088382000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 527.03,
+      "setupPrice": 1285.19,
+      "currency": "R$"
+    },
+    {
+      "id": "1583309321000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 47.75,
+      "setupPrice": 645.24,
+      "currency": "$"
+    },
+    {
+      "id": "1586277285000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1781.92,
+      "setupPrice": 228.17,
+      "currency": "R$"
+    },
+    {
+      "id": "1568446080000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 594.99,
+      "setupPrice": 575.18,
+      "currency": "$"
+    },
+    {
+      "id": "1581705031000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 741.84,
+      "setupPrice": 1616.35,
+      "currency": "$"
+    },
+    {
+      "id": "1562391402000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1364.67,
+      "setupPrice": 1169.86,
+      "currency": "R$"
+    },
+    {
+      "id": "1573480861000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 943.51,
+      "setupPrice": 1099.53,
+      "currency": "U$"
+    },
+    {
+      "id": "1582284992000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1091.6,
+      "setupPrice": 60.89,
+      "currency": "$"
+    },
+    {
+      "id": "1571150949000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1822.87,
+      "setupPrice": 1664.26,
+      "currency": "U$"
+    },
+    {
+      "id": "1582974226000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 747.32,
+      "setupPrice": 1978.31,
+      "currency": "$"
+    },
+    {
+      "id": "1583442706000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 252.44,
+      "setupPrice": 1828.86,
+      "currency": "U$"
+    },
+    {
+      "id": "1566539311000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 864.28,
+      "setupPrice": 1991.91,
+      "currency": "R$"
+    },
+    {
+      "id": "1587837735000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 504.46,
+      "setupPrice": 815.35,
+      "currency": "R$"
+    },
+    {
+      "id": "1588877440000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1352.55,
+      "setupPrice": 1492.79,
+      "currency": "$"
+    },
+    {
+      "id": "1568867023000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1973.2,
+      "setupPrice": 1183.44,
+      "currency": "U$"
+    },
+    {
+      "id": "1577921740000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 837.79,
+      "setupPrice": 835.59,
+      "currency": "$"
+    },
+    {
+      "id": "1575774409000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 120.38,
+      "setupPrice": 1982.71,
+      "currency": "$"
+    },
+    {
+      "id": "1583309863000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1779.86,
+      "setupPrice": 970.92,
+      "currency": "$"
+    },
+    {
+      "id": "1586733319000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1933.6,
+      "setupPrice": 419.03,
+      "currency": "R$"
+    },
+    {
+      "id": "1582097214000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 699.93,
+      "setupPrice": 1978.56,
+      "currency": "$"
+    },
+    {
+      "id": "1579449210000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 151.24,
+      "setupPrice": 1616,
+      "currency": "U$"
+    },
+    {
+      "id": "1575349521000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 372.22,
+      "setupPrice": 1714.08,
+      "currency": "U$"
+    },
+    {
+      "id": "1584313891000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 400.45,
+      "setupPrice": 1291.22,
+      "currency": "$"
+    },
+    {
+      "id": "1563020940000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1543.27,
+      "setupPrice": 411.86,
+      "currency": "$"
+    },
+    {
+      "id": "1576998704000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 121.34,
+      "setupPrice": 1130.22,
+      "currency": "$"
+    },
+    {
+      "id": "1572175792000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1918.13,
+      "setupPrice": 492.19,
+      "currency": "R$"
+    },
+    {
+      "id": "1587490709000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1758.79,
+      "setupPrice": 1315.48,
+      "currency": "R$"
+    },
+    {
+      "id": "1582845650000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 67.39,
+      "setupPrice": 28.12,
+      "currency": "$"
+    },
+    {
+      "id": "1584877574000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 826.75,
+      "setupPrice": 1444.69,
+      "currency": "U$"
+    },
+    {
+      "id": "1569391101000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 469.83,
+      "setupPrice": 1309.26,
+      "currency": "R$"
+    },
+    {
+      "id": "1584578048000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1924,
+      "setupPrice": 718.05,
+      "currency": "U$"
+    },
+    {
+      "id": "1581250868000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1270.58,
+      "setupPrice": 1395.86,
+      "currency": "R$"
+    },
+    {
+      "id": "1581275026000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 38.46,
+      "setupPrice": 316.33,
+      "currency": "R$"
+    },
+    {
+      "id": "1581947987000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1996.23,
+      "setupPrice": 331.87,
+      "currency": "U$"
+    },
+    {
+      "id": "1569571914000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 858.83,
+      "setupPrice": 953.41,
+      "currency": "R$"
+    },
+    {
+      "id": "1567504976000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 800.92,
+      "setupPrice": 873.28,
+      "currency": "R$"
+    },
+    {
+      "id": "1569068817000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1999.45,
+      "setupPrice": 878.42,
+      "currency": "$"
+    },
+    {
+      "id": "1572361963000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 256.99,
+      "setupPrice": 1867.25,
+      "currency": "$"
+    },
+    {
+      "id": "1584686142000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 605.22,
+      "setupPrice": 1974.36,
+      "currency": "U$"
+    },
+    {
+      "id": "1562846725000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 84.88,
+      "setupPrice": 1028.03,
+      "currency": "R$"
+    },
+    {
+      "id": "1585962228000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 228.86,
+      "setupPrice": 1431.35,
+      "currency": "U$"
+    },
+    {
+      "id": "1580651405000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1161.19,
+      "setupPrice": 1336.65,
+      "currency": "U$"
+    },
+    {
+      "id": "1574149646000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1165.09,
+      "setupPrice": 334.47,
+      "currency": "$"
+    },
+    {
+      "id": "1572896986000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 290.41,
+      "setupPrice": 1845.13,
+      "currency": "U$"
+    },
+    {
+      "id": "1585119091000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1157.12,
+      "setupPrice": 905.84,
+      "currency": "U$"
+    },
+    {
+      "id": "1590410995000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 952.66,
+      "setupPrice": 687.24,
+      "currency": "U$"
+    },
+    {
+      "id": "1565196921000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 596.22,
+      "setupPrice": 472.43,
+      "currency": "U$"
+    },
+    {
+      "id": "1571913549000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1301.14,
+      "setupPrice": 1980.01,
+      "currency": "R$"
+    },
+    {
+      "id": "1564144850000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 488.03,
+      "setupPrice": 542.79,
+      "currency": "R$"
+    },
+    {
+      "id": "1578622778000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 907.75,
+      "setupPrice": 776.68,
+      "currency": "R$"
+    },
+    {
+      "id": "1571774273000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 812.01,
+      "setupPrice": 919.03,
+      "currency": "R$"
+    },
+    {
+      "id": "1588673471000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1256.04,
+      "setupPrice": 1617.98,
+      "currency": "$"
+    },
+    {
+      "id": "1574705039000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1058.48,
+      "setupPrice": 1617.28,
+      "currency": "R$"
+    },
+    {
+      "id": "1563797324000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1454.88,
+      "setupPrice": 1489.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1579504671000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1112.91,
+      "setupPrice": 189.6,
+      "currency": "R$"
+    },
+    {
+      "id": "1584275338000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1538.83,
+      "setupPrice": 638.5,
+      "currency": "$"
+    },
+    {
+      "id": "1589245866000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1404.16,
+      "setupPrice": 1971.92,
+      "currency": "R$"
+    },
+    {
+      "id": "1581574456000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1958.96,
+      "setupPrice": 948.4,
+      "currency": "$"
+    },
+    {
+      "id": "1577162173000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 489.8,
+      "setupPrice": 971.92,
+      "currency": "U$"
+    },
+    {
+      "id": "1586945596000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 202.07,
+      "setupPrice": 74.77,
+      "currency": "U$"
+    },
+    {
+      "id": "1563637311000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1777.11,
+      "setupPrice": 305.42,
+      "currency": "$"
+    },
+    {
+      "id": "1575736860000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1145.25,
+      "setupPrice": 924.94,
+      "currency": "R$"
+    },
+    {
+      "id": "1562838153000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1033.93,
+      "setupPrice": 1331.18,
+      "currency": "U$"
+    },
+    {
+      "id": "1584101993000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1715.84,
+      "setupPrice": 147.43,
+      "currency": "U$"
+    },
+    {
+      "id": "1568071351000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1463.04,
+      "setupPrice": 1258.06,
+      "currency": "R$"
+    },
+    {
+      "id": "1570445596000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 157.01,
+      "setupPrice": 196.97,
+      "currency": "R$"
+    },
+    {
+      "id": "1572794845000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 265.57,
+      "setupPrice": 1430.32,
+      "currency": "R$"
+    },
+    {
+      "id": "1587161448000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1730.86,
+      "setupPrice": 647.42,
+      "currency": "U$"
+    },
+    {
+      "id": "1574415669000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1867.58,
+      "setupPrice": 1942.98,
+      "currency": "U$"
+    },
+    {
+      "id": "1576423539000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 267.99,
+      "setupPrice": 1708.15,
+      "currency": "$"
+    },
+    {
+      "id": "1567983226000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 959.51,
+      "setupPrice": 1621.69,
+      "currency": "U$"
+    },
+    {
+      "id": "1570786465000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 434.7,
+      "setupPrice": 41.95,
+      "currency": "R$"
+    },
+    {
+      "id": "1566226827000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 202.93,
+      "setupPrice": 1501.62,
+      "currency": "$"
+    },
+    {
+      "id": "1587352671000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1292.11,
+      "setupPrice": 621.87,
+      "currency": "U$"
+    },
+    {
+      "id": "1571040061000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 258.31,
+      "setupPrice": 377.93,
+      "currency": "$"
+    },
+    {
+      "id": "1584923314000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1411.92,
+      "setupPrice": 949.03,
+      "currency": "U$"
+    },
+    {
+      "id": "1590569775000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1476.68,
+      "setupPrice": 1868.4,
+      "currency": "$"
+    },
+    {
+      "id": "1589966911000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1474.64,
+      "setupPrice": 1923.54,
+      "currency": "R$"
+    },
+    {
+      "id": "1574794614000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1771.74,
+      "setupPrice": 1282.17,
+      "currency": "$"
+    },
+    {
+      "id": "1573034191000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1706.83,
+      "setupPrice": 1064.44,
+      "currency": "$"
+    },
+    {
+      "id": "1578863840000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 27.1,
+      "setupPrice": 1276.14,
+      "currency": "U$"
+    },
+    {
+      "id": "1581366519000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 856.81,
+      "setupPrice": 57.61,
+      "currency": "R$"
+    },
+    {
+      "id": "1576015726000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 63.69,
+      "setupPrice": 1421.59,
+      "currency": "U$"
+    },
+    {
+      "id": "1576857747000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 179.57,
+      "setupPrice": 1282.52,
+      "currency": "R$"
+    },
+    {
+      "id": "1579414001000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1551.51,
+      "setupPrice": 487.65,
+      "currency": "$"
+    },
+    {
+      "id": "1587257681000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1363.79,
+      "setupPrice": 1153.9,
+      "currency": "U$"
+    },
+    {
+      "id": "1569007490000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1544.42,
+      "setupPrice": 177.44,
+      "currency": "R$"
+    },
+    {
+      "id": "1575253676000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1679.96,
+      "setupPrice": 165.93,
+      "currency": "$"
+    },
+    {
+      "id": "1562248132000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 736.44,
+      "setupPrice": 1727.11,
+      "currency": "U$"
+    },
+    {
+      "id": "1587232815000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1113.01,
+      "setupPrice": 275.03,
+      "currency": "R$"
+    },
+    {
+      "id": "1587975320000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 225.55,
+      "setupPrice": 667.79,
+      "currency": "R$"
+    },
+    {
+      "id": "1586924671000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 988.89,
+      "setupPrice": 1274.38,
+      "currency": "U$"
+    },
+    {
+      "id": "1574685069000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1362,
+      "setupPrice": 340.4,
+      "currency": "$"
+    },
+    {
+      "id": "1568750360000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1787,
+      "setupPrice": 531.35,
+      "currency": "U$"
+    },
+    {
+      "id": "1564411667000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 66.29,
+      "setupPrice": 1293.36,
+      "currency": "U$"
+    },
+    {
+      "id": "1572290559000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 466.8,
+      "setupPrice": 370.75,
+      "currency": "U$"
+    },
+    {
+      "id": "1582220674000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 400.95,
+      "setupPrice": 735.16,
+      "currency": "R$"
+    },
+    {
+      "id": "1577402056000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1262.74,
+      "setupPrice": 1025.05,
+      "currency": "U$"
+    },
+    {
+      "id": "1588573148000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 703.98,
+      "setupPrice": 621.89,
+      "currency": "$"
+    },
+    {
+      "id": "1576476766000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 831.83,
+      "setupPrice": 1301.2,
+      "currency": "$"
+    },
+    {
+      "id": "1565944073000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 262.52,
+      "setupPrice": 1857.27,
+      "currency": "R$"
+    },
+    {
+      "id": "1575986203000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1172.99,
+      "setupPrice": 523.95,
+      "currency": "R$"
+    },
+    {
+      "id": "1569357385000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1053.4,
+      "setupPrice": 1107.71,
+      "currency": "$"
+    },
+    {
+      "id": "1568536154000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 421.31,
+      "setupPrice": 978.39,
+      "currency": "$"
+    },
+    {
+      "id": "1589313676000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 252.99,
+      "setupPrice": 1752.01,
+      "currency": "$"
+    },
+    {
+      "id": "1571438169000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 910.43,
+      "setupPrice": 814.28,
+      "currency": "R$"
+    },
+    {
+      "id": "1568718397000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 873.71,
+      "setupPrice": 749.6,
+      "currency": "$"
+    },
+    {
+      "id": "1575141130000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 25.11,
+      "setupPrice": 1091.44,
+      "currency": "$"
+    },
+    {
+      "id": "1578537794000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 186.01,
+      "setupPrice": 74.94,
+      "currency": "U$"
+    },
+    {
+      "id": "1566028359000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 84.09,
+      "setupPrice": 1468.23,
+      "currency": "$"
+    },
+    {
+      "id": "1584258998000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 209.42,
+      "setupPrice": 1323.78,
+      "currency": "$"
+    },
+    {
+      "id": "1581956374000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 958.65,
+      "setupPrice": 1297.93,
+      "currency": "R$"
+    },
+    {
+      "id": "1585480399000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1575.95,
+      "setupPrice": 1486.02,
+      "currency": "R$"
+    },
+    {
+      "id": "1572855839000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1470.15,
+      "setupPrice": 1543.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1572968111000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 539.16,
+      "setupPrice": 151.1,
+      "currency": "U$"
+    },
+    {
+      "id": "1568642877000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1051.63,
+      "setupPrice": 837.72,
+      "currency": "$"
+    },
+    {
+      "id": "1568579644000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1520.35,
+      "setupPrice": 1079.26,
+      "currency": "U$"
+    },
+    {
+      "id": "1563266454000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 183.16,
+      "setupPrice": 1663.71,
+      "currency": "U$"
+    },
+    {
+      "id": "1579114619000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1728.94,
+      "setupPrice": 561.34,
+      "currency": "$"
+    },
+    {
+      "id": "1562232949000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 188.42,
+      "setupPrice": 1732.26,
+      "currency": "U$"
+    },
+    {
+      "id": "1583011811000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 513.4,
+      "setupPrice": 1213.57,
+      "currency": "$"
+    },
+    {
+      "id": "1584434412000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 349.47,
+      "setupPrice": 700.25,
+      "currency": "$"
+    },
+    {
+      "id": "1567935566000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 288.54,
+      "setupPrice": 1770.51,
+      "currency": "$"
+    },
+    {
+      "id": "1583435144000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1533.93,
+      "setupPrice": 1227.26,
+      "currency": "R$"
+    },
+    {
+      "id": "1587147987000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1911.64,
+      "setupPrice": 1862.66,
+      "currency": "R$"
+    },
+    {
+      "id": "1586494903000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1750.89,
+      "setupPrice": 1673.43,
+      "currency": "U$"
+    },
+    {
+      "id": "1563988629000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 85.73,
+      "setupPrice": 1074.85,
+      "currency": "U$"
+    },
+    {
+      "id": "1572032623000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1269.48,
+      "setupPrice": 1430.11,
+      "currency": "R$"
+    },
+    {
+      "id": "1567984632000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1038.56,
+      "setupPrice": 796.76,
+      "currency": "U$"
+    },
+    {
+      "id": "1583304877000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1736.15,
+      "setupPrice": 1295.19,
+      "currency": "$"
+    },
+    {
+      "id": "1581776485000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1454.97,
+      "setupPrice": 31.77,
+      "currency": "$"
+    },
+    {
+      "id": "1571213526000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1193.73,
+      "setupPrice": 1924.18,
+      "currency": "U$"
+    },
+    {
+      "id": "1564191002000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 256.57,
+      "setupPrice": 1467.51,
+      "currency": "$"
+    },
+    {
+      "id": "1569046075000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 259.84,
+      "setupPrice": 894.49,
+      "currency": "R$"
+    },
+    {
+      "id": "1570593919000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 105.2,
+      "setupPrice": 1860,
+      "currency": "R$"
+    },
+    {
+      "id": "1588434445000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1812.17,
+      "setupPrice": 1995.21,
+      "currency": "R$"
+    },
+    {
+      "id": "1562503886000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 967.67,
+      "setupPrice": 620.37,
+      "currency": "U$"
+    },
+    {
+      "id": "1585098297000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1482.56,
+      "setupPrice": 1468.58,
+      "currency": "R$"
+    },
+    {
+      "id": "1580366516000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 498.5,
+      "setupPrice": 1740.62,
+      "currency": "$"
+    },
+    {
+      "id": "1590256446000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1228.89,
+      "setupPrice": 1442.6,
+      "currency": "$"
+    },
+    {
+      "id": "1573047912000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 91.63,
+      "setupPrice": 302.44,
+      "currency": "U$"
+    },
+    {
+      "id": "1587367561000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 105.59,
+      "setupPrice": 305.71,
+      "currency": "R$"
+    },
+    {
+      "id": "1586517410000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 57.25,
+      "setupPrice": 207.62,
+      "currency": "R$"
+    },
+    {
+      "id": "1569717753000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 779.3,
+      "setupPrice": 515.11,
+      "currency": "$"
+    },
+    {
+      "id": "1579277304000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1852.62,
+      "setupPrice": 617.28,
+      "currency": "R$"
+    },
+    {
+      "id": "1583817486000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1954.99,
+      "setupPrice": 1238.19,
+      "currency": "R$"
+    },
+    {
+      "id": "1579181112000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1491.28,
+      "setupPrice": 1356.87,
+      "currency": "U$"
+    },
+    {
+      "id": "1572866793000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1603.72,
+      "setupPrice": 1283.62,
+      "currency": "R$"
+    },
+    {
+      "id": "1578327390000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 920.23,
+      "setupPrice": 890.8,
+      "currency": "R$"
+    },
+    {
+      "id": "1574004426000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 15.96,
+      "setupPrice": 691.7,
+      "currency": "R$"
+    },
+    {
+      "id": "1579419193000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 207.43,
+      "setupPrice": 557.91,
+      "currency": "$"
+    },
+    {
+      "id": "1577154726000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 230.95,
+      "setupPrice": 405.76,
+      "currency": "U$"
+    },
+    {
+      "id": "1582594515000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 537.95,
+      "setupPrice": 416.8,
+      "currency": "$"
+    },
+    {
+      "id": "1571245614000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1957.4,
+      "setupPrice": 1764.07,
+      "currency": "R$"
+    },
+    {
+      "id": "1569496150000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 686.65,
+      "setupPrice": 99.4,
+      "currency": "R$"
+    },
+    {
+      "id": "1567711371000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1249.41,
+      "setupPrice": 680.46,
+      "currency": "$"
+    },
+    {
+      "id": "1579613764000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 272.6,
+      "setupPrice": 539.35,
+      "currency": "$"
+    },
+    {
+      "id": "1589561015000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1018.8,
+      "setupPrice": 100.07,
+      "currency": "R$"
+    },
+    {
+      "id": "1568971165000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 364.57,
+      "setupPrice": 990.62,
+      "currency": "U$"
+    },
+    {
+      "id": "1564855766000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 849.43,
+      "setupPrice": 1953.93,
+      "currency": "U$"
+    },
+    {
+      "id": "1572496593000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1837.36,
+      "setupPrice": 1613.48,
+      "currency": "$"
+    },
+    {
+      "id": "1577078768000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1833.29,
+      "setupPrice": 1838.87,
+      "currency": "U$"
+    },
+    {
+      "id": "1571327524000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 488.62,
+      "setupPrice": 1275.18,
+      "currency": "R$"
+    },
+    {
+      "id": "1581667277000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1854.02,
+      "setupPrice": 391.09,
+      "currency": "$"
+    },
+    {
+      "id": "1574742646000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 360.75,
+      "setupPrice": 1472.9,
+      "currency": "U$"
+    },
+    {
+      "id": "1578513353000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 775.81,
+      "setupPrice": 1304.94,
+      "currency": "$"
+    },
+    {
+      "id": "1587609908000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 156.02,
+      "setupPrice": 180.36,
+      "currency": "R$"
+    },
+    {
+      "id": "1569240677000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1042.33,
+      "setupPrice": 66.5,
+      "currency": "R$"
+    },
+    {
+      "id": "1580873142000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1345.47,
+      "setupPrice": 1808.33,
+      "currency": "R$"
+    },
+    {
+      "id": "1584357787000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 939.8,
+      "setupPrice": 896.73,
+      "currency": "R$"
+    },
+    {
+      "id": "1567316289000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 1800.8,
+      "setupPrice": 80.65,
+      "currency": "R$"
+    },
+    {
+      "id": "1578157180000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1005.45,
+      "setupPrice": 487.29,
+      "currency": "U$"
+    },
+    {
+      "id": "1570980467000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 799.01,
+      "setupPrice": 320.56,
+      "currency": "U$"
+    },
+    {
+      "id": "1585426755000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1608.29,
+      "setupPrice": 837.32,
+      "currency": "R$"
+    },
+    {
+      "id": "1574443445000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1307.85,
+      "setupPrice": 556.11,
+      "currency": "$"
+    },
+    {
+      "id": "1587644438000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 507.1,
+      "setupPrice": 1813.87,
+      "currency": "U$"
+    },
+    {
+      "id": "1576286279000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 403.2,
+      "setupPrice": 1653.16,
+      "currency": "U$"
+    },
+    {
+      "id": "1567038085000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1319.33,
+      "setupPrice": 1236.24,
+      "currency": "U$"
+    },
+    {
+      "id": "1575475184000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1418.92,
+      "setupPrice": 1037.24,
+      "currency": "R$"
+    },
+    {
+      "id": "1577824105000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1063.78,
+      "setupPrice": 158,
+      "currency": "U$"
+    },
+    {
+      "id": "1569549106000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 172.69,
+      "setupPrice": 623.08,
+      "currency": "$"
+    },
+    {
+      "id": "1563284040000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 761.82,
+      "setupPrice": 1309.85,
+      "currency": "R$"
+    },
+    {
+      "id": "1565000536000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 650.02,
+      "setupPrice": 1686.89,
+      "currency": "R$"
+    },
+    {
+      "id": "1588126465000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1580.32,
+      "setupPrice": 417.54,
+      "currency": "R$"
+    },
+    {
+      "id": "1586027158000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 94.29,
+      "setupPrice": 665.82,
+      "currency": "$"
+    },
+    {
+      "id": "1571550834000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1435.69,
+      "setupPrice": 1910.67,
+      "currency": "$"
+    },
+    {
+      "id": "1569308377000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1532.13,
+      "setupPrice": 1852.23,
+      "currency": "R$"
+    },
+    {
+      "id": "1574584027000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1448.88,
+      "setupPrice": 1182.56,
+      "currency": "R$"
+    },
+    {
+      "id": "1574021476000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1217.77,
+      "setupPrice": 294.31,
+      "currency": "U$"
+    },
+    {
+      "id": "1566137608000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 25.48,
+      "setupPrice": 577.28,
+      "currency": "U$"
+    },
+    {
+      "id": "1581345605000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 162.31,
+      "setupPrice": 1538.23,
+      "currency": "$"
+    },
+    {
+      "id": "1570552644000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 1926.95,
+      "setupPrice": 255.02,
+      "currency": "$"
+    },
+    {
+      "id": "1574486200000",
+      "value": "+55 11 92222-2222",
+      "monthyPrice": 108.84,
+      "setupPrice": 1844.13,
+      "currency": "U$"
+    },
+    {
+      "id": "1563528694000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 101.54,
+      "setupPrice": 375.99,
+      "currency": "R$"
+    },
+    {
+      "id": "1589956222000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 963.9,
+      "setupPrice": 1070.52,
+      "currency": "$"
+    },
+    {
+      "id": "1562849370000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 373.27,
+      "setupPrice": 1514.23,
+      "currency": "U$"
+    },
+    {
+      "id": "1586215345000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1474.55,
+      "setupPrice": 1711.86,
+      "currency": "R$"
+    },
+    {
+      "id": "1562399839000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 698.11,
+      "setupPrice": 135.89,
+      "currency": "$"
+    },
+    {
+      "id": "1590130905000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1129.46,
+      "setupPrice": 1341.55,
+      "currency": "R$"
+    },
+    {
+      "id": "1585099440000",
+      "value": "+55 71 93212-9009",
+      "monthyPrice": 1044.4,
+      "setupPrice": 1282.44,
+      "currency": "R$"
+    },
+    {
+      "id": "1579909328000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 223.91,
+      "setupPrice": 620.31,
+      "currency": "R$"
+    },
+    {
+      "id": "1578699417000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1578.69,
+      "setupPrice": 1883.72,
+      "currency": "$"
+    },
+    {
+      "id": "1574762568000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 911.8,
+      "setupPrice": 1651.17,
+      "currency": "U$"
+    },
+    {
+      "id": "1570325591000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 1997.43,
+      "setupPrice": 1420.57,
+      "currency": "U$"
+    },
+    {
+      "id": "1570631302000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 271.91,
+      "setupPrice": 1397.73,
+      "currency": "U$"
+    },
+    {
+      "id": "1567024201000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1169.32,
+      "setupPrice": 1285.4,
+      "currency": "$"
+    },
+    {
+      "id": "1582619624000",
+      "value": "+55 11 96543-5678",
+      "monthyPrice": 546.47,
+      "setupPrice": 761.8,
+      "currency": "$"
+    },
+    {
+      "id": "1573320832000",
+      "value": "+55 11 93333-4444",
+      "monthyPrice": 360.02,
+      "setupPrice": 1669.4,
+      "currency": "U$"
+    },
+    {
+      "id": "1579743403000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1807.41,
+      "setupPrice": 588.79,
+      "currency": "R$"
+    },
+    {
+      "id": "1575160604000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1142.69,
+      "setupPrice": 754.82,
+      "currency": "U$"
+    },
+    {
+      "id": "1570946791000",
+      "value": "+55 77 91234-1111",
+      "monthyPrice": 1903,
+      "setupPrice": 1672.99,
+      "currency": "$"
+    },
+    {
+      "id": "1567957870000",
+      "value": "+55 89 98888-5555",
+      "monthyPrice": 1626.1,
+      "setupPrice": 1013.85,
+      "currency": "R$"
+    },
+    {
+      "id": "1578889177000",
+      "value": "+55 84 91234-4321",
+      "monthyPrice": 1528.01,
+      "setupPrice": 667.63,
+      "currency": "R$"
+    },
+    {
+      "value": "+55 55 55555 5555",
+      "monthyPrice": 3200,
+      "setupPrice": 120,
+      "currency": "R$",
+      "id": 1593650098659
+    }
+  ]
+}
