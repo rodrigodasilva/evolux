@@ -55,7 +55,7 @@ const ModalFormDIDNumber = ({ isOpen, initialData, onSubmit, onClose, status }) 
     >        
       <Modal.Header className="border-bottom-0">
         <Modal.Title>
-          Editar DID Number
+          {initialData ? 'Editar DID Number' : 'Adicionar DID Number'}          
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -110,11 +110,11 @@ const ModalFormDIDNumber = ({ isOpen, initialData, onSubmit, onClose, status }) 
 ModalFormDIDNumber.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   initialData: PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    value: PropTypes.string.isRequired,
-    monthyPrice: PropTypes.string.isRequired,
-    setupPrice: PropTypes.string.isRequired,
-    currency: PropTypes.string.isRequired,
+    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    monthyPrice: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    setupPrice: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    currency: PropTypes.string,
   }),
   onSubmit: PropTypes.func.isRequired,
   onClose: PropTypes.func.isRequired,

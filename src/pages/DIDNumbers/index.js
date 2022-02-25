@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
-import { fetchDidNumbers, selectDidNumber, createDidNumber, setModalCreateStatus } from '../../features/didNumber/didNumberSlice'
+import { 
+  fetchDidNumbers, 
+  selectDidNumber, 
+  createDidNumber, 
+  setIsOpenedModalCreate, 
+  setIsOpenedModalUpdate,
+  updateDidNumber
+} from '../../features/didNumber/didNumberSlice'
 
 import { Header} from '../../components/Header'
 import { Paper } from '../../components/Paper'
@@ -23,7 +30,16 @@ export const DIDNumbers = () => {
     setupPriceEnd: '', 
   })
   const [pagination, setPagination] = useState({ page: 1, limit: 6, total: 10 })
-  const { items: didNumbers, fetchStatus, modalCreateStatus, createStatus } = useSelector(selectDidNumber)
+  const [editingData, setEditingData] = useState(null)
+
+  const { 
+    items: didNumbers, 
+    fetchStatus, 
+    isOpenedModalCreate, 
+    createStatus,
+    isOpenedModalUpdate,
+    updateStatus
+  } = useSelector(selectDidNumber)
 
   const dispatch = useDispatch()
 
@@ -41,13 +57,26 @@ export const DIDNumbers = () => {
     setPagination(prevState => ({ ...prevState, page }))
   }
 
-  const handleSetCreateModalStatus = (status) => {
-    dispatch(setModalCreateStatus(status))
+  const handleSetIsOpenedModalCreate = (status) => {
+    dispatch(setIsOpenedModalCreate(status))
   }
 
   const handleCreateDidNumber = data => {
     const payload = { ...data, id: new Date().getTime() }
     dispatch(createDidNumber(payload))
+  }
+
+  const handleSetIsOpenedModalUpdate = (status) => {
+    dispatch(setIsOpenedModalUpdate(status))
+  }
+
+  const handleOpenModalEdit = data => {
+    setEditingData(data)
+    dispatch(setIsOpenedModalUpdate(true))
+  }
+
+  const handleUpdateDidNumber = data => {
+    dispatch(updateDidNumber(data))
   }
 
   return (
@@ -65,13 +94,14 @@ export const DIDNumbers = () => {
                   <h4>
                     Listagem
                   </h4>
-                  <Button onClick={() => handleSetCreateModalStatus('opened')}>
+                  <Button onClick={() => handleSetIsOpenedModalCreate(true)}>
                     Adicionar
                   </Button>
                 </div>
                 <TableDIDNumbers 
                   items={didNumbers?.data || []} 
                   status={fetchStatus}
+                  onEditData={handleOpenModalEdit}
                 />              
                 {didNumbers.count > pagination.limit && fetchStatus !== 'error' && (
                   <Pagination 
@@ -89,12 +119,22 @@ export const DIDNumbers = () => {
         </Container>
       </S.Wrapper>
       
-      {modalCreateStatus === "opened" && (
+      {isOpenedModalCreate && (
         <ModalFormDIDNumber 
-          isOpen={modalCreateStatus === "opened"} 
-          onClose={() => handleSetCreateModalStatus('closed')}
+          isOpen={isOpenedModalCreate} 
+          onClose={() => handleSetIsOpenedModalCreate(false)}
           onSubmit={handleCreateDidNumber}
           status={createStatus}
+        />
+      )}     
+
+      {isOpenedModalUpdate && (
+        <ModalFormDIDNumber 
+          initialData={editingData}
+          isOpen={isOpenedModalUpdate} 
+          onClose={() => handleSetIsOpenedModalUpdate(false)}
+          onSubmit={handleUpdateDidNumber}
+          status={updateStatus}
         />
       )}       
     </>

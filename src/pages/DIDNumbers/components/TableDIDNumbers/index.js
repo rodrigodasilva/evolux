@@ -5,7 +5,7 @@ import { Table, Button, Spinner } from '../../../../containers'
 
 import * as S from './styles'
 
-const TableDIDNumbers = ({ items, status }) => {
+const TableDIDNumbers = ({ items, status, onEditData }) => {
   if (status === 'error') {
     return <S.Message>Ops... houve um erro inesperado</S.Message>
   }  
@@ -38,12 +38,17 @@ const TableDIDNumbers = ({ items, status }) => {
             <tr key={didNumber.id}>
               <td>{didNumber.value}</td>
               <td>{didNumber.monthyPrice}</td>
-              <td>{didNumber.setupPrice}</td>
+              <td>{`${didNumber.currency} ${didNumber.setupPrice}`}</td>
               <td className="text-center">
                 <Button size="sm" variant="outline-danger" className="me-2 mb-2 mb-sm-0">
                   Deletar
                 </Button>
-                <Button size="sm">Editar</Button>
+                <Button 
+                  size="sm" 
+                  onClick={() => onEditData(didNumber)}
+                >
+                  Editar
+                </Button>
               </td>
             </tr>
           ))}
@@ -62,8 +67,10 @@ TableDIDNumbers.propTypes = {
     value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     monthyPrice: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     setupPrice: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    currency: PropTypes.string,
   })),
-  status: PropTypes.oneOf(['idle', 'loading', 'error'])
+  status: PropTypes.oneOf(['idle', 'loading', 'error']),
+  onEditData:  PropTypes.func.isRequired
 }
 
 TableDIDNumbers.defaultProps = {

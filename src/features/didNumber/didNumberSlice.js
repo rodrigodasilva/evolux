@@ -4,8 +4,10 @@ import didNumberAPI from './didNumberAPI'
 export const initialState = {
   items: { data: [], count: 0 },
   fetchStatus: 'idle',
-  modalCreateStatus: 'closed',
-  createStatus: 'idle'
+  isOpenedModalCreate: false,
+  createStatus: 'idle',
+  isOpenedModalUpdate: false,
+  updateStatus: 'idle',
 }
 
 export const fetchDidNumbers = createAsyncThunk(
@@ -25,13 +27,24 @@ export const createDidNumber = createAsyncThunk(
   }
 )
 
+export const updateDidNumber = createAsyncThunk(
+  'didNumber/update',
+  async (payload) => {      
+    const response = await didNumberAPI.update(payload)
+    return response.data
+  }
+)
+
 export const didNumberSlice = createSlice({
   name: 'didNumber',
   initialState,
   reducers: {
-    setModalCreateStatus(state, action) {
-      state.modalCreateStatus = action.payload
-    }
+    setIsOpenedModalCreate(state, action) {
+      state.isOpenedModalCreate = action.payload
+    },
+    setIsOpenedModalUpdate(state, action) {
+      state.isOpenedModalUpdate = action.payload
+    },
   },  
   extraReducers: (builder) => {
     builder
@@ -50,16 +63,30 @@ export const didNumberSlice = createSlice({
       })
       .addCase(createDidNumber.fulfilled, (state) => {
         state.createStatus = 'idle'
-        state.modalCreateStatus = 'closed'
+        state.isOpenedModalCreate = false
       })
       .addCase(createDidNumber.rejected, (state) => {
         state.createStatus = 'error'
       })
+      .addCase(updateDidNumber.pending, (state) => {
+        state.updateStatus = 'loading'
+      })
+      .addCase(updateDidNumber.fulfilled, (state, { payload }) => {
+        const findIndex = state.items.data.findIndex(item => String(item.id) === String(payload?.id))
+        if (findIndex !== -1) {
+          state.items.data[findIndex] = payload
+        }
+        state.updateStatus = 'idle'
+        state.isOpenedModalUpdate = false
+      })
+      .addCase(updateDidNumber.rejected, (state) => {
+        state.updateStatus = 'error'
+      })      
   },
 })
 
 export const selectDidNumber = (state) => state.didNumber
 
-export const { setModalCreateStatus } = didNumberSlice.actions
+export const { setIsOpenedModalCreate, setIsOpenedModalUpdate } = didNumberSlice.actions
 
 export default didNumberSlice.reducer

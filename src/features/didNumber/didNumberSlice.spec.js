@@ -1,4 +1,4 @@
-import didNumberReducer, { initialState, fetchDidNumbers, createDidNumber } from './didNumberSlice'
+import didNumberReducer, { initialState, fetchDidNumbers, createDidNumber, updateDidNumber } from './didNumberSlice'
 
 describe('didNumber reducer', () => {
   it('should handle initial state', () => {
@@ -44,15 +44,38 @@ describe('didNumber reducer', () => {
       const state = didNumberReducer({ createStatus: 'idle' }, action)
       expect(state).toEqual({ createStatus: 'loading' })
     })    
-    it('should set createStatus=idle and modalCreateStatus=closed while action is fulfilled', () => {
+    it('should set createStatus=idle and isOpenedModalCreate=false while action is fulfilled', () => {
       const action = { type: createDidNumber.fulfilled }
       const state = didNumberReducer({ createStatus: 'pending' }, action)
-      expect(state).toEqual({ createStatus: 'idle', modalCreateStatus: 'closed' })
+      expect(state).toEqual({ createStatus: 'idle', isOpenedModalCreate: false })
     })
     it('should set createStatus=error while action is rejected', () => {
       const action = { type: createDidNumber.rejected }
       const state = didNumberReducer({ createStatus: 'pending' }, action)
       expect(state).toEqual({ createStatus: 'error' })
+    })
+  })
+
+  describe('update', () => {
+    it('should set updateStatus=loading while action is pending', () => {
+      const action = { type: updateDidNumber.pending }
+      const state = didNumberReducer({ updateStatus: 'idle' }, action)
+      expect(state).toEqual({ updateStatus: 'loading' })
+    })
+    it('should set createStatus=idle while action is fulfilled', () => {
+      const updatedItem = { id: 'fake-id-2', value: 'updated-fake-value-2' }
+      const action = { type: updateDidNumber.fulfilled, payload: updatedItem }
+      const oldItems = [{ id: 'fake-id-1', value: 'fake-value-1' }, { id: 'fake-id-2', value: 'fake-value-2' }]
+
+      const state = didNumberReducer({ updateStatus: 'pending', items: { data: oldItems }}, action)
+      const newItems = [{ id: 'fake-id-1', value: 'fake-value-1' }, updatedItem]
+
+      expect(state).toEqual({ updateStatus: 'idle', items: { data: newItems }, isOpenedModalUpdate: false })
+    })
+    it('should set updateStatus=error while action is rejected', () => {
+      const action = { type: updateDidNumber.rejected }
+      const state = didNumberReducer({ updateStatus: 'pending' }, action)
+      expect(state).toEqual({ updateStatus: 'error' })
     })         
   })
 })

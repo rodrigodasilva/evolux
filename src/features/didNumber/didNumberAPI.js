@@ -26,6 +26,13 @@ export default {
     await sleep(2000)
     const response = await axios.post(`${baseUrl}/did_numbers`, payload)
     return response.data
+  },
+
+  update: async payload => {
+    await sleep(2000)
+    const { id, ...rest } = payload;
+    const response = await axios.put(`${baseUrl}/did_numbers/${id}`, rest)
+    return response
   }
 }
 
