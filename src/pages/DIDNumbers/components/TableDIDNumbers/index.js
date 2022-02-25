@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import { Table, Button, Spinner } from '../../../../containers'
 
 import * as S from './styles'
 
-const TableDIDNumbers = ({ items = [], status = 'idle' }) => {
+const TableDIDNumbers = ({ items, status }) => {
   if (status === 'error') {
     return <S.Message>Ops... houve um erro inesperado</S.Message>
   }  
@@ -53,6 +54,21 @@ const TableDIDNumbers = ({ items = [], status = 'idle' }) => {
       )}
     </S.TableWrapper>
   )
+}
+
+TableDIDNumbers.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    monthyPrice: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    setupPrice: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  })),
+  status: PropTypes.oneOf(['idle', 'loading', 'error'])
+}
+
+TableDIDNumbers.defaultProps = {
+  items: [], 
+  status: 'idle'
 }
 
 export { TableDIDNumbers }

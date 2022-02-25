@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
-import { fetchDidNumbers, selectDidNumber } from '../../features/didNumber/didNumberSlice'
+import { fetchDidNumbers, selectDidNumber, createDidNumber, setModalCreateStatus } from '../../features/didNumber/didNumberSlice'
 
 import { Header} from '../../components/Header'
 import { Paper } from '../../components/Paper'
@@ -15,7 +15,6 @@ import { TableDIDNumbers } from './components/TableDIDNumbers'
 import * as S from './styles'
 
 export const DIDNumbers = () => {
-  const [openedModal, setOpenedModal] = useState('')
   const [filters, setFilters] = useState({ 
     value: '',
     monthyPriceStart: '',
@@ -24,7 +23,7 @@ export const DIDNumbers = () => {
     setupPriceEnd: '', 
   })
   const [pagination, setPagination] = useState({ page: 1, limit: 6, total: 10 })
-  const { items: didNumbers, status } = useSelector(selectDidNumber)
+  const { items: didNumbers, fetchStatus, modalCreateStatus, createStatus } = useSelector(selectDidNumber)
 
   const dispatch = useDispatch()
 
@@ -35,10 +34,20 @@ export const DIDNumbers = () => {
   const handleChangeFilter = event => {
     const { value, name } = event.target
     setFilters(prevState => ({ ...prevState, [name]: value }))
+    setPagination(prevState => ({ ...prevState, page: 1 }))
   }
 
   const handleChangePage = page => {
     setPagination(prevState => ({ ...prevState, page }))
+  }
+
+  const handleSetCreateModalStatus = (status) => {
+    dispatch(setModalCreateStatus(status))
+  }
+
+  const handleCreateDidNumber = data => {
+    const payload = { ...data, id: new Date().getTime() }
+    dispatch(createDidNumber(payload))
   }
 
   return (
@@ -56,22 +65,22 @@ export const DIDNumbers = () => {
                   <h4>
                     Listagem
                   </h4>
-                  <Button onClick={() => setOpenedModal('create')}>
+                  <Button onClick={() => handleSetCreateModalStatus('opened')}>
                     Adicionar
                   </Button>
                 </div>
                 <TableDIDNumbers 
                   items={didNumbers?.data || []} 
-                  status={status}
+                  status={fetchStatus}
                 />              
-                {didNumbers.count > pagination.limit && status !== 'error' && (
+                {didNumbers.count > pagination.limit && fetchStatus !== 'error' && (
                   <Pagination 
                     className="d-flex justify-content-end" 
                     current={pagination.page}
                     limit={pagination.limit}
                     records={didNumbers.count}
                     onChange={handleChangePage}
-                    isLoading={status === 'loading'}
+                    isLoading={fetchStatus === 'loading'}
                   />                
                 )}  
               </Paper>
@@ -79,13 +88,15 @@ export const DIDNumbers = () => {
           </Row>
         </Container>
       </S.Wrapper>
-      {openedModal === "create" && (
+      
+      {modalCreateStatus === "opened" && (
         <ModalFormDIDNumber 
-          isOpen={openedModal === "create"} 
-          onClose={() => setOpenedModal("")}
-          onSubmit={(data) => console.log(data)}
+          isOpen={modalCreateStatus === "opened"} 
+          onClose={() => handleSetCreateModalStatus('closed')}
+          onSubmit={handleCreateDidNumber}
+          status={createStatus}
         />
-      )} 
+      )}       
     </>
   )
 }

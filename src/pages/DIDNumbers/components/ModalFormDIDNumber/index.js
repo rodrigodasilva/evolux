@@ -5,31 +5,53 @@ import { Input } from '../../../../components/Input'
 import { Select } from '../../../../components/Select'
 import { Button, Modal } from '../../../../containers'
 
-const data = {
-  id: '',
-  value: '',
-  monthyPrice: '',
-  setupPrice: '',
-  currency: '',
-}
-
-const ModalFormDIDNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
-  const [initialFormData, setInitialFormData] = useState(data);
+const ModalFormDIDNumber = ({ isOpen, initialData, onSubmit, onClose, status }) => {
+  const [data, setData] = useState({
+    id: '',
+    value: '',
+    monthyPrice: '',
+    setupPrice: '',
+    currency: '',
+  })
 
   useEffect(() => {
     if (initialData) {
-      setInitialFormData(initialData);
+      setData(initialData);
     }
 
-    return () => setInitialFormData(data)
-  }, [initialData, isOpen]);
+    return () => setData(null)
+  }, [initialData, isOpen])
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target
+    setData(prevState => ({ ...prevState, [name]: value }))
+  }
+
+  const handleClose = () => {
+    if (status !== 'loading') {
+      onClose()
+    }
+  }
+
+  const validateData = () => {
+    const hasEmptyKey = Object.keys(data).find(key => key !== 'id' && !data[key])
+    return !hasEmptyKey
+  }
+
+  const handleSubmit = () => {    
+    const isValidData = validateData()
+    if (isValidData) {
+      onSubmit(data)
+    }
+  }
 
   return (
     <Modal
       show={isOpen}
-      onHide={onClose}
+      onHide={handleClose}
       contentClassName="bg-dark text-white"    
       size="sm"    
+      backdrop="static"
     >        
       <Modal.Header className="border-bottom-0">
         <Modal.Title>
@@ -38,24 +60,35 @@ const ModalFormDIDNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
       </Modal.Header>
       <Modal.Body>
         <Input 
-          name="value"
           label="Número"
+          name="value"
+          value={data?.value}
+          onChange={handleInputChange}
           placeholder="Ex: +55 7798838-6511"
           className="mb-4"
         />
         <Input 
-          name="monthyPrice"
           label="Valor mensal"
+          name="monthyPrice"
+          value={data?.monthyPrice}
+          onChange={handleInputChange}
           placeholder="Ex: 19,90"
           className="mb-4"
         />
         <Input 
-          name="setupPrice"
           label="Valor do setup"
+          name="setupPrice"
+          value={data?.setupPrice}
+          onChange={handleInputChange}
           placeholder="Ex: 120,00"
           className="mb-4"
         />
-        <Select name="currency" label="Moeda utilizada">
+        <Select 
+          label="Moeda utilizada"
+          name="currency" 
+          value={data?.currency}
+          onChange={handleInputChange}
+        >
           <option value="">Selecione</option>
           <option value="R$">Real R$</option>
           <option value="$">Dólar $</option>
@@ -63,10 +96,10 @@ const ModalFormDIDNumber = ({ isOpen, initialData, onSubmit, onClose }) => {
         </Select>
       </Modal.Body>
       <Modal.Footer className="border-top-0">
-        <Button variant="outline-light" onClick={onClose}>
+        <Button variant="outline-light" onClick={handleClose}>
           Cancelar
         </Button>
-        <Button type="submit" >
+        <Button type="submit" onClick={handleSubmit} disabled={status === 'loading'}>
           Salvar
         </Button>
       </Modal.Footer>
@@ -85,10 +118,12 @@ ModalFormDIDNumber.propTypes = {
   }),
   onSubmit: PropTypes.func.isRequired,
   onClose: PropTypes.func.isRequired,
+  status: PropTypes.oneOf(['idle', 'loading', 'error'])
 }
 
 ModalFormDIDNumber.defaultProps = {
   initialData: null,
+  status: 'idle'
 }
 
 export { ModalFormDIDNumber }
