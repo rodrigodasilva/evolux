@@ -8,6 +8,8 @@ export const initialState = {
   createStatus: 'idle',
   isOpenedModalUpdate: false,
   updateStatus: 'idle',
+  isOpenedModalDelete: false,
+  deleteStatus: 'idle',
 }
 
 export const fetchDidNumbers = createAsyncThunk(
@@ -35,6 +37,15 @@ export const updateDidNumber = createAsyncThunk(
   }
 )
 
+export const deleteDidNumber = createAsyncThunk(
+  'didNumber/delete',
+  async (payload, { dispatch }) => {      
+    const response = await didNumberAPI.delete(payload)
+    dispatch(fetchDidNumbers({ page: 1, limit: 6 }))
+    return response.data
+  }
+)
+
 export const didNumberSlice = createSlice({
   name: 'didNumber',
   initialState,
@@ -44,6 +55,9 @@ export const didNumberSlice = createSlice({
     },
     setIsOpenedModalUpdate(state, action) {
       state.isOpenedModalUpdate = action.payload
+    },
+    setIsOpenedModalDelete(state, action) {
+      state.isOpenedModalDelete = action.payload
     },
   },  
   extraReducers: (builder) => {
@@ -82,11 +96,25 @@ export const didNumberSlice = createSlice({
       .addCase(updateDidNumber.rejected, (state) => {
         state.updateStatus = 'error'
       })      
+      .addCase(deleteDidNumber.pending, (state) => {
+        state.deleteStatus = 'loading'
+      })
+      .addCase(deleteDidNumber.fulfilled, (state) => {
+        state.deleteStatus = 'idle'
+        state.isOpenedModalDelete = false
+      })
+      .addCase(deleteDidNumber.rejected, (state) => {
+        state.deleteStatus = 'error'
+      })
   },
 })
 
 export const selectDidNumber = (state) => state.didNumber
 
-export const { setIsOpenedModalCreate, setIsOpenedModalUpdate } = didNumberSlice.actions
+export const { 
+  setIsOpenedModalCreate, 
+  setIsOpenedModalUpdate, 
+  setIsOpenedModalDelete 
+} = didNumberSlice.actions
 
 export default didNumberSlice.reducer

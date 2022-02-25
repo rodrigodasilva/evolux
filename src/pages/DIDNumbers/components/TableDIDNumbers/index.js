@@ -5,7 +5,7 @@ import { Table, Button, Spinner } from '../../../../containers'
 
 import * as S from './styles'
 
-const TableDIDNumbers = ({ items, status, onEditData }) => {
+const TableDIDNumbers = ({ items, status, onEdit, onDelete }) => {
   if (status === 'error') {
     return <S.Message>Ops... houve um erro inesperado</S.Message>
   }  
@@ -40,12 +40,17 @@ const TableDIDNumbers = ({ items, status, onEditData }) => {
               <td>{didNumber.monthyPrice}</td>
               <td>{`${didNumber.currency} ${didNumber.setupPrice}`}</td>
               <td className="text-center">
-                <Button size="sm" variant="outline-danger" className="me-2 mb-2 mb-sm-0">
+                <Button 
+                  size="sm" 
+                  variant="outline-danger" 
+                  className="me-2 mb-2 mb-sm-0"
+                  onClick={() => onDelete(didNumber)}
+                >
                   Deletar
                 </Button>
                 <Button 
                   size="sm" 
-                  onClick={() => onEditData(didNumber)}
+                  onClick={() => onEdit(didNumber)}
                 >
                   Editar
                 </Button>
@@ -70,7 +75,8 @@ TableDIDNumbers.propTypes = {
     currency: PropTypes.string,
   })),
   status: PropTypes.oneOf(['idle', 'loading', 'error']),
-  onEditData:  PropTypes.func.isRequired
+  onEdit:  PropTypes.func.isRequired,
+  onDelete:  PropTypes.func.isRequired
 }
 
 TableDIDNumbers.defaultProps = {

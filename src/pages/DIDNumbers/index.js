@@ -7,7 +7,9 @@ import {
   createDidNumber, 
   setIsOpenedModalCreate, 
   setIsOpenedModalUpdate,
-  updateDidNumber
+  updateDidNumber,
+  setIsOpenedModalDelete,
+  deleteDidNumber
 } from '../../features/didNumber/didNumberSlice'
 
 import { Header} from '../../components/Header'
@@ -17,6 +19,7 @@ import { Button, Container, Row, Col } from '../../containers'
 
 import { Filters } from './components/Filters'
 import { ModalFormDIDNumber } from './components/ModalFormDIDNumber'
+import { ModalDeleteDIDNumber } from './components/ModalDeleteDIDNumber'
 import { TableDIDNumbers } from './components/TableDIDNumbers'
 
 import * as S from './styles'
@@ -30,7 +33,7 @@ export const DIDNumbers = () => {
     setupPriceEnd: '', 
   })
   const [pagination, setPagination] = useState({ page: 1, limit: 6, total: 10 })
-  const [editingData, setEditingData] = useState(null)
+  const [modalData, setModalData] = useState(null)
 
   const { 
     items: didNumbers, 
@@ -38,7 +41,9 @@ export const DIDNumbers = () => {
     isOpenedModalCreate, 
     createStatus,
     isOpenedModalUpdate,
-    updateStatus
+    updateStatus,
+    isOpenedModalDelete,
+    deleteStatus
   } = useSelector(selectDidNumber)
 
   const dispatch = useDispatch()
@@ -71,12 +76,26 @@ export const DIDNumbers = () => {
   }
 
   const handleOpenModalEdit = data => {
-    setEditingData(data)
-    dispatch(setIsOpenedModalUpdate(true))
+    setModalData(data)
+    handleSetIsOpenedModalUpdate(true)
   }
 
   const handleUpdateDidNumber = data => {
     dispatch(updateDidNumber(data))
+  }
+
+  const handleSetIsOpenedModalDelete = (status) => {
+    dispatch(setIsOpenedModalDelete(status))
+  }
+
+  const handleOpenModalDelete = data => {
+    setModalData(data)
+    handleSetIsOpenedModalDelete(true)
+  }
+
+  const handleDeleteDidNumber = ({ id }) => {
+    console.log(id)
+    dispatch(deleteDidNumber({ id }))
   }
 
   return (
@@ -101,7 +120,8 @@ export const DIDNumbers = () => {
                 <TableDIDNumbers 
                   items={didNumbers?.data || []} 
                   status={fetchStatus}
-                  onEditData={handleOpenModalEdit}
+                  onEdit={handleOpenModalEdit}
+                  onDelete={handleOpenModalDelete}
                 />              
                 {didNumbers.count > pagination.limit && fetchStatus !== 'error' && (
                   <Pagination 
@@ -130,13 +150,23 @@ export const DIDNumbers = () => {
 
       {isOpenedModalUpdate && (
         <ModalFormDIDNumber 
-          initialData={editingData}
+          initialData={modalData}
           isOpen={isOpenedModalUpdate} 
           onClose={() => handleSetIsOpenedModalUpdate(false)}
           onSubmit={handleUpdateDidNumber}
           status={updateStatus}
         />
-      )}       
+      )}      
+
+      {isOpenedModalDelete && (        
+        <ModalDeleteDIDNumber 
+          data={modalData}
+          isOpen={isOpenedModalDelete} 
+          onClose={() => handleSetIsOpenedModalDelete(false)}
+          onSubmit={handleDeleteDidNumber}
+          status={deleteStatus}
+        /> 
+      )}
     </>
   )
 }

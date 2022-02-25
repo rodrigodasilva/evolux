@@ -1,4 +1,11 @@
-import didNumberReducer, { initialState, fetchDidNumbers, createDidNumber, updateDidNumber } from './didNumberSlice'
+import didNumberReducer, { 
+  initialState, 
+  fetchDidNumbers, 
+  createDidNumber, 
+  updateDidNumber,
+  didNumberSlice,
+  deleteDidNumber
+} from './didNumberSlice'
 
 describe('didNumber reducer', () => {
   it('should handle initial state', () => {
@@ -78,4 +85,23 @@ describe('didNumber reducer', () => {
       expect(state).toEqual({ updateStatus: 'error' })
     })         
   })
+
+  describe('delete', () => {
+    it('should set deleteStatus=loading while action is pending', () => {
+      const action = { type: deleteDidNumber.pending }
+      const state = didNumberReducer({ deleteStatus: 'idle' }, action)
+      expect(state).toEqual({ deleteStatus: 'loading' })
+    })    
+    it('should set deleteStatus=idle and isOpenedModalDelete=false while action is fulfilled', () => {
+      const action = { type: deleteDidNumber.fulfilled }
+      const state = didNumberReducer({ deleteStatus: 'pending' }, action)
+      expect(state).toEqual({ deleteStatus: 'idle', isOpenedModalDelete: false })
+    })
+    it('should set deleteStatus=error while action is rejected', () => {
+      const action = { type: deleteDidNumber.rejected }
+      const state = didNumberReducer({ deleteStatus: 'pending' }, action)
+      expect(state).toEqual({ deleteStatus: 'error' })
+    })
+  })
+
 })

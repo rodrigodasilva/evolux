@@ -33,6 +33,13 @@ export default {
     const { id, ...rest } = payload;
     const response = await axios.put(`${baseUrl}/did_numbers/${id}`, rest)
     return response
+  },
+
+  delete: async payload => {
+    await sleep(2000)
+    const { id } = payload;
+    const response = await axios.delete(`${baseUrl}/did_numbers/${id}`)
+    return response
   }
 }
 
